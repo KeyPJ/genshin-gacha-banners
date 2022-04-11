@@ -33,8 +33,8 @@ function App() {
     }, [itemType])
 
     return (
-        <div className="App flex justify-center">
-            <div className="flex flex-col justify-items-center">
+        <div className="App flex justify-between">
+            <div className="flex flex-col justify-items-center ml-20">
                 <Select selectText="类型" optionList={itemTypeList} selectedObject={itemType}
                         setSelectedObject={setItemType}/>
                 <Select selectText="星级" optionList={rankTypeList} selectedObject={rankType}

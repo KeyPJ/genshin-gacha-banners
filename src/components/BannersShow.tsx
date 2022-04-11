@@ -7,6 +7,8 @@ interface IProps {
     data: gachaData[]
 }
 
+const imageBaseUrl = 'https://genshin-wishes.com/content';
+
 export default function BannersShow(props: IProps) {
 
     const {itemType, rankType, data} = props;
@@ -22,7 +24,7 @@ export default function BannersShow(props: IProps) {
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
 
-    const commonItemId: number[] = [1042,15502,11501,14502,12502,15501,14501,12501,13505,11502,13502];
+    const commonItemId: number[] = [1042, 15502, 11501, 14502, 12502, 15501, 14501, 12501, 13505, 11502, 13502];
 
     return (
         <div className="text-center flex flex-col w-9/12 max-h-screen overflow-auto">
@@ -35,12 +37,12 @@ export default function BannersShow(props: IProps) {
                     let days = Math.floor(moment.duration(moment().diff(moment(pickUpGacha.end))).asDays());
                     return (<div key={item.itemId} className={"flex flex-row shrink-0"}>
                             <div className={itemClassName}>
-                                <img src={item.image.url} alt={item.name}
+                                <img src={imageBaseUrl + item.image.url} alt={item.name}
                                      className={`${itemClassName} ${borderColor} border-solid rounded-[50%]`}/>
                             </div>
                             <div className={itemClassName + " text-xs"}>
                                 {
-                                    rankType == 5 && !commonItemId.includes(item.itemId)?
+                                    rankType == 5 && !commonItemId.includes(item.itemId) ?
                                         (findIndex == 0 ? <div>当前可以祈愿</div> :
                                             <div>距离上次祈愿<br/>
                                                 已经过去{findIndex}个卡池,{days}天
@@ -57,7 +59,7 @@ export default function BannersShow(props: IProps) {
                                         tempNumber = 0;
                                         return (
                                             <div key={`${item.itemId}-${gacha.id}`} className={itemClassName}>
-                                                <img src={item.image.url} alt={item.name}
+                                                <img src={imageBaseUrl + item.image.url} alt={item.name}
                                                      className={`${itemClassName} ${borderColor} border-solid rounded-[50%]`}/>
                                             </div>
                                         )
