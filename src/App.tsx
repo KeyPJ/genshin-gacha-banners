@@ -1,45 +1,51 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+import {useEffect, useState} from 'react'
 import './App.css'
+import BannersShow from "./components/BannersShow";
+import {gachaData} from "genshin-wishes";
+import axios from "axios";
+import Select, {Option} from "./components/Select";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+    const [data, setData] = useState<gachaData[]>([]);
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
-  )
+    const itemTypeList: Option[] = [
+        {name: "角色", value: "Character"},
+        {name: "武器", value: "Weapon"},
+    ]
+
+    const rankTypeList: Option[] = [
+        {name: "5", value: "5"},
+        {name: "4", value: "4"},
+    ]
+
+    const [itemType, setItemType] = useState({name: "角色", value: "Character"});
+    const [rankType, setRankType] = useState({name: "5", value: "5"},);
+
+    useEffect(() => {
+        let s = itemType.value.toLowerCase();
+        axios.get(`/api/public/banners/${s}`).then(
+            res => {
+                const resData = res.data as gachaData[];
+                setData(resData.reverse())
+            }
+        )
+    }, [itemType])
+
+    return (
+        <div className="App flex justify-center">
+            <div className="flex flex-col justify-items-center">
+                <Select selectText="类型" optionList={itemTypeList} selectedObject={itemType}
+                        setSelectedObject={setItemType}/>
+                <Select selectText="星级" optionList={rankTypeList} selectedObject={rankType}
+                        setSelectedObject={setRankType}/>
+                <div className="text-lg p-12">
+                    数据来源:<a href={"https://genshin-wishes.com/"}>Genshin Wishes</a>
+                </div>
+            </div>
+            <BannersShow itemType={itemType.value} rankType={+rankType.value} data={data}/>
+        </div>
+    )
 }
 
 export default App
