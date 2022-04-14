@@ -30,14 +30,31 @@ export default function BannersShow(props: IProps) {
 
     return (
         <div className="text-center flex flex-col min-w-screen h-fit overflow-x-auto overflow-hidden">
-            {columnItems.filter(item => item.itemType == itemType && item.rankType == rankType)
-                .map(item => {
+            {columnItems.length > 0 && columnItems.slice(-1).concat(columnItems).filter(item => item.itemType == itemType && item.rankType == rankType)
+                .map((item, index) => {
+                    if (index == 0) {
+                        return <div key={index} className={"flex flex-row shrink-0 w-fit h-fit"}>
+                            <div className={classNames(itemClassName, "sticky left-0 bg-white z-10 ")}/>
+                            <div className={classNames(itemClassName, "sticky left-20 bg-white z-10")}/>
+                            {data.map(gacha => {
+                                    return (
+                                        <div key={`${index}-${gacha.id}`}
+                                             className={classNames(itemClassName, "sticky top-0")}>
+                                            {gacha.version}
+                                            <img src={imageBaseUrl + gacha.image.url} alt={gacha.version}
+                                                 className={classNames("border-solid rounded-1 hover:fixed hover:inset-x-0 hover:m-auto hover:z-20")}/>
+                                        </div>
+                                    )
+                                }
+                            )}
+                        </div>
+                    }
                     const borderColor = item.rankType == 5 ? "border-amber-500" : "border-purple-500";
                     let tempNumber: number = -1;
                     let findIndex = data.map(gacha => gacha.items.map(i => i.itemId).includes(item.itemId)).reverse().findIndex(b => b);
                     let pickUpGacha = data[data.length - 1 - findIndex];
                     let days = Math.floor(moment.duration(moment().diff(moment(pickUpGacha.end))).asDays());
-                    return (<div key={item.itemId} className={"flex flex-row shrink-0 w-fit"}>
+                    return (<div key={index} className={"flex flex-row shrink-0 w-fit"}>
                             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
                                 <img src={imageBaseUrl + item.image.url} alt={item.name}
                                      className={`${itemClassName} ${borderColor} border-solid rounded-[50%]`}/>
@@ -61,7 +78,7 @@ export default function BannersShow(props: IProps) {
                                         tempNumber = 0;
                                         return (
                                             <div key={`${item.itemId}-${gacha.id}`}
-                                                 className={classNames(itemClassName, "sticky left-0")}>
+                                                 className={classNames(itemClassName)}>
                                                 <img src={imageBaseUrl + item.image.url} alt={item.name}
                                                      className={`${itemClassName} ${borderColor} border-solid rounded-[50%]`}/>
                                             </div>
