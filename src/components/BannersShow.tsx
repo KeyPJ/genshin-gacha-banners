@@ -7,7 +7,9 @@ interface IProps {
     data: gachaData[]
 }
 
-const imageBaseUrl = 'https://genshin-wishes.com/content';
+const imageBaseUrl = '/api/content?i=';
+
+const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 
 export default function BannersShow(props: IProps) {
 
@@ -27,7 +29,7 @@ export default function BannersShow(props: IProps) {
     const commonItemId: number[] = [1042, 15502, 11501, 14502, 12502, 15501, 14501, 12501, 13505, 11502, 13502];
 
     return (
-        <div className="text-center flex flex-col w-9/12 max-h-screen overflow-auto">
+        <div className="text-center flex flex-col w-screen h-fit overflow-x-auto overflow-hidden">
             {columnItems.filter(item => item.itemType == itemType && item.rankType == rankType)
                 .map(item => {
                     const borderColor = item.rankType == 5 ? "border-amber-500" : "border-purple-500";
@@ -36,11 +38,11 @@ export default function BannersShow(props: IProps) {
                     let pickUpGacha = data[data.length - 1 - findIndex];
                     let days = Math.floor(moment.duration(moment().diff(moment(pickUpGacha.end))).asDays());
                     return (<div key={item.itemId} className={"flex flex-row shrink-0"}>
-                            <div className={itemClassName}>
+                            <div className={classNames(itemClassName, "sticky left-0 ")}>
                                 <img src={imageBaseUrl + item.image.url} alt={item.name}
                                      className={`${itemClassName} ${borderColor} border-solid rounded-[50%]`}/>
                             </div>
-                            <div className={itemClassName + " text-xs"}>
+                            <div className={classNames(itemClassName, "sticky left-20 text-xs")}>
                                 {
                                     rankType == 5 && !commonItemId.includes(item.itemId) ?
                                         (findIndex == 0 ? <div>当前可以祈愿</div> :
@@ -58,7 +60,8 @@ export default function BannersShow(props: IProps) {
                                     if (gacha.items.map(i => i.itemId).includes(item.itemId)) {
                                         tempNumber = 0;
                                         return (
-                                            <div key={`${item.itemId}-${gacha.id}`} className={itemClassName}>
+                                            <div key={`${item.itemId}-${gacha.id}`}
+                                                 className={classNames(itemClassName, "sticky left-0")}>
                                                 <img src={imageBaseUrl + item.image.url} alt={item.name}
                                                      className={`${itemClassName} ${borderColor} border-solid rounded-[50%]`}/>
                                             </div>
