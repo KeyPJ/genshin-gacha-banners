@@ -22,7 +22,7 @@ export default function BannersShow(props: IProps) {
             }
             return accumulator
         }, []
-    )
+    ).filter(item => item.itemType == itemType && item.rankType == rankType)
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
 
@@ -30,7 +30,7 @@ export default function BannersShow(props: IProps) {
 
     return (
         <div className="text-center flex flex-col min-w-screen h-fit overflow-x-auto overflow-hidden">
-            {columnItems.length > 0 && columnItems.slice(-1).concat(columnItems).filter(item => item.itemType == itemType && item.rankType == rankType)
+            {columnItems.length > 0 && columnItems.slice(-1).concat(columnItems)
                 .map((item, index) => {
                     if (index == 0) {
                         return <div key={index} className={"flex flex-row shrink-0 w-fit h-fit"}>
