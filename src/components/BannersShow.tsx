@@ -1,5 +1,6 @@
 import {gachaData, Item} from "genshin-wishes";
 import moment from "moment";
+import {useState} from "react";
 
 interface IProps {
     itemType: string,
@@ -15,6 +16,8 @@ export default function BannersShow(props: IProps) {
 
     const {itemType, rankType, data} = props;
 
+    const [sortB, setSortB] = useState(1);
+
     const columnItems: Item[] = data.map(a => a.items).reduce(
         (accumulator, current) => {
             for (let currentElement of current) {
@@ -23,19 +26,29 @@ export default function BannersShow(props: IProps) {
             return accumulator
         }, []
     ).filter(item => item.itemType == itemType && item.rankType == rankType)
+        .sort((a, b) => {
+            let findIndexA = data.map(gacha => gacha.items.map(i => i.itemId).includes(a.itemId)).reverse().findIndex(i => i);
+            let findIndexB = data.map(gacha => gacha.items.map(i => i.itemId).includes(b.itemId)).reverse().findIndex(i => i);
+            return sortB || findIndexB == 0 ? 1 : findIndexA == 0 ? -1 : findIndexB - findIndexA;
+        })
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
 
     const commonItemId: number[] = [1042, 15502, 11501, 14502, 12502, 15501, 14501, 12501, 13505, 11502, 13502];
 
     return (
-        <div className="text-center flex flex-col min-w-screen h-fit overflow-x-auto overflow-hidden">
+        <div className="text-center flex flex-col min-w-screen h-fit overflow-x-auto overflow-hidden overscroll-x-auto">
             {columnItems.length > 0 && columnItems.slice(-1).concat(columnItems)
                 .map((item, index) => {
                     if (index == 0) {
                         return <div key={index} className={"flex flex-row shrink-0 w-fit h-fit"}>
                             <div className={classNames(itemClassName, "sticky left-0 bg-white z-10 ")}/>
-                            <div className={classNames(itemClassName, "sticky left-20 bg-white z-10")}/>
+                            <div className={classNames(itemClassName, "sticky left-20 bg-white z-10")} onClick={
+                                () => setSortB(sortB == 0 ? 1 : 0)
+                            }>
+                                点我排序<br/>
+                                {sortB == 0 ? "排序启用中" : "排序禁用中"}
+                            </div>
                             {data.map(gacha => {
                                     return (
                                         <div key={`${index}-${gacha.id}`}
