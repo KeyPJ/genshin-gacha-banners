@@ -52,7 +52,7 @@ export default function BannersShow(props: IProps) {
                             {data.map(gacha => {
                                     return (
                                         <div key={`${index}-${gacha.id}`}
-                                             className={classNames(itemClassName, "sticky top-0")}>
+                                             className={classNames(itemClassName, "")}>
                                             {gacha.version}
                                             <img src={imageBaseUrl + gacha.image.url} alt={gacha.version}
                                                  className={classNames("border-solid rounded-1 hover:fixed hover:inset-x-0 hover:m-auto hover:z-20")}/>
