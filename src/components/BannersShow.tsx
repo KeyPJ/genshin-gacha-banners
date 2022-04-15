@@ -1,20 +1,26 @@
 import {gachaData, Item} from "genshin-wishes";
 import moment from "moment";
 import {useState} from "react";
+import {rankTypeList} from "../App";
 
 interface IProps {
-    itemType: string,
-    rankType: number,
-    data: gachaData[]
+    rankType: number[],
+    setRankType: Function
+    data: gachaData[],
+    currentGachaItemId: number[],
+    setCurrentGachaItemId: Function;
+
 }
 
 const imageBaseUrl = '/api/content?i=';
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 
+const dateFormat = (start: string) => moment(start).format("YYYYMMDD");
+
 export default function BannersShow(props: IProps) {
 
-    const {itemType, rankType, data} = props;
+    const {rankType, setRankType, data, currentGachaItemId, setCurrentGachaItemId} = props;
 
     const [sortB, setSortB] = useState(1);
 
@@ -25,18 +31,25 @@ export default function BannersShow(props: IProps) {
             }
             return accumulator
         }, []
-    ).filter(item => item.itemType == itemType && item.rankType == rankType)
+    ).filter(item => rankType.includes(item.rankType))
         .sort((a, b) => {
             let findIndexA = data.map(gacha => gacha.items.map(i => i.itemId).includes(a.itemId)).reverse().findIndex(i => i);
             let findIndexB = data.map(gacha => gacha.items.map(i => i.itemId).includes(b.itemId)).reverse().findIndex(i => i);
             return sortB || findIndexB == 0 ? 1 : findIndexA == 0 ? -1 : findIndexB - findIndexA;
         })
+        .filter(item => currentGachaItemId.length == 0 || currentGachaItemId.includes(item.itemId))
+        .sort((b, a) => a.rankType - b.rankType)
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
 
     const commonItemId: number[] = [1042, 15502, 11501, 14502, 12502, 15501, 14501, 12501, 13505, 11502, 13502];
 
     const findIndexMax = Math.max(...columnItems.map(item => data.map(gacha => gacha.items.map(i => i.itemId).includes(item.itemId)).reverse().findIndex(b => b)));
+
+    const handleGachaClick = (itemIds: number[]) => {
+        setRankType(rankTypeList[0]);
+        setCurrentGachaItemId(itemIds.toString() == currentGachaItemId.toString() ? [] : itemIds)
+    }
 
     return (
         <div className="text-center flex flex-col min-w-screen h-fit overflow-x-auto overflow-hidden overscroll-x-auto">
@@ -52,12 +65,17 @@ export default function BannersShow(props: IProps) {
                                 {sortB == 0 ? "排序启用中" : "排序禁用中"}
                             </div>
                             {data.map(gacha => {
+                                    let [start, end] = gacha.startEndByRegion.ASIA;
                                     return (
                                         <div key={`${index}-${gacha.id}`}
-                                             className={classNames(itemClassName, "")}>
-                                            {gacha.version}
-                                            <img src={imageBaseUrl + gacha.image.url} alt={gacha.version}
-                                                 className={classNames("border-solid rounded-1 hover:fixed hover:inset-x-0 hover:m-auto hover:z-20")}/>
+                                             className={classNames(itemClassName, "text-center text-sm")}
+                                             onClick={() => handleGachaClick(gacha.items.map(i => i.itemId))}
+                                        >
+                                            {gacha.version}<br/>
+                                            起:{dateFormat(start)}<br/>
+                                            止:{dateFormat(end)}<br/>
+                                            {/*<img src={imageBaseUrl + gacha.image.url} alt={gacha.version}*/}
+                                            {/*     className={classNames("border-solid rounded-1 hover:fixed hover:inset-x-0 hover:m-auto hover:z-20")}/>*/}
                                         </div>
                                     )
                                 }
@@ -76,7 +94,7 @@ export default function BannersShow(props: IProps) {
                             </div>
                             <div className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-xs")}>
                                 {
-                                    rankType == 5 && !commonItemId.includes(item.itemId) ?
+                                    item.rankType == 5 && !commonItemId.includes(item.itemId) ?
                                         (findIndex == 0 ? <div>当前可以祈愿</div> :
                                             <div>距离上次祈愿<br/>
                                                 已经过去{findIndex}个卡池,{days}天

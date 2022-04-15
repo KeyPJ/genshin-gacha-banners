@@ -15,6 +15,12 @@ interface Option {
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 
+export const rankTypeList: Option[] = [
+    {name: "全部", value: "4,5"},
+    {name: "☆☆☆☆☆", value: "5"},
+    {name: "☆☆☆☆", value: "4"},
+]
+
 function App() {
 
     const intervalMS = 60 * 60 * 1000
@@ -34,13 +40,9 @@ function App() {
         {name: "武器", value: "Weapon"},
     ]
 
-    const rankTypeList: Option[] = [
-        {name: "☆☆☆☆☆", value: "5"},
-        {name: "☆☆☆☆", value: "4"},
-    ]
 
     const [itemType, setItemType] = useState(itemTypeList[0]);
-    const [rankType, setRankType] = useState(rankTypeList[0]);
+    const [rankType, setRankType] = useState(rankTypeList[1]);
 
     useEffect(() => {
         let s = itemType.value.toLowerCase();
@@ -55,18 +57,24 @@ function App() {
     const classToSelect = "bg-white shadow-sm text-gray-900 cursor-pointer"
     const classSelected = "ring-2 border-indigo-500"
 
+    const [currentGachaItemId, setCurrentGachaItemId] = useState<number[]>([]);
+
     return (
         <div className="App flex flex-col justify-between">
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
-            <div className="grid grid-cols-3 gap-2 mr-20 my-4 lg:w-1/4">
+            <div className="grid grid-cols-4 gap-2 mr-20 my-4 lg:w-1/4 text-center">
                 <div className="text-right">类型:</div>
                 {
                     itemTypeList.map(item => {
                         return <div key={item.value}
                                     className={classNames(classToSelect, item.value == itemType.value ? classSelected : "")}
-                                    onClick={() => setItemType(item)}>{item.name}</div>
+                                    onClick={() => {
+                                        setItemType(item);
+                                        setCurrentGachaItemId([])
+                                    }}>{item.name}</div>
                     })
                 }
+                <div/>
                 <div className="text-right">星级:</div>
                 {
                     rankTypeList.map(rank => {
@@ -76,7 +84,12 @@ function App() {
                     })
                 }
             </div>
-            <BannersShow itemType={itemType.value} rankType={+rankType.value} data={data}/>
+            <BannersShow
+                data={data}
+                rankType={rankType.value.split(",").map(i => +i)}
+                setRankType={setRankType}
+                currentGachaItemId={currentGachaItemId}
+                setCurrentGachaItemId={setCurrentGachaItemId}/>
             <div className="text-center underline my-4">
                 数据来源:<a href={"https://genshin-wishes.com/"}>Genshin Wishes</a>
             </div>
