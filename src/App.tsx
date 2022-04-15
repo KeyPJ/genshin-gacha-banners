@@ -4,8 +4,8 @@ import BannersShow from "./components/BannersShow";
 import {gachaData} from "genshin-wishes";
 import axios from "axios";
 
-import { useRegisterSW } from 'virtual:pwa-register/react';
-
+import {useRegisterSW} from 'virtual:pwa-register/react';
+import GithubCorner from "react-github-corner";
 
 
 interface Option {
@@ -57,7 +57,8 @@ function App() {
 
     return (
         <div className="App flex flex-col justify-between">
-            <div className="grid grid-cols-3 gap-2 lg:w-1/4">
+            <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
+            <div className="grid grid-cols-3 gap-2 mr-20 my-4 lg:w-1/4">
                 <div className="text-right">类型:</div>
                 {
                     itemTypeList.map(item => {
@@ -74,11 +75,11 @@ function App() {
                                     onClick={() => setRankType(rank)}>{rank.name}</div>
                     })
                 }
-                <div className="col-span-3 text-center underline">
-                    数据来源:<a href={"https://genshin-wishes.com/"}>Genshin Wishes</a>
-                </div>
             </div>
             <BannersShow itemType={itemType.value} rankType={+rankType.value} data={data}/>
+            <div className="text-center underline my-4">
+                数据来源:<a href={"https://genshin-wishes.com/"}>Genshin Wishes</a>
+            </div>
         </div>
     )
 }
