@@ -68,12 +68,12 @@ export default function BannersShow(props: IProps) {
                                     let [start, end] = gacha.startEndByRegion.ASIA;
                                     return (
                                         <div key={`${index}-${gacha.id}`}
-                                             className={classNames(itemClassName, "text-center text-sm")}
+                                             className={classNames(itemClassName, "text-center text-sm cursor-pointer")}
                                              onClick={() => handleGachaClick(gacha.items.map(i => i.itemId))}
                                         >
                                             {gacha.version}<br/>
-                                            起:{dateFormat(start)}<br/>
-                                            止:{dateFormat(end)}<br/>
+                                            {dateFormat(start)}<br/>
+                                            {dateFormat(end)}<br/>
                                             {/*<img src={imageBaseUrl + gacha.image.url} alt={gacha.version}*/}
                                             {/*     className={classNames("border-solid rounded-1 hover:fixed hover:inset-x-0 hover:m-auto hover:z-20")}/>*/}
                                         </div>
@@ -127,7 +127,7 @@ export default function BannersShow(props: IProps) {
                                         }
 
                                         return <div key={`${item.itemId}-${gacha.id}`}
-                                                    className={classNames(itemClassName)}
+                                                    className={classNames(itemClassName, "text-3xl font-bold leading-loose")}
                                                     style={style}
                                         >
                                             {tempNumber > 0 ? tempNumber : ""}
