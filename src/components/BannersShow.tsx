@@ -36,6 +36,8 @@ export default function BannersShow(props: IProps) {
 
     const commonItemId: number[] = [1042, 15502, 11501, 14502, 12502, 15501, 14501, 12501, 13505, 11502, 13502];
 
+    const findIndexMax = Math.max(...columnItems.map(item => data.map(gacha => gacha.items.map(i => i.itemId).includes(item.itemId)).reverse().findIndex(b => b)));
+
     return (
         <div className="text-center flex flex-col min-w-screen h-fit overflow-x-auto overflow-hidden overscroll-x-auto">
             {columnItems.length > 0 && columnItems.slice(-1).concat(columnItems)
@@ -43,7 +45,7 @@ export default function BannersShow(props: IProps) {
                     if (index == 0) {
                         return <div key={index} className={"flex flex-row shrink-0 w-fit h-fit"}>
                             <div className={classNames(itemClassName, "sticky left-0 bg-white z-10 ")}/>
-                            <div className={classNames(itemClassName, "sticky left-20 bg-white z-10")} onClick={
+                            <div className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-sm")} onClick={
                                 () => setSortB(sortB == 0 ? 1 : 0)
                             }>
                                 点我排序<br/>
@@ -98,7 +100,18 @@ export default function BannersShow(props: IProps) {
                                         )
                                     } else {
                                         tempNumber = tempNumber >= 0 ? tempNumber + 1 : tempNumber;
-                                        return <div key={`${item.itemId}-${gacha.id}`} className={itemClassName}>
+
+                                        let style = {};
+                                        if (tempNumber > 0) {
+                                            let to = 255 - 255 / findIndexMax * tempNumber;
+                                            let from = 255 - 255 / findIndexMax * (tempNumber + 1);
+                                            style = {backgroundImage: `linear-gradient(to right, rgb(${from}, ${from}, 255) , rgb(${to}, ${to}, 255))`}
+                                        }
+
+                                        return <div key={`${item.itemId}-${gacha.id}`}
+                                                    className={classNames(itemClassName)}
+                                                    style={style}
+                                        >
                                             {tempNumber > 0 ? tempNumber : ""}
                                         </div>;
                                     }
