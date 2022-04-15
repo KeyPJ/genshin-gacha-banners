@@ -44,7 +44,11 @@ export default function BannersShow(props: IProps) {
 
     const commonItemId: number[] = [1042, 15502, 11501, 14502, 12502, 15501, 14501, 12501, 13505, 11502, 13502];
 
-    const findIndexMax = Math.max(...columnItems.map(item => data.map(gacha => gacha.items.map(i => i.itemId).includes(item.itemId)).reverse().findIndex(b => b)));
+    const numbers = data.map(a => a.items.map(i => i.itemId).join(",")).join(",").split(",").map(
+        id => data.map(gacha => gacha.items.map(i => i.itemId).includes(+id)).reverse().findIndex(b => b)
+    );
+
+    const findIndexMax = Math.max(...numbers);
 
     const handleGachaClick = (itemIds: number[]) => {
         setRankType(rankTypeList[0]);
