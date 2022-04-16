@@ -72,7 +72,7 @@ export default function BannersShow(props: IProps) {
                                     let [start, end] = gacha.startEndByRegion.ASIA;
                                     return (
                                         <div key={`${index}-${gacha.id}`}
-                                             className={classNames(itemClassName, "text-center text-sm cursor-pointer")}
+                                             className={classNames(itemClassName, "text-center text-sm cursor-pointer", gacha.items.map(i => i.itemId).toString() == currentGachaItemId.toString() ? "ring-2 border-indigo-500" : "")}
                                              onClick={() => handleGachaClick(gacha.items.map(i => i.itemId))}
                                         >
                                             {gacha.version}<br/>
