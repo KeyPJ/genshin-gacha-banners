@@ -1,0 +1,15 @@
+{
+  "ALL": "全部",
+  "CharacterText": "角色",
+  "WeaponText": "武器",
+  "credit": "数据来源:",
+  "itemType": "类型:",
+  "language": "语言切换:",
+  "permanent": "常驻祈愿",
+  "pickUp": "当前祈愿up",
+  "rankType": "星级:",
+  "release": "实装时间 \n 顺序",
+  "rowClick": "此行 \n 可以点击",
+  "sinceLastPickUp": "距离上次祈愿\n已经过去\n{{findIndex}}个卡池\n{{days}}天",
+  "unavailable": "间隔时间 \n 倒序"
+}

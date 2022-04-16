@@ -6,6 +6,8 @@ import axios from "axios";
 
 import {useRegisterSW} from 'virtual:pwa-register/react';
 import GithubCorner from "react-github-corner";
+import {useTranslation} from "react-i18next";
+import i18n from "i18next";
 
 
 interface Option {
@@ -15,29 +17,29 @@ interface Option {
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 
-export const rankTypeList: Option[] = [
-    {name: "全部", value: "4,5"},
-    {name: "☆☆☆☆☆", value: "5"},
-    {name: "☆☆☆☆", value: "4"},
-]
-
 function App() {
 
-    const intervalMS = 60 * 60 * 1000
+    const {t} = useTranslation();
 
-    const updateServiceWorker = useRegisterSW({
+    const intervalMS = 60 * 60 * 1000
+    useRegisterSW({
         onRegistered(r) {
             r && setInterval(() => {
                 r.update()
             }, intervalMS)
         }
-    })
-
+    });
     const [data, setData] = useState<gachaData[]>([]);
 
     const itemTypeList: Option[] = [
-        {name: "角色", value: "Character"},
-        {name: "武器", value: "Weapon"},
+        {name: t("CharacterText"), value: "Character"},
+        {name: t("WeaponText"), value: "Weapon"},
+    ]
+
+    const rankTypeList: Option[] = [
+        {name: t("ALL"), value: "4,5"},
+        {name: "☆☆☆☆☆", value: "5"},
+        {name: "☆☆☆☆", value: "4"},
     ]
 
 
@@ -59,11 +61,25 @@ function App() {
 
     const [currentGachaItemId, setCurrentGachaItemId] = useState<number[]>([]);
 
+
+    const languages = [
+        {code: "zh-CN", value: "中文"},
+        {code: "en-US", value: "English"}
+    ]
+
+    const [language, setLanguage] = useState('zh-CN')
+
+    const changeLanguage = (value: string) => {
+        setLanguage(value)
+        i18n.changeLanguage(value)
+    }
+
+
     return (
         <div className="App flex flex-col justify-between">
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
             <div className="grid grid-cols-4 gap-2 mr-20 my-4 lg:w-1/4 text-center">
-                <div className="text-right">类型:</div>
+                <div className="text-right">{t("itemType")}</div>
                 {
                     itemTypeList.map(item => {
                         return <div key={item.value}
@@ -75,7 +91,7 @@ function App() {
                     })
                 }
                 <div/>
-                <div className="text-right">星级:</div>
+                <div className="text-right">{t("rankType")}</div>
                 {
                     rankTypeList.map(rank => {
                         return <div key={rank.value}
@@ -90,8 +106,19 @@ function App() {
                 setRankType={setRankType}
                 currentGachaItemId={currentGachaItemId}
                 setCurrentGachaItemId={setCurrentGachaItemId}/>
-            <div className="text-center underline my-4">
-                数据来源:<a href={"https://genshin-wishes.com/"}>Genshin Wishes</a>
+            <div className="flex flex-row justify-center text-center my-4">
+                <div>{t("credit")}</div>
+                <div className="w-40 underline"><a href={"https://genshin-wishes.com/"}>Genshin Wishes</a></div>
+
+            </div>
+            <div className="flex flex-row justify-center text-center mb-4">
+                <div className="w-20">{t("language")}</div>
+                {
+                    languages.map(l =>
+                        <div className={classNames("w-20", language == l.code ? "underline" : "")}
+                             onClick={() => changeLanguage(l.code)}>{l.value}
+                        </div>)
+                }
             </div>
         </div>
     )

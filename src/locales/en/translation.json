@@ -1,0 +1,15 @@
+{
+  "ALL": "ALL",
+  "CharacterText": "Character",
+  "WeaponText": "Weapon",
+  "credit": "Credit To ",
+  "itemType": "TYPE:",
+  "language": "Language:",
+  "permanent": "PERMANENT",
+  "pickUp": "PickUp",
+  "rankType": "RANK:",
+  "release": "Release Time \n ASC",
+  "rowClick": "This Row Can Be Clicked",
+  "sinceLastPickUp": "It's been \n {{findIndex}} banner(s) ,\n {{days}} day(s) \n since the last",
+  "unavailable": "Unavailable Time \n DESC"
+}

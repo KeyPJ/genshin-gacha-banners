@@ -1,7 +1,7 @@
 import {gachaData, Item} from "genshin-wishes";
 import moment from "moment";
 import {useState} from "react";
-import {rankTypeList} from "../App";
+import {useTranslation} from "react-i18next";
 
 interface IProps {
     rankType: number[],
@@ -19,6 +19,8 @@ const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 const dateFormat = (start: string) => moment(start).format("YYYYMMDD");
 
 export default function BannersShow(props: IProps) {
+
+    const {t} = useTranslation();
 
     const {rankType, setRankType, data, currentGachaItemId, setCurrentGachaItemId} = props;
 
@@ -51,7 +53,7 @@ export default function BannersShow(props: IProps) {
     const findIndexMax = Math.max(...numbers);
 
     const handleGachaClick = (itemIds: number[]) => {
-        setRankType(rankTypeList[0]);
+        setRankType({name: t("ALL"), value: "4,5"});
         setCurrentGachaItemId(itemIds.toString() == currentGachaItemId.toString() ? [] : itemIds)
     }
 
@@ -61,12 +63,23 @@ export default function BannersShow(props: IProps) {
                 .map((item, index) => {
                     if (index == 0) {
                         return <div key={index} className={"flex flex-row shrink-0 w-fit h-fit"}>
-                            <div className={classNames(itemClassName, "sticky left-0 bg-white z-10 ")}/>
-                            <div className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-sm")} onClick={
-                                () => setSortB(sortB == 0 ? 1 : 0)
-                            }>
-                                点我排序<br/>
-                                {sortB == 0 ? "排序启用中" : "排序禁用中"}
+                            <div
+                                className={classNames(itemClassName, "sticky left-0 bg-white z-10 text-sm whitespace-pre-line")}
+                                onClick={
+                                    () => {
+                                        setSortB(1);
+                                        setCurrentGachaItemId([])
+                                    }
+                                }
+                            >
+                                {t("rowClick")}
+                            </div>
+                            <div
+                                className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-sm whitespace-pre-line")}
+                                onClick={
+                                    () => setSortB(sortB == 0 ? 1 : 0)
+                                }>
+                                {sortB == 0 ? t("unavailable") : t("release")}
                             </div>
                             {data.map(gacha => {
                                     let [start, end] = gacha.startEndByRegion.ASIA;
@@ -96,17 +109,21 @@ export default function BannersShow(props: IProps) {
                                 <img src={imageBaseUrl + item.image.url} alt={item.name}
                                      className={`${itemClassName} ${borderColor} border-solid rounded-[50%]`}/>
                             </div>
-                            <div className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-xs")}>
+                            <div
+                                className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-xs whitespace-pre-line")}>
                                 {
                                     item.rankType == 5 && !commonItemId.includes(item.itemId) ?
-                                        (findIndex == 0 ? <div>当前可以祈愿</div> :
-                                            <div>距离上次祈愿<br/>
-                                                已经过去{findIndex}个卡池,{days}天
-                                            </div>) : (findIndex == 0 ? <div>当前祈愿up</div> :
+                                        (findIndex == 0 ? <div>{t("pickUp")}</div> :
+                                            <div>
+                                                {t("sinceLastPickUp", {findIndex, days})}
+                                            </div>)
+                                        : (findIndex == 0 ? <div>
+                                            {t("permanent")}<br/>
+                                            {t("pickUp")}
+                                        </div> :
                                         <div>
-                                            常驻祈愿<br/>
-                                            距离上次up<br/>
-                                            已经过去{findIndex}个卡池,{days}天
+                                            {t("permanent")}<br/>
+                                            {t("sinceLastPickUp", {findIndex, days})}
                                         </div>)
                                 }
                             </div>
