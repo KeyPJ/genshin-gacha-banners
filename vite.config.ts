@@ -22,7 +22,6 @@ const pwaOptions: Partial<VitePWAOptions> = {
             },
         ],
     },
-    mode: 'development',
     base: '/',
     includeAssets: ['favicon.svg'],
     // strategies: 'injectManifest',
