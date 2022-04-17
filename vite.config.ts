@@ -1,6 +1,7 @@
 import {defineConfig} from 'vite'
 import react from '@vitejs/plugin-react'
 import {VitePWA, VitePWAOptions} from 'vite-plugin-pwa'
+import mkcert from'vite-plugin-mkcert'
 
 const pwaOptions: Partial<VitePWAOptions> = {
     registerType: 'autoUpdate',
@@ -47,8 +48,10 @@ export default defineConfig({
     plugins: [
         react(),
         VitePWA(pwaOptions),
+        mkcert(),
     ],
     server: {
+        https:true,
         proxy: {
             '/api/content': {
                 target: 'https://genshin-wishes.com/content', // 所要代理的目标地址
