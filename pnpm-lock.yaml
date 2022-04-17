@@ -13,9 +13,11 @@ specifiers:
   moment: ^2.29.2
   postcss: ^8.4.12
   react: ^17.0.2
+  react-device-detect: ^2.2.2
   react-dom: ^17.0.2
   react-github-corner: ^2.5.0
   react-i18next: ^11.16.6
+  react-indiana-drag-scroll: ^2.1.0
   request: ^2.88.2
   tailwindcss: ^3.0.23
   typescript: ^4.5.4
@@ -32,9 +34,11 @@ dependencies:
   i18next-http-backend: 1.4.0
   moment: 2.29.2
   react: 17.0.2
+  react-device-detect: 2.2.2_react-dom@17.0.2+react@17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-github-corner: 2.5.0_react@17.0.2
   react-i18next: 11.16.6_cd88263d0744b5fa9a18baea0c055d7d
+  react-indiana-drag-scroll: 2.1.0_react-dom@17.0.2+react@17.0.2
   workbox-window: 6.5.3
 
 devDependencies:
@@ -1862,6 +1866,10 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /classnames/2.3.1:
+    resolution: {integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==}
+    dev: false
+
   /clone-response/1.0.2:
     resolution: {integrity: sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=}
     dependencies:
@@ -1975,6 +1983,10 @@ packages:
       assert-plus: 1.0.0
     dev: true
 
+  /debounce/1.2.1:
+    resolution: {integrity: sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==}
+    dev: false
+
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
@@ -2044,6 +2056,10 @@ packages:
 
   /duplexer3/0.1.4:
     resolution: {integrity: sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=}
+    dev: false
+
+  /easy-bem/1.1.1:
+    resolution: {integrity: sha512-GJRqdiy2h+EXy6a8E6R+ubmqUM08BK0FWNq41k24fup6045biQ8NXxoXimiwegMQvFFV3t1emADdGNL1TlS61A==}
     dev: false
 
   /ecc-jsbn/0.1.2:
@@ -3235,6 +3251,17 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
+  /react-device-detect/2.2.2_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-zSN1gIAztUekp5qUT/ybHwQ9fmOqVT1psxpSlTn1pe0CO+fnJHKRLOWWac5nKxOxvOpD/w84hk1I+EydrJp7SA==}
+    peerDependencies:
+      react: '>= 0.14.0'
+      react-dom: '>= 0.14.0'
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      ua-parser-js: 1.0.2
+    dev: false
+
   /react-dom/17.0.2_react@17.0.2:
     resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
     peerDependencies:
@@ -3272,6 +3299,20 @@ packages:
       html-escaper: 2.0.2
       html-parse-stringify: 3.0.1
       i18next: 21.6.16
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /react-indiana-drag-scroll/2.1.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-Tj94Dv9PkmoKqc9nxK/dzwhtE8pP7NTxmeHqkD8KN0zad1NNE+/JsvRcK4EdqE6CdA2nMESzqPMvv1AzRXdBew==}
+    engines: {node: '>=8', npm: '>=5'}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0
+      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      classnames: 2.3.1
+      debounce: 1.2.1
+      easy-bem: 1.1.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: false
@@ -3705,6 +3746,10 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
+
+  /ua-parser-js/1.0.2:
+    resolution: {integrity: sha512-00y/AXhx0/SsnI51fTc0rLRmafiGOM4/O+ny10Ps7f+j/b8p/ZY11ytMgznXkOVo4GQ+KwQG5UQLkLGirsACRg==}
+    dev: false
 
   /unbox-primitive/1.0.1:
     resolution: {integrity: sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw==}
