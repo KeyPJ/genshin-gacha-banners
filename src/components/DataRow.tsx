@@ -9,6 +9,7 @@ interface IProps {
     showGachaIndex: number[]
     setShowGachaIndex: Function
     setCurrentGachaItemId: Function
+    commonItemId: number[]
 }
 
 const imageBaseUrl = '/api/content?i=';
@@ -23,11 +24,9 @@ export default function DataRow(props: IProps) {
 
     const {t} = useTranslation();
 
-    const {data, item, findIndexMax, showGachaIndex, setShowGachaIndex, setCurrentGachaItemId} = props;
+    const {data, item, findIndexMax, showGachaIndex, setShowGachaIndex, setCurrentGachaItemId, commonItemId} = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
-
-    const commonItemId: number[] = [1042, 15502, 11501, 14502, 12502, 15501, 14501, 12501, 13505, 11502, 13502];
 
     const borderColor = item.rankType == 5 ? "border-amber-500" : "border-purple-500";
 
@@ -41,6 +40,7 @@ export default function DataRow(props: IProps) {
 
     const handleCharacterClick = () => {
         // setRankType({name: t("ALL"), value: "4,5"});
+
         const gachaIndex = data
             .map((gacha, index) => gacha.items.map(i => i.itemId).includes(item.itemId) ? index : -1)
             .filter(i => i >= 0);
@@ -68,27 +68,16 @@ export default function DataRow(props: IProps) {
             </div>
             <div
                 className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-xs whitespace-pre-line")}>
-                {
-                    item.rankType == 5 && !commonItemId.includes(item.itemId) ?
-                        (findIndex == 0 ? <div>{t("pickUp")}</div> :
-                            <div>
-                                {t("sinceLastPickUp", {findIndex, days})}
-                            </div>)
-                        : (findIndex == 0 ? <div>
-                            {t("permanent")}<br/>
-                            {t("pickUp")}
-                        </div> :
-                        <div>
-                            {t("permanent")}<br/>
-                            {t("sinceLastPickUp", {findIndex, days})}
-                        </div>)
-                }
+                <div>
+                    {commonItemId.includes(item.itemId) && <>{t("permanent")}<br/></>}
+                    {findIndex == 0 ? t("pickUp") : t("sinceLastPickUp", {findIndex, days})}
+                </div>
             </div>
             {data.map((gacha, index) => {
                     const key = `${item.itemId}-${gacha.id}`;
                     if (gacha.items.map(i => i.itemId).includes(item.itemId)) {
                         tempNumber = 0;
-                        if (showGachaIndex.length > 0 && !showGachaIndex.includes(index)) {
+                        if (showGachaIndex.length > 0 && !showGachaIndex.concat(data.length - 1).includes(index)) {
                             return <div/>
                         }
                         return (
@@ -110,7 +99,7 @@ export default function DataRow(props: IProps) {
                             style = {backgroundImage: `linear-gradient(to right, rgb(${from}, ${from}, 255) , rgb(${to}, ${to}, 255))`}
                         }
 
-                        if (showGachaIndex.length > 0 && !showGachaIndex.includes(index)) {
+                        if (showGachaIndex.length > 0 && !showGachaIndex.concat(data.length - 1).includes(index)) {
                             return <div/>
                         }
                         return <div key={key}

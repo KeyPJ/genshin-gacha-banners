@@ -64,7 +64,7 @@ export default function FirstRow(props: IProps) {
             </div>
             {data.map((gacha, index) => {
                     let {start, end} = gacha;
-                    if (showGachaIndex.length > 0 && !showGachaIndex.includes(index)) {
+                    if (showGachaIndex.length > 0 && !showGachaIndex.concat(data.length-1).includes(index)) {
                         return <div/>
                     }
                     return (

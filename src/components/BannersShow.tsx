@@ -13,6 +13,7 @@ interface IProps {
     setCurrentGachaItemId: Function;
     showGachaIndex: number[]
     setShowGachaIndex: Function
+    commonItemId: number[]
 }
 
 const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
@@ -27,12 +28,12 @@ export default function BannersShow(props: IProps) {
         currentGachaItemId,
         setCurrentGachaItemId,
         showGachaIndex,
-        setShowGachaIndex
+        setShowGachaIndex,
+        commonItemId
     } = props;
 
     //enable Sort?default:false
     const [sortB, setSortB] = useState(1);
-
 
     const columnItems: Item[] = data
         .map(a => a.items)
@@ -74,6 +75,7 @@ export default function BannersShow(props: IProps) {
                          showGachaIndex={showGachaIndex}
                          setShowGachaIndex={setShowGachaIndex}
                          setCurrentGachaItemId={setCurrentGachaItemId}
+                         commonItemId={commonItemId}
                 />;
         })
     }</>;

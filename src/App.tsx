@@ -31,6 +31,8 @@ function App() {
     });
     const [data, setData] = useState<gachaData[]>([]);
 
+    const [commonItemId, setCommonItemId] = useState<number[]>([]);
+
     const itemTypeList: Option[] = [
         {name: t("CharacterText"), value: "Character"},
         {name: t("WeaponText"), value: "Weapon"},
@@ -55,6 +57,16 @@ function App() {
             }
         )
     }, [itemType])
+
+    useEffect(() => {
+        axios.get(`/api/public/stats/PERMANENT`).then(
+            res => {
+                const {countPerItemId} = res.data;
+                const itemIds = countPerItemId.map((i: { itemId: number; }): number => i.itemId);
+                setCommonItemId(itemIds);
+            }
+        )
+    }, [])
 
     const classToSelect = "bg-white shadow-sm text-gray-900 cursor-pointer"
     const classSelected = "ring-2 border-indigo-500"
@@ -100,7 +112,7 @@ function App() {
                                     className={classNames(classToSelect, rank.value == rankType.value ? classSelected : "")}
                                     onClick={() => {
                                         setRankType(rank)
-                                    setShowGachaIndex([])
+                                        setShowGachaIndex([])
                                     }}>{rank.name}</div>
                     })
                 }
@@ -113,6 +125,7 @@ function App() {
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
                 setShowGachaIndex={setShowGachaIndex}
+                commonItemId={commonItemId}
             />
             <div className="flex flex-row justify-center text-center my-4">
                 <div>{t("credit")}</div>
