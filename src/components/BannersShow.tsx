@@ -11,6 +11,8 @@ interface IProps {
     data: gachaData[],
     currentGachaItemId: number[],
     setCurrentGachaItemId: Function;
+    showGachaIndex: number[]
+    setShowGachaIndex: Function
 }
 
 const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
@@ -24,6 +26,8 @@ export default function BannersShow(props: IProps) {
         data,
         currentGachaItemId,
         setCurrentGachaItemId,
+        showGachaIndex,
+        setShowGachaIndex
     } = props;
 
     //enable Sort?default:false
@@ -47,6 +51,8 @@ export default function BannersShow(props: IProps) {
         })
         .sort((b, a) => a.rankType - b.rankType)
 
+    console.log(columnItems);
+
     const numbers = data.map(a => a.items.map(i => i.itemId).join(",")).join(",").split(",").map(
         id => getFindLatestIndex(data, +id)
     );
@@ -60,9 +66,14 @@ export default function BannersShow(props: IProps) {
                           setCurrentGachaItemId={setCurrentGachaItemId}
                           sortB={sortB}
                           setSortB={setSortB}
+                          showGachaIndex={showGachaIndex}
+                          setShowGachaIndex={setShowGachaIndex}
                 />
                 :
                 <DataRow key={index} data={data} item={item} findIndexMax={findIndexMax}
+                         showGachaIndex={showGachaIndex}
+                         setShowGachaIndex={setShowGachaIndex}
+                         setCurrentGachaItemId={setCurrentGachaItemId}
                 />;
         })
     }</>;

@@ -61,6 +61,7 @@ function App() {
 
     const [currentGachaItemId, setCurrentGachaItemId] = useState<number[]>([]);
 
+    const [showGachaIndex, setShowGachaIndex] = useState<number[]>([]);
 
     const languages = [
         {code: "zh-CN", value: "中文"},
@@ -87,6 +88,7 @@ function App() {
                                     onClick={() => {
                                         setItemType(item);
                                         setCurrentGachaItemId([])
+                                        setShowGachaIndex([])
                                     }}>{item.name}</div>
                     })
                 }
@@ -96,7 +98,10 @@ function App() {
                     rankTypeList.map(rank => {
                         return <div key={rank.value}
                                     className={classNames(classToSelect, rank.value == rankType.value ? classSelected : "")}
-                                    onClick={() => setRankType(rank)}>{rank.name}</div>
+                                    onClick={() => {
+                                        setRankType(rank)
+                                    setShowGachaIndex([])
+                                    }}>{rank.name}</div>
                     })
                 }
             </div>
@@ -105,7 +110,10 @@ function App() {
                 rankType={rankType.value.split(",").map(i => +i)}
                 setRankType={setRankType}
                 currentGachaItemId={currentGachaItemId}
-                setCurrentGachaItemId={setCurrentGachaItemId}/>
+                setCurrentGachaItemId={setCurrentGachaItemId}
+                showGachaIndex={showGachaIndex}
+                setShowGachaIndex={setShowGachaIndex}
+            />
             <div className="flex flex-row justify-center text-center my-4">
                 <div>{t("credit")}</div>
                 <div className="w-40 underline"><a href={"https://genshin-wishes.com/"}>Genshin Wishes</a></div>

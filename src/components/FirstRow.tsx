@@ -10,6 +10,8 @@ interface IProps {
     setCurrentGachaItemId: Function;
     sortB: number
     setSortB: Function
+    showGachaIndex: number[]
+    setShowGachaIndex: Function
 }
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
@@ -27,6 +29,8 @@ export default function FirstRow(props: IProps) {
         setCurrentGachaItemId,
         sortB,
         setSortB,
+        showGachaIndex,
+        setShowGachaIndex
     } = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
@@ -34,6 +38,7 @@ export default function FirstRow(props: IProps) {
     const handleGachaClick = (itemIds: number[]) => {
         setRankType({name: t("ALL"), value: "4,5"});
         setCurrentGachaItemId(itemIds.toString() == currentGachaItemId.toString() ? [] : itemIds)
+        setShowGachaIndex([])
     }
 
     return (
@@ -44,6 +49,7 @@ export default function FirstRow(props: IProps) {
                     () => {
                         setSortB(1);
                         setCurrentGachaItemId([])
+                        setShowGachaIndex([])
                     }
                 }
             >
@@ -56,8 +62,11 @@ export default function FirstRow(props: IProps) {
                 }>
                 {sortB == 0 ? t("unavailable") : t("release")}
             </div>
-            {data.map((gacha) => {
+            {data.map((gacha, index) => {
                     let {start, end} = gacha;
+                    if (showGachaIndex.length > 0 && !showGachaIndex.includes(index)) {
+                        return <div/>
+                    }
                     return (
 
                         <div key={`0-${gacha.id}`}
