@@ -39,6 +39,7 @@ export default function BannersShow(props: IProps) {
         .map(a => a.items)
         .reduce(
             (accumulator, current) => {
+                current.sort((b, a) => a.rankType - b.rankType)
                 for (let currentElement of current) {
                     accumulator = accumulator.map(a => a.itemId).includes(currentElement.itemId) ? accumulator : accumulator.concat(currentElement);
                 }
@@ -50,7 +51,7 @@ export default function BannersShow(props: IProps) {
             let findIndexB = getFindLatestIndex(data, b.itemId);
             return (sortB || findIndexB == 0 ? 1 : findIndexA == 0 ? -1 : findIndexB - findIndexA);
         })
-        .sort((b, a) => a.rankType - b.rankType)
+        .sort((b, a) => currentGachaItemId.length == 0 ? 1 : a.rankType - b.rankType)
 
     console.log(columnItems);
 
