@@ -137,7 +137,7 @@ function App() {
                 {
                     languages.map(l =>
                         <div className={classNames("w-20", language == l.code ? "underline" : "")}
-                             onClick={() => changeLanguage(l.code)}>{l.value}
+                             onClick={() => changeLanguage(l.code)} key={l.code}>{l.value}
                         </div>)
                 }
             </div>

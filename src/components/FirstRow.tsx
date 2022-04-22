@@ -41,6 +41,12 @@ export default function FirstRow(props: IProps) {
         setShowGachaIndex([])
     }
 
+    const showIndex = showGachaIndex
+        .map((n, index) => index == 0 ? [n] : [n, n - 1])
+        .reduce((a, b) => a.concat(b), [])
+        .filter(i => i >= 0)
+        .concat(data.length - 1);
+
     return (
         <div className={"flex flex-row shrink-0 w-fit h-fit sticky top-0"}>
             <div
@@ -63,13 +69,13 @@ export default function FirstRow(props: IProps) {
                 {sortB == 0 ? t("unavailable") : t("release")}
             </div>
             {data.map((gacha, index) => {
-                    let {start, end} = gacha;
-                    if (showGachaIndex.length > 0 && !showGachaIndex.concat(data.length-1).includes(index)) {
-                        return <div/>
+                    const {start, end} = gacha;
+                    const key = `0-${gacha.id}`;
+                    if (showGachaIndex.length > 0 && !showGachaIndex.includes(index)) {
+                        return <div key={key} className={showIndex.includes(index) ? itemClassName : ""}/>
                     }
                     return (
-
-                        <div key={`0-${gacha.id}`}
+                        <div key={key}
                              className={classNames(itemClassName, "text-center text-sm cursor-pointer", gacha.items.map(i => i.itemId).toString() == currentGachaItemId.toString() ? "ring-2 border-indigo-500" : "")}
                              onClick={() => handleGachaClick(gacha.items.map(i => i.itemId))}
                         >

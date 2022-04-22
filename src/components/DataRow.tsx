@@ -45,18 +45,23 @@ export default function DataRow(props: IProps) {
             .map((gacha, index) => gacha.items.map(i => i.itemId).includes(item.itemId) ? index : -1)
             .filter(i => i >= 0);
 
-        const numbers = gachaIndex.map((n, index) => index == 0 ? [n] : [n, n - 1]).reduce((a, b) => a.concat(b)).filter(i => i >= 0);
-
-        if (showGachaIndex.toString() == numbers.toString()) {
+        if (showGachaIndex.toString() == gachaIndex.toString()) {
             setShowGachaIndex([])
             setCurrentGachaItemId([])
         } else {
-            setShowGachaIndex(numbers)
+            setShowGachaIndex(gachaIndex)
             setCurrentGachaItemId([item.itemId]);
         }
 
 
     }
+
+    const showIndex = showGachaIndex
+        .map((n, index) => index == 0 ? [n] : [n, n - 1])
+        .reduce((a, b) => a.concat(b), [])
+        .filter(i => i >= 0)
+        .concat(data.length - 1);
+
 
     return (
         <div className={"flex flex-row shrink-0 w-fit"}>
@@ -77,8 +82,8 @@ export default function DataRow(props: IProps) {
                     const key = `${item.itemId}-${gacha.id}`;
                     if (gacha.items.map(i => i.itemId).includes(item.itemId)) {
                         tempNumber = 0;
-                        if (showGachaIndex.length > 0 && !showGachaIndex.concat(data.length - 1).includes(index)) {
-                            return <div/>
+                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
+                            return <div key={key}/>
                         }
                         return (
                             <div key={key}
@@ -99,7 +104,7 @@ export default function DataRow(props: IProps) {
                             style = {backgroundImage: `linear-gradient(to right, rgb(${from}, ${from}, 255) , rgb(${to}, ${to}, 255))`}
                         }
 
-                        if (showGachaIndex.length > 0 && !showGachaIndex.concat(data.length - 1).includes(index)) {
+                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
                             return <div/>
                         }
                         return <div key={key}
