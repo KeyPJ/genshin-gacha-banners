@@ -8,6 +8,7 @@ import {useRegisterSW} from 'virtual:pwa-register/react';
 import GithubCorner from "react-github-corner";
 import {useTranslation} from "react-i18next";
 import i18n from "i18next";
+import {isMobile} from "react-device-detect";
 
 
 interface Option {
@@ -117,6 +118,7 @@ function App() {
                     })
                 }
             </div>
+            {!isMobile&&<div className="text-center text-sm">❕{t("notice")}❕</div>}
             <BannersShow
                 data={data}
                 rankType={rankType.value.split(",").map(i => +i)}
