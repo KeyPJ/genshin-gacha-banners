@@ -12,7 +12,8 @@ interface IProps {
     commonItemId: number[]
 }
 
-const imageBaseUrl = '/api/content?i=';
+// const imageBaseUrl = '/api/content?i=';
+const imageBaseUrl = '/content';
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 

@@ -10,6 +10,7 @@ import {useTranslation} from "react-i18next";
 import i18n from "i18next";
 import {isMobile} from "react-device-detect";
 
+import genshindb from "genshin-db";
 
 interface Option {
     name: string,
@@ -88,10 +89,14 @@ function App() {
         i18n.changeLanguage(value)
     }
 
+    console.log("i18n.language");
+    console.log(i18n.language);
+
 
     return (
         <div className="App flex flex-col justify-between">
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
+            {genshindb.characters("ganyu")?.name}
             <div className="grid grid-cols-4 gap-2 mr-20 my-4 lg:w-1/4 text-center">
                 <div className="text-right">{t("itemType")}</div>
                 {

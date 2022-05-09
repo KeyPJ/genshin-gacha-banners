@@ -1,7 +1,7 @@
 import {defineConfig} from 'vite'
 import react from '@vitejs/plugin-react'
 import {VitePWA, VitePWAOptions} from 'vite-plugin-pwa'
-import mkcert from'vite-plugin-mkcert'
+import mkcert from 'vite-plugin-mkcert'
 
 const pwaOptions: Partial<VitePWAOptions> = {
     registerType: 'autoUpdate',
@@ -21,6 +21,20 @@ const pwaOptions: Partial<VitePWAOptions> = {
                     cacheName: 'image-cache',
                 },
             },
+            {
+                // 匹配跨域请求
+                urlPattern: new RegExp('^https://cdn\.jsdelivr\.net/npm'),
+                handler: 'StaleWhileRevalidate',
+                options: {
+                    cacheName: 'npm-cache',
+                    expiration: {
+                        maxAgeSeconds: 60 * 60 * 24 * 3
+                    },
+                    cacheableResponse: {
+                        statuses: [0, 200]
+                    },
+                }
+            }
         ],
     },
     base: '/',
@@ -50,8 +64,13 @@ export default defineConfig({
         VitePWA(pwaOptions),
         mkcert(),
     ],
+    resolve: {
+        alias: {
+            "genshin-db": "https://cdn.jsdelivr.net/npm/genshin-db/+esm",
+        }
+    },
     server: {
-        https:true,
+        https: true,
         proxy: {
             '/api/content': {
                 target: 'https://genshin-wishes.com/content', // 所要代理的目标地址

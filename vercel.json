@@ -3,6 +3,10 @@
     {
       "source": "/api/(.*)",
       "destination": "/api/proxy"
+    },
+    {
+      "source": "/content/(.*)",
+      "destination": "https://genshin-wishes.com/content/$1"
     }
   ]
 }
