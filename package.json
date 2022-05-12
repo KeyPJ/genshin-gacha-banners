@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "axios": "^0.26.1",
+    "echarts": "^5.3.2",
+    "echarts-for-react": "^3.0.2",
     "genshin-db": "^4.1.1",
     "got": "^10.7.0",
     "i18next": "^21.6.16",
