@@ -10,8 +10,6 @@ import {useTranslation} from "react-i18next";
 import i18n from "i18next";
 import {isMobile} from "react-device-detect";
 
-import genshindb from "genshin-db";
-
 interface Option {
     name: string,
     value: string,
@@ -52,7 +50,7 @@ function App() {
 
     useEffect(() => {
         let s = itemType.value.toLowerCase();
-        axios.get(`/api/public/banners/${s}`).then(
+        axios.get(`/data/${s}.json/`).then(
             res => {
                 const resData = res.data as gachaData[];
                 setData(resData.reverse())
@@ -61,7 +59,7 @@ function App() {
     }, [itemType])
 
     useEffect(() => {
-        axios.get(`/api/public/stats/PERMANENT`).then(
+        axios.get(`/data/permanent.json`).then(
             res => {
                 const {countPerItemId} = res.data;
                 const itemIds = countPerItemId.map((i: { itemId: number; }): number => i.itemId);
@@ -92,11 +90,9 @@ function App() {
     console.log("i18n.language");
     console.log(i18n.language);
 
-
     return (
         <div className="App flex flex-col justify-between">
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
-            {genshindb.characters("ganyu")?.name}
             <div className="grid grid-cols-4 gap-2 mr-20 my-4 lg:w-1/4 text-center">
                 <div className="text-right">{t("itemType")}</div>
                 {

@@ -5,8 +5,8 @@
       "destination": "/api/proxy"
     },
     {
-      "source": "/content/(.*)",
-      "destination": "https://genshin-wishes.com/content/$1"
+      "source": "/game_record/(.*)",
+      "destination": "https://upload-os-bbs.mihoyo.com/game_record/$1"
     }
   ]
 }

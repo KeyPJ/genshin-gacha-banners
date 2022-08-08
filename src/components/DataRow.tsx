@@ -1,6 +1,7 @@
 import {gachaData, Item} from "genshin-wishes";
 import moment from "moment";
 import {useTranslation} from "react-i18next";
+import genshindb, {Character, Weapon} from "genshin-db";
 
 interface IProps {
     data: gachaData[],
@@ -13,13 +14,26 @@ interface IProps {
 }
 
 // const imageBaseUrl = '/api/content?i=';
-const imageBaseUrl = '/content';
+// const imageBaseUrl = '/content';
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 
 const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
     return data.map(gacha => gacha.items.map(i => i.itemId).includes(itemId)).reverse().findIndex(tf => tf);
 };
+
+const getImageUrl = (name: string, itemType: string) => {
+    if (itemType == "Character") {
+        const {images: {icon: icon}} = genshindb.characters(name) as Character
+        if (icon) {
+            return icon.replace("https://upload-os-bbs.mihoyo.com/", "");
+        }
+    } else if (itemType == "Weapon") {
+        const {images: {icon}} = genshindb.weapons(name) as Weapon;
+        return icon.replace("https://upload-os-bbs.mihoyo.com/", "");
+    }
+    return "";
+}
 
 export default function DataRow(props: IProps) {
 
@@ -67,7 +81,7 @@ export default function DataRow(props: IProps) {
     return (
         <div className={"flex flex-row shrink-0 w-fit"}>
             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
-                <img src={imageBaseUrl + item.image.url} alt={item.name}
+                <img src={getImageUrl(item.name, item.itemType)} alt={item.name}
                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                      onClick={() => handleCharacterClick()}
                 />
@@ -89,7 +103,7 @@ export default function DataRow(props: IProps) {
                         return (
                             <div key={key}
                                  className={classNames(itemClassName)}>
-                                <img src={imageBaseUrl + item.image.url} alt={item.name}
+                                <img src={getImageUrl(item.name, item.itemType)} alt={item.name}
                                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                                      onClick={() => handleCharacterClick()}
                                 />

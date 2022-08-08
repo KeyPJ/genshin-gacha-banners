@@ -1,0 +1,1856 @@
+[
+  {
+    "id": 100018,
+    "version": "2.8.2",
+    "items": [
+      {
+        "id": 143,
+        "itemId": -10014,
+        "name": "Thundering Pulse",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 122,
+        "itemId": 11504,
+        "name": "Summit Shaper",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 132,
+        "itemId": -10005,
+        "name": "Wine and Song",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 135,
+        "itemId": -10007,
+        "name": "Alley Hunter",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 81,
+        "itemId": 12401,
+        "name": "Favonius Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-08-02T18:00:00",
+    "end": "2022-08-23T14:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },{
+    "id": 100016,
+    "version": "2.8.1",
+    "items": [
+      {
+        "id": 141,
+        "itemId": -10012,
+        "name": "Freedom-Sworn",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 98,
+        "itemId": 14502,
+        "name": "Lost Prayer to the Sacred Winds",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 131,
+        "itemId": -10004,
+        "name": "The Alley Flash",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 140,
+        "itemId": -10011,
+        "name": "Mitternachts Waltz",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 78,
+        "itemId": 12405,
+        "name": "Rainslasher",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+  "start": "2022-07-13T11:00:00",
+  "end": "2022-08-02T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },{
+    "id": 100014,
+    "version": "2.7.2",
+    "items": [
+      {
+        "id": 109,
+        "itemId": 14504,
+        "name": "Memory of Dust",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 121,
+        "itemId": 12410,
+        "name": "Lithic Blade",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 159,
+        "itemId": -10029,
+        "name": "Redhorn Stonethresher",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-06-21T17:00:00",
+    "end": "2022-07-12T13:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 100012,
+    "version": "2.7.1",
+    "items": [
+      {
+        "id": 101,
+        "itemId": 13505,
+        "name": "Primordial Jade Winged-Spear",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 71,
+        "itemId": 15403,
+        "name": "Sacrificial Bow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 81,
+        "itemId": 12401,
+        "name": "Favonius Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 83,
+        "itemId": 11403,
+        "name": "Sacrificial Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 115,
+        "itemId": 14409,
+        "name": "Eye of Perception",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 120,
+        "itemId": 13406,
+        "name": "Lithic Spear",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 169,
+        "itemId": -10039,
+        "name": "Aqua Simulacra",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-05-30T22:30:00",
+    "end": "2022-06-26T16:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 100010,
+    "version": "2.6.2",
+    "items": [
+      {
+        "id": 72,
+        "itemId": 15401,
+        "name": "Favonius Warbow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 108,
+        "itemId": 12504,
+        "name": "The Unforged",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 144,
+        "itemId": -10015,
+        "name": "Mistsplitter Reforged",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-04-19T16:00:00",
+    "end": "2022-06-07T12:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 100008,
+    "version": "2.6.1",
+    "items": [
+      {
+        "id": 133,
+        "itemId": -10003,
+        "name": "Elegy for the End",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 70,
+        "itemId": 15405,
+        "name": "Rust",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 79,
+        "itemId": 12403,
+        "name": "Sacrificial Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 168,
+        "itemId": -10038,
+        "name": "Haran Geppaku Futsu",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-03-30T02:00:00",
+    "end": "2022-04-19T16:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 100005,
+    "version": "2.5.2",
+    "items": [
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 150,
+        "itemId": -10021,
+        "name": "Engulfing Lightning",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 151,
+        "itemId": -10022,
+        "name": "Everlasting Moonglow",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 155,
+        "itemId": -10026,
+        "name": "Akuoumaru",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 157,
+        "itemId": -10027,
+        "name": "Mouun's Moon",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-03-08T18:00:00",
+    "end": "2022-03-29T13:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 100004,
+    "version": "2.5.1",
+    "items": [
+      {
+        "id": 123,
+        "itemId": 11505,
+        "name": "Primordial Jade Cutter",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 78,
+        "itemId": 12405,
+        "name": "Rainslasher",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 83,
+        "itemId": 11403,
+        "name": "Sacrificial Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 115,
+        "itemId": 14409,
+        "name": "Eye of Perception",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 158,
+        "itemId": -10028,
+        "name": "Wavebreaker's Fin",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 166,
+        "itemId": -10036,
+        "name": "Kagura's Verity",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-02-15T21:00:00",
+    "end": "2022-03-08T16:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 100002,
+    "version": "2.4.2",
+    "items": [
+      {
+        "id": 100,
+        "itemId": 15502,
+        "name": "Amos' Bow",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 71,
+        "itemId": 15403,
+        "name": "Sacrificial Bow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 121,
+        "itemId": 12410,
+        "name": "Lithic Blade",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 107,
+        "itemId": 13504,
+        "name": "Vortex Vanquisher",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-01-25T18:00:00",
+    "end": "2022-02-15T14:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 51,
+    "version": "2.4.1",
+    "items": [
+      {
+        "id": 101,
+        "itemId": 13505,
+        "name": "Primordial Jade Winged-Spear",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 72,
+        "itemId": 15401,
+        "name": "Favonius Warbow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 81,
+        "itemId": 12401,
+        "name": "Favonius Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 120,
+        "itemId": 13406,
+        "name": "Lithic Spear",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 164,
+        "itemId": -10034,
+        "name": "Calamity Queller",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-01-04T23:00:00",
+    "end": "2022-01-25T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 49,
+    "version": "2.3.2",
+    "items": [
+      {
+        "id": 140,
+        "itemId": -10011,
+        "name": "Mitternachts Waltz",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 128,
+        "itemId": 15501,
+        "name": "Skyward Harp",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 131,
+        "itemId": -10004,
+        "name": "The Alley Flash",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 159,
+        "itemId": -10029,
+        "name": "Redhorn Stonethresher",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-12-14T18:00:00",
+    "end": "2022-01-04T14:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 47,
+    "version": "2.3.1",
+    "items": [
+      {
+        "id": 141,
+        "itemId": -10012,
+        "name": "Freedom-Sworn",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 79,
+        "itemId": 12403,
+        "name": "Sacrificial Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 132,
+        "itemId": -10005,
+        "name": "Wine and Song",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 135,
+        "itemId": -10007,
+        "name": "Alley Hunter",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 139,
+        "itemId": -10010,
+        "name": "Song of Broken Pines",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-11-23T22:00:00",
+    "end": "2021-12-14T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 45,
+    "version": "2.2.2",
+    "items": [
+      {
+        "id": 126,
+        "itemId": -10001,
+        "name": "Staff of Homa",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 133,
+        "itemId": -10003,
+        "name": "Elegy for the End",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 78,
+        "itemId": 12405,
+        "name": "Rainslasher",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 83,
+        "itemId": 11403,
+        "name": "Sacrificial Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 157,
+        "itemId": -10027,
+        "name": "Mouun's Moon",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 158,
+        "itemId": -10028,
+        "name": "Wavebreaker's Fin",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-11-02T17:00:00",
+    "end": "2021-11-23T13:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 43,
+    "version": "2.2.1",
+    "items": [
+      {
+        "id": 109,
+        "itemId": 14504,
+        "name": "Memory of Dust",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 70,
+        "itemId": 15405,
+        "name": "Rust",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 115,
+        "itemId": 14409,
+        "name": "Eye of Perception",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 155,
+        "itemId": -10026,
+        "name": "Akuoumaru",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 154,
+        "itemId": -10025,
+        "name": "Polar Star",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-10-13T01:00:00",
+    "end": "2021-11-02T16:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 41,
+    "version": "2.1.2",
+    "items": [
+      {
+        "id": 123,
+        "itemId": 11505,
+        "name": "Primordial Jade Cutter",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 81,
+        "itemId": 12401,
+        "name": "Favonius Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 151,
+        "itemId": -10022,
+        "name": "Everlasting Moonglow",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-09-21T18:00:00",
+    "end": "2021-10-12T13:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 39,
+    "version": "2.1.1",
+    "items": [
+      {
+        "id": 71,
+        "itemId": 15403,
+        "name": "Sacrificial Bow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 108,
+        "itemId": 12504,
+        "name": "The Unforged",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 150,
+        "itemId": -10021,
+        "name": "Engulfing Lightning",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-08-31T22:00:00",
+    "end": "2021-09-21T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 37,
+    "version": "2.0.2",
+    "items": [
+      {
+        "id": 119,
+        "itemId": 11502,
+        "name": "Skyward Blade",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 72,
+        "itemId": 15401,
+        "name": "Favonius Warbow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 78,
+        "itemId": 12405,
+        "name": "Rainslasher",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 83,
+        "itemId": 11403,
+        "name": "Sacrificial Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 143,
+        "itemId": -10014,
+        "name": "Thundering Pulse",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-08-10T18:00:00",
+    "end": "2021-08-31T15:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 33,
+    "version": "2.0.1",
+    "items": [
+      {
+        "id": 117,
+        "itemId": 13502,
+        "name": "Skyward Spine",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 79,
+        "itemId": 12403,
+        "name": "Sacrificial Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 144,
+        "itemId": -10015,
+        "name": "Mistsplitter Reforged",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-07-20T23:00:00",
+    "end": "2021-08-10T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 31,
+    "version": "1.6.2",
+    "items": [
+      {
+        "id": 141,
+        "itemId": -10012,
+        "name": "Freedom-Sworn",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 129,
+        "itemId": 14501,
+        "name": "Skyward Atlas",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 81,
+        "itemId": 12401,
+        "name": "Favonius Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 131,
+        "itemId": -10004,
+        "name": "The Alley Flash",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 132,
+        "itemId": -10005,
+        "name": "Wine and Song",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 135,
+        "itemId": -10007,
+        "name": "Alley Hunter",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-06-29T18:00:00",
+    "end": "2021-07-20T15:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 29,
+    "version": "1.6.1",
+    "items": [
+      {
+        "id": 140,
+        "itemId": -10011,
+        "name": "Mitternachts Waltz",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 98,
+        "itemId": 14502,
+        "name": "Lost Prayer to the Sacred Winds",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 118,
+        "itemId": 12501,
+        "name": "Skyward Pride",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-06-08T22:00:00",
+    "end": "2021-06-29T16:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 27,
+    "version": "1.5.2",
+    "items": [
+      {
+        "id": 102,
+        "itemId": 11501,
+        "name": "Aquila Favonia",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 70,
+        "itemId": 15405,
+        "name": "Rust",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 78,
+        "itemId": 12405,
+        "name": "Rainslasher",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 83,
+        "itemId": 11403,
+        "name": "Sacrificial Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 139,
+        "itemId": -10010,
+        "name": "Song of Broken Pines",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-05-18T18:00:00",
+    "end": "2021-06-08T15:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 25,
+    "version": "1.5.1",
+    "items": [
+      {
+        "id": 109,
+        "itemId": 14504,
+        "name": "Memory of Dust",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 122,
+        "itemId": 11504,
+        "name": "Summit Shaper",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 71,
+        "itemId": 15403,
+        "name": "Sacrificial Bow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 115,
+        "itemId": 14409,
+        "name": "Eye of Perception",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 120,
+        "itemId": 13406,
+        "name": "Lithic Spear",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 121,
+        "itemId": 12410,
+        "name": "Lithic Blade",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-04-27T22:00:00",
+    "end": "2021-05-18T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 23,
+    "version": "1.4.2",
+    "items": [
+      {
+        "id": 98,
+        "itemId": 14502,
+        "name": "Lost Prayer to the Sacred Winds",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 128,
+        "itemId": 15501,
+        "name": "Skyward Harp",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 79,
+        "itemId": 12403,
+        "name": "Sacrificial Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 135,
+        "itemId": -10007,
+        "name": "Alley Hunter",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-04-06T18:00:00",
+    "end": "2021-04-27T21:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 20,
+    "version": "1.4.1",
+    "items": [
+      {
+        "id": 119,
+        "itemId": 11502,
+        "name": "Skyward Blade",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 133,
+        "itemId": -10003,
+        "name": "Elegy for the End",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 72,
+        "itemId": 15401,
+        "name": "Favonius Warbow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 81,
+        "itemId": 12401,
+        "name": "Favonius Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 131,
+        "itemId": -10004,
+        "name": "The Alley Flash",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 132,
+        "itemId": -10005,
+        "name": "Wine and Song",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-03-17T02:00:00",
+    "end": "2021-04-06T17:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 19,
+    "version": "1.3.2",
+    "items": [
+      {
+        "id": 99,
+        "itemId": 12502,
+        "name": "Wolf's Gravestone",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 126,
+        "itemId": -10001,
+        "name": "Staff of Homa",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 71,
+        "itemId": 15403,
+        "name": "Sacrificial Bow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 120,
+        "itemId": 13406,
+        "name": "Lithic Spear",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 121,
+        "itemId": 12410,
+        "name": "Lithic Blade",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-02-23T18:00:00",
+    "end": "2021-03-17T01:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 16,
+    "version": "1.3.1",
+    "items": [
+      {
+        "id": 101,
+        "itemId": 13505,
+        "name": "Primordial Jade Winged-Spear",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 123,
+        "itemId": 11505,
+        "name": "Primordial Jade Cutter",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 70,
+        "itemId": 15405,
+        "name": "Rust",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 79,
+        "itemId": 12403,
+        "name": "Sacrificial Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 115,
+        "itemId": 14409,
+        "name": "Eye of Perception",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-02-03T01:30:00",
+    "end": "2021-02-23T17:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 14,
+    "version": "1.2.2",
+    "items": [
+      {
+        "id": 100,
+        "itemId": 15502,
+        "name": "Amos' Bow",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 118,
+        "itemId": 12501,
+        "name": "Skyward Pride",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 72,
+        "itemId": 15401,
+        "name": "Favonius Warbow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 83,
+        "itemId": 11403,
+        "name": "Sacrificial Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 115,
+        "itemId": 14409,
+        "name": "Eye of Perception",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-01-12T18:00:00",
+    "end": "2021-02-03T00:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 12,
+    "version": "1.2.1",
+    "items": [
+      {
+        "id": 122,
+        "itemId": 11504,
+        "name": "Summit Shaper",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 129,
+        "itemId": 14501,
+        "name": "Skyward Atlas",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 81,
+        "itemId": 12401,
+        "name": "Favonius Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-12-23T02:00:00",
+    "end": "2021-01-12T17:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 10,
+    "version": "1.1.2",
+    "items": [
+      {
+        "id": 72,
+        "itemId": 15401,
+        "name": "Favonius Warbow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 108,
+        "itemId": 12504,
+        "name": "The Unforged",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 107,
+        "itemId": 13504,
+        "name": "Vortex Vanquisher",
+        "itemType": "Weapon",
+        "rankType": 5
+      }
+    ],
+    "start": "2020-12-01T18:00:00",
+    "end": "2020-12-23T00:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 8,
+    "version": "1.1.1",
+    "items": [
+      {
+        "id": 109,
+        "itemId": 14504,
+        "name": "Memory of Dust",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 128,
+        "itemId": 15501,
+        "name": "Skyward Harp",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 70,
+        "itemId": 15405,
+        "name": "Rust",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 78,
+        "itemId": 12405,
+        "name": "Rainslasher",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 115,
+        "itemId": 14409,
+        "name": "Eye of Perception",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-11-11T02:00:00",
+    "end": "2020-11-30T17:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 6,
+    "version": "1.0.2",
+    "items": [
+      {
+        "id": 98,
+        "itemId": 14502,
+        "name": "Lost Prayer to the Sacred Winds",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 99,
+        "itemId": 12502,
+        "name": "Wolf's Gravestone",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 71,
+        "itemId": 15403,
+        "name": "Sacrificial Bow",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 79,
+        "itemId": 12403,
+        "name": "Sacrificial Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 83,
+        "itemId": 11403,
+        "name": "Sacrificial Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-10-20T18:00:00",
+    "end": "2020-11-11T00:00:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
+    "id": 5,
+    "version": "1.0.1",
+    "items": [
+      {
+        "id": 100,
+        "itemId": 15502,
+        "name": "Amos' Bow",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 102,
+        "itemId": 11501,
+        "name": "Aquila Favonia",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-09-27T02:00:00",
+    "end": "2020-10-20T17:00:00",
+    "gachaType": "WEAPON_EVENT"
+  }
+]

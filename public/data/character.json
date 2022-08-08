@@ -1,0 +1,1270 @@
+[
+  {
+    "id": 100017,
+    "version": "2.8.2",
+    "items": [
+      {
+        "id": 146,
+        "itemId": -10017,
+        "name": "Yoimiya",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 162,
+        "itemId": -10032,
+        "name": "Yun Jin",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 65,
+        "itemId": 1032,
+        "name": "Bennett",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 111,
+        "itemId": 1044,
+        "name": "Xinyan",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-08-02T18:00:00",
+    "end": "2022-08-23T14:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },{
+    "id": 100015,
+    "version": "2.8.1",
+    "items": [
+      {
+        "id": 142,
+        "itemId": -10013,
+        "name": "Kaedehara Kazuha",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 103,
+        "itemId": 1029,
+        "name": "Klee",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 66,
+        "itemId": 1027,
+        "name": "Ningguang",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 156,
+        "itemId": -10024,
+        "name": "Thoma",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 0,
+        "itemId": 0,
+        "name": "Shikanoin Heizou",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-07-13T11:00:00",
+    "end": "2022-08-02T17:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },{
+    "id": 100013,
+    "version": "2.7.2",
+    "items": [
+      {
+        "id": 63,
+        "itemId": 1036,
+        "name": "Chongyun",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 160,
+        "itemId": -10030,
+        "name": "Arataki Itto",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 161,
+        "itemId": -10031,
+        "name": "Gorou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 172,
+        "itemId": -10041,
+        "name": "Kuki Shinobu",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-06-21T17:00:00",
+    "end": "2022-07-12T13:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 100011,
+    "version": "2.7.1",
+    "items": [
+      {
+        "id": 56,
+        "itemId": 1014,
+        "name": "Barbara",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 64,
+        "itemId": 1034,
+        "name": "Noelle",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 127,
+        "itemId": -10002,
+        "name": "Xiao",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 137,
+        "itemId": -10008,
+        "name": "Yanfei",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 170,
+        "itemId": -10040,
+        "name": "Yelan",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-05-30T22:30:00",
+    "end": "2022-06-26T16:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 100009,
+    "version": "2.6.2",
+    "items": [
+      {
+        "id": 69,
+        "itemId": 1020,
+        "name": "Razor",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 145,
+        "itemId": -10016,
+        "name": "Kamisato Ayaka",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 134,
+        "itemId": -10006,
+        "name": "Rosaria",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 147,
+        "itemId": -10018,
+        "name": "Sayu",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-04-19T16:00:00",
+    "end": "2022-05-30T22:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 100007,
+    "version": "2.6.1",
+    "items": [
+      {
+        "id": 55,
+        "itemId": 1023,
+        "name": "Xiangling",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 62,
+        "itemId": 1043,
+        "name": "Sucrose",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 162,
+        "itemId": -10032,
+        "name": "Yun Jin",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 53,
+        "itemId": 1022,
+        "name": "Venti",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 167,
+        "itemId": -10037,
+        "name": "Kamisato Ayato",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-03-30T02:00:00",
+    "end": "2022-04-19T16:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 100006,
+    "version": "2.5.2",
+    "items": [
+      {
+        "id": 65,
+        "itemId": 1032,
+        "name": "Bennett",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 111,
+        "itemId": 1044,
+        "name": "Xinyan",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 148,
+        "itemId": -10019,
+        "name": "Raiden Shogun",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 152,
+        "itemId": -10023,
+        "name": "Sangonomiya Kokomi",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 149,
+        "itemId": -10020,
+        "name": "Kujou Sara",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-03-08T18:00:00",
+    "end": "2022-03-29T13:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 100003,
+    "version": "2.5.1",
+    "items": [
+      {
+        "id": 54,
+        "itemId": 1031,
+        "name": "Fischl",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 113,
+        "itemId": 1039,
+        "name": "Diona",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 156,
+        "itemId": -10024,
+        "name": "Thoma",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 165,
+        "itemId": -10035,
+        "name": "Yae Miko",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-02-15T21:00:00",
+    "end": "2022-03-08T16:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 52,
+    "version": "2.4.2",
+    "items": [
+      {
+        "id": 110,
+        "itemId": 1030,
+        "name": "Zhongli",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 125,
+        "itemId": 1037,
+        "name": "Ganyu",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 67,
+        "itemId": 1025,
+        "name": "Xingqiu",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 68,
+        "itemId": 1024,
+        "name": "Beidou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 137,
+        "itemId": -10008,
+        "name": "Yanfei",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-01-25T18:00:00",
+    "end": "2022-02-15T14:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 50,
+    "version": "2.4.1",
+    "items": [
+      {
+        "id": 63,
+        "itemId": 1036,
+        "name": "Chongyun",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 66,
+        "itemId": 1027,
+        "name": "Ningguang",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 127,
+        "itemId": -10002,
+        "name": "Xiao",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 162,
+        "itemId": -10032,
+        "name": "Yun Jin",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 163,
+        "itemId": -10033,
+        "name": "Shenhe",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2022-01-04T23:00:00",
+    "end": "2022-01-21T17:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 48,
+    "version": "2.3.2",
+    "items": [
+      {
+        "id": 55,
+        "itemId": 1023,
+        "name": "Xiangling",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 56,
+        "itemId": 1014,
+        "name": "Barbara",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 160,
+        "itemId": -10030,
+        "name": "Arataki Itto",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 161,
+        "itemId": -10031,
+        "name": "Gorou",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-12-14T18:00:00",
+    "end": "2022-01-04T14:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 46,
+    "version": "2.3.1",
+    "items": [
+      {
+        "id": 124,
+        "itemId": 1038,
+        "name": "Albedo",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 64,
+        "itemId": 1034,
+        "name": "Noelle",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 65,
+        "itemId": 1032,
+        "name": "Bennett",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 134,
+        "itemId": -10006,
+        "name": "Rosaria",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 138,
+        "itemId": -10009,
+        "name": "Eula",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-11-23T22:00:00",
+    "end": "2021-12-14T17:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 44,
+    "version": "2.2.2",
+    "items": [
+      {
+        "id": 113,
+        "itemId": 1039,
+        "name": "Diona",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 147,
+        "itemId": -10018,
+        "name": "Sayu",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 130,
+        "itemId": 1046,
+        "name": "Hu Tao",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 156,
+        "itemId": -10024,
+        "name": "Thoma",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-11-02T17:00:00",
+    "end": "2021-11-23T13:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 42,
+    "version": "2.2.1",
+    "items": [
+      {
+        "id": 112,
+        "itemId": 1033,
+        "name": "Tartaglia",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 63,
+        "itemId": 1036,
+        "name": "Chongyun",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 66,
+        "itemId": 1027,
+        "name": "Ningguang",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 137,
+        "itemId": -10008,
+        "name": "Yanfei",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-10-13T01:00:00",
+    "end": "2021-11-02T16:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 40,
+    "version": "2.1.2",
+    "items": [
+      {
+        "id": 67,
+        "itemId": 1025,
+        "name": "Xingqiu",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 68,
+        "itemId": 1024,
+        "name": "Beidou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 134,
+        "itemId": -10006,
+        "name": "Rosaria",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 152,
+        "itemId": -10023,
+        "name": "Sangonomiya Kokomi",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-09-21T18:00:00",
+    "end": "2021-10-12T13:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 38,
+    "version": "2.1.1",
+    "items": [
+      {
+        "id": 55,
+        "itemId": 1023,
+        "name": "Xiangling",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 62,
+        "itemId": 1043,
+        "name": "Sucrose",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 148,
+        "itemId": -10019,
+        "name": "Raiden Shogun",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 149,
+        "itemId": -10020,
+        "name": "Kujou Sara",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-08-31T22:00:00",
+    "end": "2021-09-21T17:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 36,
+    "version": "2.0.2",
+    "items": [
+      {
+        "id": 111,
+        "itemId": 1044,
+        "name": "Xinyan",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 113,
+        "itemId": 1039,
+        "name": "Diona",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 146,
+        "itemId": -10017,
+        "name": "Yoimiya",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 147,
+        "itemId": -10018,
+        "name": "Sayu",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-08-10T18:00:00",
+    "end": "2021-08-31T15:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 32,
+    "version": "2.0.1",
+    "items": [
+      {
+        "id": 63,
+        "itemId": 1036,
+        "name": "Chongyun",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 66,
+        "itemId": 1027,
+        "name": "Ningguang",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 145,
+        "itemId": -10016,
+        "name": "Kamisato Ayaka",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 137,
+        "itemId": -10008,
+        "name": "Yanfei",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-07-20T23:00:00",
+    "end": "2021-08-10T17:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 30,
+    "version": "1.6.2",
+    "items": [
+      {
+        "id": 65,
+        "itemId": 1032,
+        "name": "Bennett",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 69,
+        "itemId": 1020,
+        "name": "Razor",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 142,
+        "itemId": -10013,
+        "name": "Kaedehara Kazuha",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 134,
+        "itemId": -10006,
+        "name": "Rosaria",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-06-29T18:00:00",
+    "end": "2021-07-20T15:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 28,
+    "version": "1.6.1",
+    "items": [
+      {
+        "id": 103,
+        "itemId": 1029,
+        "name": "Klee",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 54,
+        "itemId": 1031,
+        "name": "Fischl",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 56,
+        "itemId": 1014,
+        "name": "Barbara",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 62,
+        "itemId": 1043,
+        "name": "Sucrose",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-06-08T22:00:00",
+    "end": "2021-06-29T16:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 26,
+    "version": "1.5.2",
+    "items": [
+      {
+        "id": 67,
+        "itemId": 1025,
+        "name": "Xingqiu",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 68,
+        "itemId": 1024,
+        "name": "Beidou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 111,
+        "itemId": 1044,
+        "name": "Xinyan",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 138,
+        "itemId": -10009,
+        "name": "Eula",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-05-18T18:00:00",
+    "end": "2021-06-08T13:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 24,
+    "version": "1.5.1",
+    "items": [
+      {
+        "id": 110,
+        "itemId": 1030,
+        "name": "Zhongli",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 64,
+        "itemId": 1034,
+        "name": "Noelle",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 113,
+        "itemId": 1039,
+        "name": "Diona",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 137,
+        "itemId": -10008,
+        "name": "Yanfei",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-04-27T22:00:00",
+    "end": "2021-05-18T17:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 22,
+    "version": "1.4.2",
+    "items": [
+      {
+        "id": 112,
+        "itemId": 1033,
+        "name": "Tartaglia",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 54,
+        "itemId": 1031,
+        "name": "Fischl",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 56,
+        "itemId": 1014,
+        "name": "Barbara",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 134,
+        "itemId": -10006,
+        "name": "Rosaria",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-04-06T18:00:00",
+    "end": "2021-04-27T21:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 21,
+    "version": "1.4.1",
+    "items": [
+      {
+        "id": 62,
+        "itemId": 1043,
+        "name": "Sucrose",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 64,
+        "itemId": 1034,
+        "name": "Noelle",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 69,
+        "itemId": 1020,
+        "name": "Razor",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 53,
+        "itemId": 1022,
+        "name": "Venti",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-03-17T02:00:00",
+    "end": "2021-04-06T17:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 18,
+    "version": "1.3.3",
+    "items": [
+      {
+        "id": 55,
+        "itemId": 1023,
+        "name": "Xiangling",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 63,
+        "itemId": 1036,
+        "name": "Chongyun",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 67,
+        "itemId": 1025,
+        "name": "Xingqiu",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 130,
+        "itemId": 1046,
+        "name": "Hu Tao",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-03-02T18:00:00",
+    "end": "2021-03-17T01:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 17,
+    "version": "1.3.2",
+    "items": [
+      {
+        "id": 57,
+        "itemId": 1042,
+        "name": "Keqing",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 56,
+        "itemId": 1014,
+        "name": "Barbara",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 65,
+        "itemId": 1032,
+        "name": "Bennett",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 66,
+        "itemId": 1027,
+        "name": "Ningguang",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-02-17T18:00:00",
+    "end": "2021-03-02T02:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 15,
+    "version": "1.3.1",
+    "items": [
+      {
+        "id": 68,
+        "itemId": 1024,
+        "name": "Beidou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 111,
+        "itemId": 1044,
+        "name": "Xinyan",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 113,
+        "itemId": 1039,
+        "name": "Diona",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 127,
+        "itemId": -10002,
+        "name": "Xiao",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2021-02-03T01:30:00",
+    "end": "2021-02-17T17:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 13,
+    "version": "1.2.2",
+    "items": [
+      {
+        "id": 125,
+        "itemId": 1037,
+        "name": "Ganyu",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 55,
+        "itemId": 1023,
+        "name": "Xiangling",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 64,
+        "itemId": 1034,
+        "name": "Noelle",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 67,
+        "itemId": 1025,
+        "name": "Xingqiu",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2021-01-12T18:00:00",
+    "end": "2021-02-03T00:30:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 11,
+    "version": "1.2.1",
+    "items": [
+      {
+        "id": 124,
+        "itemId": 1038,
+        "name": "Albedo",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 54,
+        "itemId": 1031,
+        "name": "Fischl",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 62,
+        "itemId": 1043,
+        "name": "Sucrose",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 65,
+        "itemId": 1032,
+        "name": "Bennett",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-12-23T02:00:00",
+    "end": "2021-01-12T17:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 9,
+    "version": "1.1.2",
+    "items": [
+      {
+        "id": 110,
+        "itemId": 1030,
+        "name": "Zhongli",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 63,
+        "itemId": 1036,
+        "name": "Chongyun",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 69,
+        "itemId": 1020,
+        "name": "Razor",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 111,
+        "itemId": 1044,
+        "name": "Xinyan",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-12-01T18:00:00",
+    "end": "2020-12-23T00:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 7,
+    "version": "1.1.1",
+    "items": [
+      {
+        "id": 112,
+        "itemId": 1033,
+        "name": "Tartaglia",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 66,
+        "itemId": 1027,
+        "name": "Ningguang",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 68,
+        "itemId": 1024,
+        "name": "Beidou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 113,
+        "itemId": 1039,
+        "name": "Diona",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-11-11T02:00:00",
+    "end": "2020-12-01T17:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 4,
+    "version": "1.0.2",
+    "items": [
+      {
+        "id": 103,
+        "itemId": 1029,
+        "name": "Klee",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 62,
+        "itemId": 1043,
+        "name": "Sucrose",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 64,
+        "itemId": 1034,
+        "name": "Noelle",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 67,
+        "itemId": 1025,
+        "name": "Xingqiu",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2020-10-20T18:00:00",
+    "end": "2020-11-11T00:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
+    "id": 3,
+    "version": "1.0.1",
+    "items": [
+      {
+        "id": 54,
+        "itemId": 1031,
+        "name": "Fischl",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 55,
+        "itemId": 1023,
+        "name": "Xiangling",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 56,
+        "itemId": 1014,
+        "name": "Barbara",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 53,
+        "itemId": 1022,
+        "name": "Venti",
+        "itemType": "Character",
+        "rankType": 5
+      }
+    ],
+    "start": "2020-09-27T02:00:00",
+    "end": "2020-10-20T17:00:00",
+    "gachaType": "CHARACTER_EVENT"
+  }
+]

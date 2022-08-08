@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@types/react': ^17.0.33
@@ -6,6 +6,7 @@ specifiers:
   '@vitejs/plugin-react': ^1.0.7
   autoprefixer: ^10.4.4
   axios: ^0.26.1
+  genshin-db: ^4.1.1
   got: ^10.7.0
   i18next: ^21.6.16
   i18next-browser-languagedetector: ^6.1.4
@@ -28,17 +29,18 @@ specifiers:
 
 dependencies:
   axios: 0.26.1
+  genshin-db: 4.1.1
   got: 10.7.0
   i18next: 21.6.16
   i18next-browser-languagedetector: 6.1.4
   i18next-http-backend: 1.4.0
   moment: 2.29.2
   react: 17.0.2
-  react-device-detect: 2.2.2_react-dom@17.0.2+react@17.0.2
+  react-device-detect: 2.2.2_sfoxds7t5ydpegc3knd667wn6m
   react-dom: 17.0.2_react@17.0.2
   react-github-corner: 2.5.0_react@17.0.2
-  react-i18next: 11.16.6_cd88263d0744b5fa9a18baea0c055d7d
-  react-indiana-drag-scroll: 2.1.0_react-dom@17.0.2+react@17.0.2
+  react-i18next: 11.16.6_zwecmpihis27vgqyxlvaybk5pu
+  react-indiana-drag-scroll: 2.1.0_sfoxds7t5ydpegc3knd667wn6m
   workbox-window: 6.5.3
 
 devDependencies:
@@ -356,6 +358,8 @@ packages:
     resolution: {integrity: sha512-vqUSBLP8dQHFPdPi9bc5GK9vRkYHJ49fsZdtoJ8EQ8ibpwk5rPKfvNIwChB0KVXcIjcepEBBd2VHC5r9Gy8ueg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.17.0
     dev: true
 
   /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.16.7_@babel+core@7.17.9:
@@ -1389,7 +1393,7 @@ packages:
       '@octokit/openapi-types': 11.2.0
     dev: true
 
-  /@rollup/plugin-babel/5.3.1_@babel+core@7.17.9+rollup@2.70.1:
+  /@rollup/plugin-babel/5.3.1_p6bgnjzmwqvrgilysw56ndqcdu:
     resolution: {integrity: sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
@@ -2458,6 +2462,17 @@ packages:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
     dev: true
 
+  /fuzzysort/1.9.0:
+    resolution: {integrity: sha512-MOxCT0qLTwLqmEwc7UtU045RKef7mc8Qz8eR4r2bLNEq9dy/c3ZKMEFp6IEst69otkQdFZ4FfgH2dmZD+ddX1g==}
+    dev: false
+
+  /genshin-db/4.1.1:
+    resolution: {integrity: sha512-/HV15INhCwVwwgaKpAWdzWs0+c9QSnI7ZVGiCumapYKvc/VWj5BnFy+ds0oBYBFcQuM46ezrmSFDOHWOpt8mKw==}
+    dependencies:
+      fuzzysort: 1.9.0
+      pako: 2.0.4
+    dev: false
+
   /gensync/1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
     engines: {node: '>=6.9.0'}
@@ -2533,6 +2548,8 @@ packages:
       '@sindresorhus/is': 2.1.1
       '@szmarczak/http-timer': 4.0.6
       '@types/cacheable-request': 6.0.2
+      '@types/keyv': 3.1.4
+      '@types/responselike': 1.0.0
       cacheable-lookup: 2.0.1
       cacheable-request: 7.0.2
       decompress-response: 5.0.0
@@ -3108,6 +3125,10 @@ packages:
       p-finally: 1.0.0
     dev: false
 
+  /pako/2.0.4:
+    resolution: {integrity: sha512-v8tweI900AUkZN6heMU/4Uy4cXRc2AYNRggVmTR+dEncawDJgCdLMximOVA2p4qO57WMynangsfGRb5WD6L1Bg==}
+    dev: false
+
   /parent-module/1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
@@ -3251,7 +3272,7 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /react-device-detect/2.2.2_react-dom@17.0.2+react@17.0.2:
+  /react-device-detect/2.2.2_sfoxds7t5ydpegc3knd667wn6m:
     resolution: {integrity: sha512-zSN1gIAztUekp5qUT/ybHwQ9fmOqVT1psxpSlTn1pe0CO+fnJHKRLOWWac5nKxOxvOpD/w84hk1I+EydrJp7SA==}
     peerDependencies:
       react: '>= 0.14.0'
@@ -3282,7 +3303,7 @@ packages:
       react: 17.0.2
     dev: false
 
-  /react-i18next/11.16.6_cd88263d0744b5fa9a18baea0c055d7d:
+  /react-i18next/11.16.6_zwecmpihis27vgqyxlvaybk5pu:
     resolution: {integrity: sha512-qa76GnvAPafNSxKNN/XMhdCkVN/9Lm+BpzW5+6FE2ctYUemhbglP7oklGmYiJXlG24p9itqzlJDbCi3SNd3jzA==}
     peerDependencies:
       i18next: '>= 19.0.0'
@@ -3303,7 +3324,7 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /react-indiana-drag-scroll/2.1.0_react-dom@17.0.2+react@17.0.2:
+  /react-indiana-drag-scroll/2.1.0_sfoxds7t5ydpegc3knd667wn6m:
     resolution: {integrity: sha512-Tj94Dv9PkmoKqc9nxK/dzwhtE8pP7NTxmeHqkD8KN0zad1NNE+/JsvRcK4EdqE6CdA2nMESzqPMvv1AzRXdBew==}
     engines: {node: '>=8', npm: '>=5'}
     peerDependencies:
@@ -3939,7 +3960,7 @@ packages:
       '@babel/core': 7.17.9
       '@babel/preset-env': 7.16.11_@babel+core@7.17.9
       '@babel/runtime': 7.17.9
-      '@rollup/plugin-babel': 5.3.1_@babel+core@7.17.9+rollup@2.70.1
+      '@rollup/plugin-babel': 5.3.1_p6bgnjzmwqvrgilysw56ndqcdu
       '@rollup/plugin-node-resolve': 11.2.1_rollup@2.70.1
       '@rollup/plugin-replace': 2.4.2_rollup@2.70.1
       '@surma/rollup-plugin-off-main-thread': 2.2.3

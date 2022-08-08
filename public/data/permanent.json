@@ -1,0 +1,228 @@
+{
+  "countPerItemId": [
+    {
+      "itemId": 1020,
+      "count": 132348
+    },
+    {
+      "itemId": 1025,
+      "count": 132230
+    },
+    {
+      "itemId": 1043,
+      "count": 132141
+    },
+    {
+      "itemId": 1006,
+      "count": 132014
+    },
+    {
+      "itemId": 1036,
+      "count": 131945
+    },
+    {
+      "itemId": 1031,
+      "count": 131918
+    },
+    {
+      "itemId": 1034,
+      "count": 131912
+    },
+    {
+      "itemId": 1024,
+      "count": 131760
+    },
+    {
+      "itemId": 1027,
+      "count": 131756
+    },
+    {
+      "itemId": 1014,
+      "count": 131570
+    },
+    {
+      "itemId": 1021,
+      "count": 131436
+    },
+    {
+      "itemId": 1032,
+      "count": 131434
+    },
+    {
+      "itemId": 1015,
+      "count": 131244
+    },
+    {
+      "itemId": 1023,
+      "count": 130890
+    },
+    {
+      "itemId": 12403,
+      "count": 130790
+    },
+    {
+      "itemId": 13401,
+      "count": 130709
+    },
+    {
+      "itemId": 14403,
+      "count": 130556
+    },
+    {
+      "itemId": 14401,
+      "count": 130494
+    },
+    {
+      "itemId": 15405,
+      "count": 130364
+    },
+    {
+      "itemId": 11402,
+      "count": 130258
+    },
+    {
+      "itemId": 11403,
+      "count": 130220
+    },
+    {
+      "itemId": 15402,
+      "count": 130211
+    },
+    {
+      "itemId": 12401,
+      "count": 130199
+    },
+    {
+      "itemId": 14402,
+      "count": 130184
+    },
+    {
+      "itemId": 15401,
+      "count": 130122
+    },
+    {
+      "itemId": 15403,
+      "count": 130026
+    },
+    {
+      "itemId": 12405,
+      "count": 130021
+    },
+    {
+      "itemId": 13407,
+      "count": 130005
+    },
+    {
+      "itemId": 11405,
+      "count": 129937
+    },
+    {
+      "itemId": 12402,
+      "count": 129696
+    },
+    {
+      "itemId": 11401,
+      "count": 129582
+    },
+    {
+      "itemId": 14409,
+      "count": 129474
+    },
+    {
+      "itemId": 1039,
+      "count": 128043
+    },
+    {
+      "itemId": 1044,
+      "count": 127824
+    },
+    {
+      "itemId": -10006,
+      "count": 96705
+    },
+    {
+      "itemId": -10008,
+      "count": 78780
+    },
+    {
+      "itemId": -10018,
+      "count": 37944
+    },
+    {
+      "itemId": 1016,
+      "count": 28271
+    },
+    {
+      "itemId": 1003,
+      "count": 28199
+    },
+    {
+      "itemId": 1041,
+      "count": 27977
+    },
+    {
+      "itemId": 1042,
+      "count": 27887
+    },
+    {
+      "itemId": 1035,
+      "count": 27617
+    },
+    {
+      "itemId": -10020,
+      "count": 16836
+    },
+    {
+      "itemId": 15501,
+      "count": 14266
+    },
+    {
+      "itemId": 15502,
+      "count": 14250
+    },
+    {
+      "itemId": 13505,
+      "count": 14238
+    },
+    {
+      "itemId": 12502,
+      "count": 14201
+    },
+    {
+      "itemId": 11501,
+      "count": 14098
+    },
+    {
+      "itemId": 12501,
+      "count": 14002
+    },
+    {
+      "itemId": 14502,
+      "count": 13989
+    },
+    {
+      "itemId": 14501,
+      "count": 13961
+    },
+    {
+      "itemId": 11502,
+      "count": 13733
+    },
+    {
+      "itemId": 13502,
+      "count": 13698
+    },
+    {
+      "itemId": -10024,
+      "count": 6107
+    },
+    {
+      "itemId": -10031,
+      "count": 4298
+    },
+    {
+      "itemId": -10032,
+      "count": 2141
+    }
+  ]
+}
