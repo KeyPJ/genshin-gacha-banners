@@ -66,7 +66,7 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            "genshin-db": "https://cdn.jsdelivr.net/npm/genshin-db/+esm",
+            "genshin-db": "https://cdn.jsdelivr.net/npm/@keypj/genshin-db/+esm",
         }
     },
     server: {
