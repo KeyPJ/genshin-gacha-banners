@@ -1,5 +1,63 @@
 [
   {
+    "id": 100020,
+    "version": "3.0.1",
+    "items": [
+      {
+        "id": 15511,
+        "itemId": 15511,
+        "name": "Hunter's Path",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 107,
+        "itemId": 13504,
+        "name": "Vortex Vanquisher",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-08-24T11:00:00",
+    "end": "2022-09-09T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
     "id": 100018,
     "version": "2.8.2",
     "items": [

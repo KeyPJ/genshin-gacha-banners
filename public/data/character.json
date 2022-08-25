@@ -1,5 +1,49 @@
 [
   {
+    "id": 100019,
+    "version": "3.0.1",
+    "items": [
+      {
+        "id": 10000069,
+        "itemId": -10000069,
+        "name": "Tighnari",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 110,
+        "itemId": 1030,
+        "name": "Zhongli",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 10000067,
+        "itemId": 10000067,
+        "name": "Collei",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 113,
+        "itemId": 1039,
+        "name": "Diona",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 54,
+        "itemId": 1031,
+        "name": "Fischl",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-08-24T11:00:00",
+    "end": "2022-09-09T17:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
     "id": 100017,
     "version": "2.8.2",
     "items": [

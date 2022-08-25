@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.26.1",
-    "genshin-db": "^4.1.1",
-    "got": "^10.7.0",
+    "genshin-db": "^4.3.0",
     "i18next": "^21.6.16",
     "i18next-browser-languagedetector": "^6.1.4",
     "i18next-http-backend": "^1.4.0",
