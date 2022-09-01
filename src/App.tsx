@@ -50,7 +50,7 @@ function App() {
 
     useEffect(() => {
         let s = itemType.value.toLowerCase();
-        axios.get(`/data/${s}.json/`).then(
+        axios.get(`/data/${s}.json`).then(
             res => {
                 const resData = res.data as gachaData[];
                 setData(resData.reverse())
