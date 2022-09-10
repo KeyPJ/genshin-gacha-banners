@@ -1,5 +1,48 @@
 [
   {
+    "id": 100021,
+    "version": "3.0.2",
+    "items": [
+      {
+        "id": 152,
+        "itemId": -10023,
+        "name": "Sangonomiya Kokomi",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 125,
+        "itemId": 1037,
+        "name": "Ganyu",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 10000068,
+        "itemId": 10000068,
+        "name": "Dori",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 62,
+        "itemId": 1043,
+        "name": "Sucrose",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 67,
+        "itemId": 1025,
+        "name": "Xingqiu",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-09-09T18:00:00",
+    "end": "2022-09-27T14:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },{
     "id": 100019,
     "version": "3.0.1",
     "items": [
