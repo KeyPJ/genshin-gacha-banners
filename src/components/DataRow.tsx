@@ -78,6 +78,18 @@ export default function DataRow(props: IProps) {
         .concat(data.length - 1);
 
 
+    const isPermanent = (item: Item) => {
+        if (item.itemType == "Character") {
+            if (item.rankType == 5) {
+                return commonItemId.includes(item.itemId);
+            }
+        }
+        if (item.itemType == "Weapon") {
+            return commonItemId.includes(item.itemId);
+        }
+        return true;
+    };
+
     return (
         <div className={"flex flex-row shrink-0 w-fit"}>
             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
@@ -89,7 +101,7 @@ export default function DataRow(props: IProps) {
             <div
                 className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-xs whitespace-pre-line")}>
                 <div>
-                    {commonItemId.includes(item.itemId) && <>{t("permanent")}<br/></>}
+                    {isPermanent(item) && <>{t("permanent")}<br/></>}
                     {findIndex == 0 ? t("pickUp") : t("sinceLastPickUp", {findIndex, days})}
                 </div>
             </div>

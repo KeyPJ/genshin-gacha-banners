@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/proxy"
-    },
-    {
       "source": "/game_record/(.*)",
       "destination": "https://upload-os-bbs.mihoyo.com/game_record/$1"
     }
