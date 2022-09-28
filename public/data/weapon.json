@@ -1,5 +1,63 @@
 [
   {
+    "id": 100024,
+    "version": "3.1.1",
+    "items": [
+      {
+        "id": -3,
+        "itemId": -3,
+        "name": "Staff of the Scarlet Sands",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 133,
+        "itemId": -10003,
+        "name": "Elegy for the End",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": -4,
+        "itemId": -4,
+        "name": "Makhaira Aquamarine",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 82,
+        "itemId": 11405,
+        "name": "Lion's Roar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 73,
+        "itemId": 14403,
+        "name": "Sacrificial Fragments",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 72,
+        "itemId": 15401,
+        "name": "Favonius Warbow",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-09-28T11:00:00",
+    "end": "2022-10-04T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
     "id": 100022,
     "version": "3.0.2",
     "items": [
@@ -56,7 +114,8 @@
     "start": "2022-09-09T18:00:00",
     "end": "2022-09-27T14:59:00",
     "gachaType": "WEAPON_EVENT"
-  },{
+  },
+  {
     "id": 100020,
     "version": "3.0.1",
     "items": [
@@ -171,7 +230,8 @@
     "start": "2022-08-02T18:00:00",
     "end": "2022-08-23T14:59:00",
     "gachaType": "WEAPON_EVENT"
-  },{
+  },
+  {
     "id": 100016,
     "version": "2.8.1",
     "items": [
@@ -225,10 +285,11 @@
         "rankType": 4
       }
     ],
-  "start": "2022-07-13T11:00:00",
-  "end": "2022-08-02T17:59:00",
+    "start": "2022-07-13T11:00:00",
+    "end": "2022-08-02T17:59:00",
     "gachaType": "WEAPON_EVENT"
-  },{
+  },
+  {
     "id": 100014,
     "version": "2.7.2",
     "items": [
