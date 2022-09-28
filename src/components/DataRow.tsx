@@ -24,12 +24,12 @@ const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
 
 const getImageUrl = (name: string, itemType: string) => {
     if (itemType == "Character") {
-        const {images: {icon: icon}} = genshindb.characters(name) as Character
+        const {images: {icon: icon}} = genshindb.characters(name) as Character || {images: {icon: ""}}
         if (icon) {
             return icon.replace("https://upload-os-bbs.mihoyo.com/", "");
         }
     } else if (itemType == "Weapon") {
-        const {images: {icon}} = genshindb.weapons(name) as Weapon;
+        const {images: {icon}} = genshindb.weapons(name) as Weapon || {images: {icon: ""}}
         return icon.replace("https://upload-os-bbs.mihoyo.com/", "");
     }
     return "";
