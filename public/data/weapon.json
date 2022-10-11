@@ -4,8 +4,8 @@
     "version": "3.1.1",
     "items": [
       {
-        "id": -3,
-        "itemId": -3,
+        "id": 13511,
+        "itemId": 13511,
         "name": "Staff of the Scarlet Sands",
         "itemType": "Weapon",
         "rankType": 5
@@ -18,8 +18,8 @@
         "rankType": 5
       },
       {
-        "id": -4,
-        "itemId": -4,
+        "id": 12415,
+        "itemId": 12415,
         "name": "Makhaira Aquamarine",
         "itemType": "Weapon",
         "rankType": 4
