@@ -4,8 +4,8 @@
     "version": "3.1.1",
     "items": [
       {
-        "id": -1,
-        "itemId": -1,
+        "id": 10000071,
+        "itemId": 10000071,
         "name": "Cyno",
         "itemType": "Character",
         "rankType": 5
@@ -18,8 +18,8 @@
         "rankType": 5
       },
       {
-        "id": -2,
-        "itemId": -2,
+        "id": 10000072,
+        "itemId": 10000072,
         "name": "Candace",
         "itemType": "Character",
         "rankType": 4
