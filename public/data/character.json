@@ -1,5 +1,49 @@
 [
   {
+    "id": 100025,
+    "version": "3.1.2",
+    "items": [
+      {
+        "id": 10000070,
+        "itemId": 10000070,
+        "name": "Nilou",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 124,
+        "itemId": 1038,
+        "name": "Albedo",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 56,
+        "itemId": 1014,
+        "name": "Barbara",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 68,
+        "itemId": 1024,
+        "name": "Beidou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 55,
+        "itemId": 1023,
+        "name": "Xiangling",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-10-14T18:00:00",
+    "end": "2022-11-01T14:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
     "id": 100023,
     "version": "3.1.1",
     "items": [

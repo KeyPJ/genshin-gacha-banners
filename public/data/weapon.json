@@ -1,5 +1,63 @@
 [
   {
+    "id": 100026,
+    "version": "3.1.2",
+    "items": [
+      {
+        "id": 11511,
+        "itemId": 11511,
+        "name": "Key of Khaj-Nisut",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 123,
+        "itemId": 11505,
+        "name": "Primordial Jade Cutter",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 11418,
+        "itemId": 11418,
+        "name": "Xiphos’ Moonlight",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 14416,
+        "itemId": 14416,
+        "name": "Wandering Evenstar",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 78,
+        "itemId": 12405,
+        "name": "Rainslasher",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 71,
+        "itemId": 15403,
+        "name": "Sacrificial Bow",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-10-14T18:00:00",
+    "end": "2022-11-01T14:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
     "id": 100024,
     "version": "3.1.1",
     "items": [
