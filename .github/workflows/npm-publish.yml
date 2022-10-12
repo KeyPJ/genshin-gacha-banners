@@ -18,6 +18,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: sed -i '2c "name":"@keypj/genshin-db",' package.json
+      - run: sed -i '1i Just publish for [genshin-gacha-banners](https://genshin-gacha-banners.vercel.app/)  Refer to [GithubAction](https://github.com/KeyPJ/genshin-gacha-banners/blob/master/.github/workflows/npm-publish.yml)' readme.md
       - run: npm ci
       - run: npm run build english chinesesimplified  characters weapons 
       - run: npm publish --access public
