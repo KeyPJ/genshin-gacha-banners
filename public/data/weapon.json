@@ -1,5 +1,63 @@
 [
   {
+    "id": 100028,
+    "version": "3.2.1",
+    "items": [
+      {
+        "id": 14511,
+        "itemId": 14511,
+        "name": "A Thousand Floating Dreams",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 143,
+        "itemId": -10014,
+        "name": "Thundering Pulse",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 116,
+        "itemId": 11402,
+        "name": "The Flute",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 79,
+        "itemId": 12403,
+        "name": "Sacrificial Greatsword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 76,
+        "itemId": 13407,
+        "name": "Favonius Lance",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 74,
+        "itemId": 14402,
+        "name": "The Widsith",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 70,
+        "itemId": 15405,
+        "name": "Rust",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-11-02T11:00:00",
+    "end": "2022-11-18T17:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
     "id": 100026,
     "version": "3.1.2",
     "items": [
