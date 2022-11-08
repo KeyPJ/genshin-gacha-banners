@@ -1,13 +1,17 @@
 import {gachaData, Item} from "genshin-wishes";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import ScrollContainer from 'react-indiana-drag-scroll'
 import {isMobile} from 'react-device-detect';
 import FirstRow from "./FirstRow";
 import DataRow from "./DataRow";
+import genshindb, {Character, Weapon} from "genshin-db";
+import {useTranslation} from "react-i18next";
 
 interface IProps {
     rankType: number[],
-    setRankType: Function
+    setRankType: Function,
+    weaponType: string[],
+    setWeaponType: Function,
     data: gachaData[],
     currentGachaItemId: number[],
     setCurrentGachaItemId: Function;
@@ -20,10 +24,23 @@ const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
     return data.map(gacha => gacha.items.map(i => i.itemId).includes(itemId)).reverse().findIndex(tf => tf);
 };
 
+const getWeapontype = (name: string, itemType: string) => {
+    if (itemType == "Character") {
+        const {weapontype} = genshindb.characters(name) as Character || {weapontype: ""}
+        return weapontype;
+    } else if (itemType == "Weapon") {
+        const {weapontype} = genshindb.weapons(name) as Weapon || {weapontype: ""}
+        return weapontype;
+    }
+    return "";
+}
+
 export default function BannersShow(props: IProps) {
     const {
         rankType,
         setRankType,
+        weaponType,
+        setWeaponType,
         data,
         currentGachaItemId,
         setCurrentGachaItemId,
@@ -45,7 +62,11 @@ export default function BannersShow(props: IProps) {
                 }
                 return accumulator
             }, [])
-        .filter(item => rankType.includes(item.rankType) && (currentGachaItemId.length == 0 || currentGachaItemId.includes(item.itemId)))
+        .filter(
+            item => rankType.includes(item.rankType)
+                && (weaponType.includes(getWeapontype(item.name, item.itemType)))
+                && (currentGachaItemId.length == 0 || currentGachaItemId.includes(item.itemId))
+        )
         .sort((a, b) => {
             let findIndexA = getFindLatestIndex(data, a.itemId);
             let findIndexB = getFindLatestIndex(data, b.itemId);
@@ -53,7 +74,13 @@ export default function BannersShow(props: IProps) {
         })
         .sort((b, a) => currentGachaItemId.length == 0 ? 1 : a.rankType - b.rankType)
 
-    console.log(columnItems);
+    const {t} = useTranslation();
+    useEffect(() => {
+        if (columnItems.length == 0) {
+            setRankType({name: t("ALL"), value: "4,5"});
+            setWeaponType({name: t("ALL"), value: "Sword,Claymore,Polearm,Bow,Catalyst"})
+        }
+    }, [columnItems.length])
 
     const numbers = data.map(a => a.items.map(i => i.itemId).join(",")).join(",").split(",").map(
         id => getFindLatestIndex(data, +id)

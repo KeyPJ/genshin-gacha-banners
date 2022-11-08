@@ -44,9 +44,19 @@ function App() {
         {name: "☆☆☆☆", value: "4"},
     ]
 
+    const weaponTypeList: Option[] = [
+        {name: t("ALL"), value: "Sword,Claymore,Polearm,Bow,Catalyst"},
+        {name: t("Sword"), value: "Sword"},
+        {name: t("Claymore"), value: "Claymore"},
+        {name: t("Polearm"), value: "Polearm"},
+        {name: t("Bow"), value: "Bow"},
+        {name: t("Catalyst"), value: "Catalyst"},
+    ]
+
 
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
+    const [weaponType, setWeaponType] = useState(weaponTypeList[0]);
 
     useEffect(() => {
         let s = itemType.value.toLowerCase();
@@ -87,8 +97,15 @@ function App() {
         i18n.changeLanguage(value)
     }
 
-    console.log("i18n.language");
-    console.log(i18n.language);
+    const elements = weaponTypeList.map(rank => {
+        return <div key={rank.value}
+                    className={classNames(classToSelect, rank.value == weaponType.value ? classSelected : "")}
+                    onClick={() => {
+                        setWeaponType(rank)
+                        setShowGachaIndex([])
+                    }}>{rank.name}</div>
+    })
+    elements.splice(3, 0, <div/>);
 
     return (
         <div className="App flex flex-col justify-between">
@@ -118,12 +135,18 @@ function App() {
                                     }}>{rank.name}</div>
                     })
                 }
+                <div className="text-right">{t("weaponType")}</div>
+                {
+                    elements
+                }
             </div>
-            {!isMobile&&<div className="text-center text-sm">❕{t("notice")}❕</div>}
+            {!isMobile && <div className="text-center text-sm">❕{t("notice")}❕</div>}
             <BannersShow
                 data={data}
                 rankType={rankType.value.split(",").map(i => +i)}
                 setRankType={setRankType}
+                weaponType={weaponType.value.split(",")}
+                setWeaponType={setWeaponType}
                 currentGachaItemId={currentGachaItemId}
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
