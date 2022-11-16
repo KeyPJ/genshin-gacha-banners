@@ -155,7 +155,8 @@ function App() {
             />
             <div className="flex flex-row justify-center text-center my-4">
                 <div>{t("credit")}</div>
-                <div className="w-40 underline"><a href={"https://genshin-wishes.com/"}>Genshin Wishes</a></div>
+                <div className="w-40 line-through"><a href={"https://genshin-wishes.com/"}>Genshin Wishes</a></div>
+                <div>{t("creditText")}</div>
 
             </div>
             <div className="flex flex-row justify-center text-center mb-4">

@@ -1,5 +1,63 @@
 [
   {
+    "id": 100030,
+    "version": "3.2.2",
+    "items": [
+      {
+        "id": 166,
+        "itemId": -10036,
+        "name": "Kagura's Verity",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 154,
+        "itemId": -10025,
+        "name": "Polar Star",
+        "itemType": "Weapon",
+        "rankType": 5
+      },
+      {
+        "id": 84,
+        "itemId": 11401,
+        "name": "Favonius Sword",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 80,
+        "itemId": 12402,
+        "name": "The Bell",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 77,
+        "itemId": 13401,
+        "name": "Dragon's Bane",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 75,
+        "itemId": 14401,
+        "name": "Favonius Codex",
+        "itemType": "Weapon",
+        "rankType": 4
+      },
+      {
+        "id": 114,
+        "itemId": 15402,
+        "name": "The Stringless",
+        "itemType": "Weapon",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-11-18T18:00:00",
+    "end": "2022-12-06T14:59:00",
+    "gachaType": "WEAPON_EVENT"
+  },
+  {
     "id": 100028,
     "version": "3.2.1",
     "items": [

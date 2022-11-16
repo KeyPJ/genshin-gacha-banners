@@ -3,6 +3,7 @@
   "CharacterText": "Character",
   "WeaponText": "Weapon",
   "credit": "Credit To ",
+  "creditText": "(no longer update), update manually",
   "itemType": "Type:",
   "language": "Language:",
   "notice": "Drag the table to horizontal scroll",
