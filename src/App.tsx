@@ -9,6 +9,7 @@ import GithubCorner from "react-github-corner";
 import {useTranslation} from "react-i18next";
 import {isMobile} from "react-device-detect";
 import genshindb from "genshin-db";
+import {inject} from "@vercel/analytics";
 
 interface Option {
     name: string,
@@ -146,6 +147,7 @@ function App() {
                 setCommonItemId(itemIds);
             }
         )
+        inject();
     }, [])
 
     const classToSelect = "bg-white shadow-sm text-gray-900 cursor-pointer"

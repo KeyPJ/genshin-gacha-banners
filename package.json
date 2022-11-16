@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.5",
     "axios": "^0.26.1",
     "genshin-db": "^4.3.2",
     "i18next": "^21.6.16",
