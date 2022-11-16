@@ -1,5 +1,49 @@
 [
   {
+    "id": 100029,
+    "version": "3.2.2",
+    "items": [
+      {
+        "id": 156,
+        "itemId": -10024,
+        "name": "Thoma",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 165,
+        "itemId": -10035,
+        "name": "Yae Miko",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 112,
+        "itemId": 1033,
+        "name": "Tartaglia",
+        "itemType": "Character",
+        "rankType": 5
+      },
+      {
+        "id": 0,
+        "itemId": 0,
+        "name": "Shikanoin Heizou",
+        "itemType": "Character",
+        "rankType": 4
+      },
+      {
+        "id": 10000074,
+        "itemId": 10000074,
+        "name": "Layla",
+        "itemType": "Character",
+        "rankType": 4
+      }
+    ],
+    "start": "2022-11-18T18:00:00",
+    "end": "2022-12-06T14:59:00",
+    "gachaType": "CHARACTER_EVENT"
+  },
+  {
     "id": 100027,
     "version": "3.2.1",
     "items": [
