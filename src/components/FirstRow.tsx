@@ -70,7 +70,7 @@ export default function FirstRow(props: IProps) {
             </div>
             {data.map((gacha, index) => {
                     const {start, end} = gacha;
-                    const key = `0-${gacha.id}`;
+                    const key = `0-${gacha.version}`;
                     if (showGachaIndex.length > 0 && !showGachaIndex.includes(index)) {
                         return <div key={key} className={showIndex.includes(index) ? itemClassName : ""}/>
                     }

@@ -4,7 +4,6 @@ import ScrollContainer from 'react-indiana-drag-scroll'
 import {isMobile} from 'react-device-detect';
 import FirstRow from "./FirstRow";
 import DataRow from "./DataRow";
-import genshindb, {Character, Weapon} from "genshin-db";
 import {useTranslation} from "react-i18next";
 
 interface IProps {
@@ -23,18 +22,6 @@ interface IProps {
 const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
     return data.map(gacha => gacha.items.map(i => i.itemId).includes(itemId)).reverse().findIndex(tf => tf);
 };
-
-const getWeapontype = (name: string, itemType: string) => {
-    if (itemType == "Character") {
-        const {weapontype} = genshindb.characters(name) as Character || {weapontype: ""}
-        return weapontype;
-    } else if (itemType == "Weapon") {
-        const {weapontype} = genshindb.weapons(name) as Weapon || {weapontype: ""}
-        return weapontype;
-    }
-    return "";
-}
-
 export default function BannersShow(props: IProps) {
     const {
         rankType,
@@ -64,7 +51,7 @@ export default function BannersShow(props: IProps) {
             }, [])
         .filter(
             item => rankType.includes(item.rankType)
-                && (weaponType.includes(getWeapontype(item.name, item.itemType)))
+                && (weaponType.includes(item.weaponType))
                 && (currentGachaItemId.length == 0 || currentGachaItemId.includes(item.itemId))
         )
         .sort((a, b) => {
