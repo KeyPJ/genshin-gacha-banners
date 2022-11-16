@@ -1,14 +1,14 @@
 import {useEffect, useState} from 'react'
 import './App.css'
 import BannersShow from "./components/BannersShow";
-import {gachaData} from "genshin-wishes";
+import {gachaData, Item} from "genshin-wishes";
 import axios from "axios";
 
 import {useRegisterSW} from 'virtual:pwa-register/react';
 import GithubCorner from "react-github-corner";
 import {useTranslation} from "react-i18next";
-import i18n from "i18next";
 import {isMobile} from "react-device-detect";
+import genshindb from "genshin-db";
 
 interface Option {
     name: string,
@@ -17,9 +17,55 @@ interface Option {
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
 
+const getInfo = (name: string, itemType: string, language: string) => {
+    let weaponType = '';
+    let imageUrl = '';
+    let rankType = -1;
+    const opts = {
+        dumpResult: false, // The query result will return an object with the properties: query, folder, match, matchtype, options, filename, result.
+        matchNames: true, // Allows the matching of names.
+        matchAltNames: true, // Allows the matching of alternate or custom names.
+        matchAliases: false, // Allows the matching of aliases. These are searchable fields that returns the data object the query matched in.
+        matchCategories: false, // Allows the matching of categories. If true, then returns an array if it matches.
+        verboseCategories: false, // Used if a category is matched. If true, then replaces each string name in the array with the data object instead.
+        queryLanguages: [genshindb.Language.English, genshindb.Language.ChineseSimplified],
+        resultLanguage: genshindb.Language.English
+    }
+    if (itemType == "Character") {
+        let character = genshindb.characters(name, opts) as genshindb.Character;
+        weaponType = character?.weapontype || '';
+        imageUrl = character?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "") || '';
+        rankType = +character?.rarity || -1;
+        if ("zh-CN" == language) {
+            name = genshindb.characters(name, {
+                ...opts,
+                resultLanguage: genshindb.Language.ChineseSimplified
+            })?.fullname || name;
+        }
+    } else if (itemType == "Weapon") {
+        let weapon = genshindb.weapons(name, opts) as genshindb.Weapon;
+        weaponType = weapon?.weapontype || '';
+        imageUrl = weapon?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "") || '';
+        rankType = +weapon?.rarity || -1;
+        if ("zh-CN" == language) {
+            name = genshindb.weapons(name, {
+                ...opts,
+                resultLanguage: genshindb.Language.ChineseSimplified
+            })?.name || name;
+        }
+    }
+    return {
+        weaponType,
+        imageUrl,
+        rankType,
+        itemType,
+        name,
+    } as Item;
+}
+
 function App() {
 
-    const {t} = useTranslation();
+    const {t, i18n} = useTranslation();
 
     const intervalMS = 60 * 60 * 1000
     useRegisterSW({
@@ -58,15 +104,39 @@ function App() {
     const [rankType, setRankType] = useState(rankTypeList[1]);
     const [weaponType, setWeaponType] = useState(weaponTypeList[0]);
 
+    const languages = [
+        {code: "zh-CN", value: "中文"},
+        {code: "en-US", value: "English"}
+    ]
+
+    const [language, setLanguage] = useState('zh-CN')
+
+    const changeLanguage = (value: string) => {
+        setLanguage(value)
+        i18n.changeLanguage(value)
+    }
+
     useEffect(() => {
         let s = itemType.value.toLowerCase();
         axios.get(`/data/${s}.json`).then(
             res => {
                 const resData = res.data as gachaData[];
-                setData(resData.reverse())
+                setData(resData.map(gachaData => {
+                    const {items} = gachaData
+                    return {
+                        ...gachaData,
+                        items: items.map(item => {
+                            const info = getInfo(item.name, itemType.value, language) as Item;
+                            return {
+                                ...item,
+                                ...info
+                            }
+                        })
+                    }
+                }).reverse())
             }
         )
-    }, [itemType])
+    }, [itemType, language])
 
     useEffect(() => {
         axios.get(`/data/permanent.json`).then(
@@ -85,17 +155,6 @@ function App() {
 
     const [showGachaIndex, setShowGachaIndex] = useState<number[]>([]);
 
-    const languages = [
-        {code: "zh-CN", value: "中文"},
-        {code: "en-US", value: "English"}
-    ]
-
-    const [language, setLanguage] = useState('zh-CN')
-
-    const changeLanguage = (value: string) => {
-        setLanguage(value)
-        i18n.changeLanguage(value)
-    }
 
     const elements = weaponTypeList.map(rank => {
         return <div key={rank.value}
