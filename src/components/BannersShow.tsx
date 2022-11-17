@@ -4,19 +4,20 @@ import ScrollContainer from 'react-indiana-drag-scroll'
 import {isMobile} from 'react-device-detect';
 import FirstRow from "./FirstRow";
 import DataRow from "./DataRow";
-import {useTranslation} from "react-i18next";
 
 interface IProps {
     rankType: number[],
     setRankType: Function,
     weaponType: string[],
-    setWeaponType: Function,
+    elementType: string[],
+    reset: Function,
     data: gachaData[],
     currentGachaItemId: number[],
     setCurrentGachaItemId: Function;
     showGachaIndex: number[]
     setShowGachaIndex: Function
     commonItemId: number[]
+    itemType: string
 }
 
 const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
@@ -27,13 +28,15 @@ export default function BannersShow(props: IProps) {
         rankType,
         setRankType,
         weaponType,
-        setWeaponType,
+        elementType,
+        reset,
         data,
         currentGachaItemId,
         setCurrentGachaItemId,
         showGachaIndex,
         setShowGachaIndex,
-        commonItemId
+        commonItemId,
+        itemType
     } = props;
 
     //enable Sort?default:false
@@ -52,6 +55,7 @@ export default function BannersShow(props: IProps) {
         .filter(
             item => rankType.includes(item.rankType)
                 && (weaponType.includes(item.weaponType))
+                && (itemType == 'Weapon' || elementType.includes(item.element || ''))
                 && (currentGachaItemId.length == 0 || currentGachaItemId.includes(item.itemId))
         )
         .sort((a, b) => {
@@ -60,12 +64,9 @@ export default function BannersShow(props: IProps) {
             return (sortB || findIndexB == 0 ? 1 : findIndexA == 0 ? -1 : findIndexB - findIndexA);
         })
         .sort((b, a) => currentGachaItemId.length == 0 ? 1 : a.rankType - b.rankType)
-
-    const {t} = useTranslation();
     useEffect(() => {
         if (columnItems.length == 0) {
-            setRankType({name: t("ALL"), value: "4,5"});
-            setWeaponType({name: t("ALL"), value: "Sword,Claymore,Polearm,Bow,Catalyst"})
+            reset()
         }
     }, [columnItems.length])
 

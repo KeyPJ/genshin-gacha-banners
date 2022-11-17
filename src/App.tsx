@@ -22,6 +22,7 @@ const getInfo = (name: string, itemType: string, language: string) => {
     let weaponType = '';
     let imageUrl = '';
     let rankType = -1;
+    let element;
     const opts = {
         dumpResult: false, // The query result will return an object with the properties: query, folder, match, matchtype, options, filename, result.
         matchNames: true, // Allows the matching of names.
@@ -37,6 +38,7 @@ const getInfo = (name: string, itemType: string, language: string) => {
         weaponType = character?.weapontype || '';
         imageUrl = character?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "") || '';
         rankType = +character?.rarity || -1;
+        element = character?.element;
         if ("zh-CN" == language) {
             name = genshindb.characters(name, {
                 ...opts,
@@ -61,7 +63,20 @@ const getInfo = (name: string, itemType: string, language: string) => {
         rankType,
         itemType,
         name,
+        element
     } as Item;
+}
+
+const generateOptionEle = (str: string, t: Function) => {
+    let elementList: Option[] = [
+        {name: t("ALL"), value: str},
+    ]
+    str.split(",").forEach(
+        e => {
+            elementList = elementList.concat({name: t(e), value: e})
+        }
+    )
+    return elementList;
 }
 
 function App() {
@@ -87,23 +102,18 @@ function App() {
 
     const rankTypeList: Option[] = [
         {name: t("ALL"), value: "4,5"},
-        {name: "☆☆☆☆☆", value: "5"},
-        {name: "☆☆☆☆", value: "4"},
+        {name: "☆5", value: "5"},
+        {name: "☆4", value: "4"},
     ]
 
-    const weaponTypeList: Option[] = [
-        {name: t("ALL"), value: "Sword,Claymore,Polearm,Bow,Catalyst"},
-        {name: t("Sword"), value: "Sword"},
-        {name: t("Claymore"), value: "Claymore"},
-        {name: t("Polearm"), value: "Polearm"},
-        {name: t("Bow"), value: "Bow"},
-        {name: t("Catalyst"), value: "Catalyst"},
-    ]
+    const weaponTypeList = generateOptionEle("Sword,Claymore,Polearm,Bow,Catalyst", t)
 
+    const elementList = generateOptionEle("Pyro,Hydro,Anemo,Electro,Dendro,Cryo,Geo", t)
 
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
     const [weaponType, setWeaponType] = useState(weaponTypeList[0]);
+    const [elementType, setElementType] = useState(elementList[0]);
 
     const languages = [
         {code: "zh-CN", value: "中文"},
@@ -122,12 +132,14 @@ function App() {
         axios.get(`/data/${s}.json`).then(
             res => {
                 const resData = res.data as gachaData[];
+                let set = new Set();
                 setData(resData.map(gachaData => {
                     const {items} = gachaData
                     return {
                         ...gachaData,
                         items: items.map(item => {
                             const info = getInfo(item.name, itemType.value, language) as Item;
+                            set.add(info?.element)
                             return {
                                 ...item,
                                 ...info
@@ -135,6 +147,7 @@ function App() {
                         })
                     }
                 }).reverse())
+                console.log(set);
             }
         )
     }, [itemType, language])
@@ -147,7 +160,7 @@ function App() {
                 setCommonItemId(itemIds);
             }
         )
-        inject();
+        inject()
     }, [])
 
     const classToSelect = "bg-white shadow-sm text-gray-900 cursor-pointer"
@@ -158,7 +171,7 @@ function App() {
     const [showGachaIndex, setShowGachaIndex] = useState<number[]>([]);
 
 
-    const elements = weaponTypeList.map(rank => {
+    const weaponTypeElements = weaponTypeList.map(rank => {
         return <div key={rank.value}
                     className={classNames(classToSelect, rank.value == weaponType.value ? classSelected : "")}
                     onClick={() => {
@@ -166,17 +179,34 @@ function App() {
                         setShowGachaIndex([])
                     }}>{rank.name}</div>
     })
-    elements.splice(3, 0, <div/>);
+    weaponTypeElements.splice(4, 0, ...Array(3).fill(<div/>));
+    weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(2).fill(<div/>));
+
+    const characterElements = elementList.map(rank => {
+        return <div key={rank.value}
+                    className={classNames(classToSelect, rank.value == elementType.value ? classSelected : "")}
+                    onClick={() => {
+                        setElementType(rank)
+                        setShowGachaIndex([])
+                    }}>{rank.name}</div>
+    })
+    characterElements.splice(4, 0, ...Array(2).fill(<div/>));
+
+    const reset = () => {
+        setRankType(rankTypeList[0]);
+        setWeaponType(weaponTypeList[0])
+        setElementType(elementList[0])
+    }
 
     return (
         <div className="App flex flex-col justify-between">
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
-            <div className="grid grid-cols-4 gap-2 mr-20 my-4 lg:w-1/4 text-center">
+            <div className="grid grid-cols-6 gap-2 mr-20 my-4 lg:w-1/2 text-center">
                 <div className="text-right">{t("itemType")}</div>
                 {
                     itemTypeList.map(item => {
                         return <div key={item.value}
-                                    className={classNames(classToSelect, item.value == itemType.value ? classSelected : "")}
+                                    className={classNames("col-span-2", classToSelect, item.value == itemType.value ? classSelected : "")}
                                     onClick={() => {
                                         setItemType(item);
                                         setCurrentGachaItemId([])
@@ -196,9 +226,15 @@ function App() {
                                     }}>{rank.name}</div>
                     })
                 }
+                <div/>
+                <div/>
                 <div className="text-right">{t("weaponType")}</div>
                 {
-                    elements
+                    weaponTypeElements
+                }
+                {itemType.value == 'Character' && <div className="text-right">{t("ElementType")}</div>}
+                {
+                    itemType.value == 'Character' && characterElements
                 }
             </div>
             {!isMobile && <div className="text-center text-sm">❕{t("notice")}❕</div>}
@@ -207,20 +243,22 @@ function App() {
                 rankType={rankType.value.split(",").map(i => +i)}
                 setRankType={setRankType}
                 weaponType={weaponType.value.split(",")}
-                setWeaponType={setWeaponType}
+                elementType={elementType.value.split(",")}
+                reset={reset}
                 currentGachaItemId={currentGachaItemId}
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
                 setShowGachaIndex={setShowGachaIndex}
                 commonItemId={commonItemId}
+                itemType={itemType.value}
             />
-            <div className="flex flex-row justify-center text-center my-4">
-                <div>{t("credit")}</div>
-                <div className="w-40 line-through"><a href={"https://genshin-wishes.com/"}>Genshin Wishes</a></div>
-                <div>{t("creditText")}</div>
+            {/*<div className="flex flex-row justify-center text-center my-4">*/}
+            {/*    <div>{t("credit")}</div>*/}
+            {/*    <div className="w-40 line-through"><a href={"https://genshin-wishes.com/"}>Genshin Wishes</a></div>*/}
+            {/*    <div>{t("creditText")}</div>*/}
 
-            </div>
-            <div className="flex flex-row justify-center text-center mb-4">
+            {/*</div>*/}
+            <div className="flex flex-row justify-center text-center my-4">
                 <div className="w-20">{t("language")}</div>
                 {
                     languages.map(l =>

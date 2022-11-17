@@ -6,6 +6,7 @@ declare module "genshin-wishes" {
         weaponType: string;
         imageUrl: string;
         rankType: number;
+        element?: string;
     }
 
     export interface gachaData {
