@@ -8,7 +8,7 @@ const pwaOptions: Partial<VitePWAOptions> = {
     workbox: {
         runtimeCaching: [
             {
-                urlPattern: /api\/public\/(.*?)/, // 接口缓存 此处填你想缓存的接口正则匹配
+                urlPattern: /data\/(.*?)/, // 接口缓存 此处填你想缓存的接口正则匹配
                 handler: 'NetworkFirst',
                 options: {
                     cacheName: 'interface-cache',
