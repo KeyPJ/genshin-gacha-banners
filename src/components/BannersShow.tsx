@@ -16,7 +16,6 @@ interface IProps {
     setCurrentGachaItemId: Function;
     showGachaIndex: number[]
     setShowGachaIndex: Function
-    commonItemId: number[]
     itemType: string
 }
 
@@ -35,7 +34,6 @@ export default function BannersShow(props: IProps) {
         setCurrentGachaItemId,
         showGachaIndex,
         setShowGachaIndex,
-        commonItemId,
         itemType
     } = props;
 
@@ -91,7 +89,6 @@ export default function BannersShow(props: IProps) {
                          showGachaIndex={showGachaIndex}
                          setShowGachaIndex={setShowGachaIndex}
                          setCurrentGachaItemId={setCurrentGachaItemId}
-                         commonItemId={commonItemId}
                 />;
         })
     }</>;

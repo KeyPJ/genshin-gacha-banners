@@ -2,6 +2,7 @@ declare module "genshin-wishes" {
     export interface Item {
         itemId: number;
         name: string;
+        nameEn: string;
         itemType: string;
         weaponType: string;
         imageUrl: string;

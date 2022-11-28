@@ -9,7 +9,6 @@ interface IProps {
     showGachaIndex: number[]
     setShowGachaIndex: Function
     setCurrentGachaItemId: Function
-    commonItemId: number[]
 }
 
 // const imageBaseUrl = '/api/content?i=';
@@ -22,9 +21,9 @@ const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
 };
 export default function DataRow(props: IProps) {
 
-    const {t} = useTranslation();
+    const {t, i18n} = useTranslation();
 
-    const {data, item, findIndexMax, showGachaIndex, setShowGachaIndex, setCurrentGachaItemId, commonItemId} = props;
+    const {data, item, findIndexMax, showGachaIndex, setShowGachaIndex, setCurrentGachaItemId} = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
 
@@ -63,14 +62,45 @@ export default function DataRow(props: IProps) {
         .concat(data.length - 1);
 
 
+    const commonItemName = [
+        //角色
+        "刻晴",
+        "提纳里",
+        //五星武器
+        "阿莫斯之弓", "天空之翼",
+        "四风原典", "天空之卷",
+        "和璞鸢", "天空之脊",
+        "狼的末路", "天空之傲",
+        "天空之刃", "风鹰剑",
+        //四星武器
+        "弓藏",
+        "祭礼弓",
+        "绝弦",
+        "西风猎弓",
+        "昭心",
+        "祭礼残章",
+        "流浪乐章",
+        "西风秘典",
+        "西风长枪",
+        "匣里灭辰",
+        "雨裁",
+        "祭礼大剑",
+        "钟剑",
+        "西风大剑",
+        "匣里龙吟",
+        "祭礼剑",
+        "笛剑",
+        "西风剑"
+    ]
+
     const isPermanent = (item: Item) => {
         if (item.itemType == "Character") {
             if (item.rankType == 5) {
-                return commonItemId.includes(item.itemId);
+                return commonItemName.includes(item.name);
             }
         }
         if (item.itemType == "Weapon") {
-            return commonItemId.includes(item.itemId);
+            return commonItemName.includes(item.name);
         }
         return true;
     };
@@ -78,7 +108,7 @@ export default function DataRow(props: IProps) {
     return (
         <div className={"flex flex-row shrink-0 w-fit"}>
             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
-                <img src={item.imageUrl} alt={item.name}
+                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn}
                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                      onClick={() => handleCharacterClick()}
                 />

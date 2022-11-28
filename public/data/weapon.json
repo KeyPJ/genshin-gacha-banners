@@ -1,2206 +1,2662 @@
 [
-  {
-    "id": 100030,
-    "version": "3.2.2",
-    "items": [
-      {
-        "id": 166,
-        "itemId": -10036,
-        "name": "Kagura's Verity",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 154,
-        "itemId": -10025,
-        "name": "Polar Star",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-11-18T18:00:00",
-    "end": "2022-12-06T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100028,
-    "version": "3.2.1",
-    "items": [
-      {
-        "id": 14511,
-        "itemId": 14511,
-        "name": "A Thousand Floating Dreams",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 143,
-        "itemId": -10014,
-        "name": "Thundering Pulse",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 70,
-        "itemId": 15405,
-        "name": "Rust",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-11-02T11:00:00",
-    "end": "2022-11-18T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100026,
-    "version": "3.1.2",
-    "items": [
-      {
-        "id": 11511,
-        "itemId": 11511,
-        "name": "Key of Khaj-Nisut",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 123,
-        "itemId": 11505,
-        "name": "Primordial Jade Cutter",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 11418,
-        "itemId": 11418,
-        "name": "Xiphos’ Moonlight",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 14416,
-        "itemId": 14416,
-        "name": "Wandering Evenstar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 78,
-        "itemId": 12405,
-        "name": "Rainslasher",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 71,
-        "itemId": 15403,
-        "name": "Sacrificial Bow",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-10-14T18:00:00",
-    "end": "2022-11-01T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100024,
-    "version": "3.1.1",
-    "items": [
-      {
-        "id": 13511,
-        "itemId": 13511,
-        "name": "Staff of the Scarlet Sands",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 133,
-        "itemId": -10003,
-        "name": "Elegy for the End",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 12415,
-        "itemId": 12415,
-        "name": "Makhaira Aquamarine",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 72,
-        "itemId": 15401,
-        "name": "Favonius Warbow",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-09-28T11:00:00",
-    "end": "2022-10-04T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100022,
-    "version": "3.0.2",
-    "items": [
-      {
-        "id": 151,
-        "itemId": -10022,
-        "name": "Everlasting Moonglow",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 100,
-        "itemId": 15502,
-        "name": "Amos' Bow",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 81,
-        "itemId": 12401,
-        "name": "Favonius Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 70,
-        "itemId": 15405,
-        "name": "Rust",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-09-09T18:00:00",
-    "end": "2022-09-27T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100020,
-    "version": "3.0.1",
-    "items": [
-      {
-        "id": 15511,
-        "itemId": 15511,
-        "name": "Hunter's Path",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 107,
-        "itemId": 13504,
-        "name": "Vortex Vanquisher",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-08-24T11:00:00",
-    "end": "2022-09-09T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100018,
-    "version": "2.8.2",
-    "items": [
-      {
-        "id": 143,
-        "itemId": -10014,
-        "name": "Thundering Pulse",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 122,
-        "itemId": 11504,
-        "name": "Summit Shaper",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 132,
-        "itemId": -10005,
-        "name": "Wine and Song",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 135,
-        "itemId": -10007,
-        "name": "Alley Hunter",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-08-02T18:00:00",
-    "end": "2022-08-23T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100016,
-    "version": "2.8.1",
-    "items": [
-      {
-        "id": 141,
-        "itemId": -10012,
-        "name": "Freedom-Sworn",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 98,
-        "itemId": 14502,
-        "name": "Lost Prayer to the Sacred Winds",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 131,
-        "itemId": -10004,
-        "name": "The Alley Flash",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 140,
-        "itemId": -10011,
-        "name": "Mitternachts Waltz",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 78,
-        "itemId": 12405,
-        "name": "Rainslasher",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-07-13T11:00:00",
-    "end": "2022-08-02T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100014,
-    "version": "2.7.2",
-    "items": [
-      {
-        "id": 109,
-        "itemId": 14504,
-        "name": "Memory of Dust",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 121,
-        "itemId": 12410,
-        "name": "Lithic Blade",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 159,
-        "itemId": -10029,
-        "name": "Redhorn Stonethresher",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-06-21T18:00:00",
-    "end": "2022-07-12T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100012,
-    "version": "2.7.1",
-    "items": [
-      {
-        "id": 101,
-        "itemId": 13505,
-        "name": "Primordial Jade Winged-Spear",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 71,
-        "itemId": 15403,
-        "name": "Sacrificial Bow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 81,
-        "itemId": 12401,
-        "name": "Favonius Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 120,
-        "itemId": 13406,
-        "name": "Lithic Spear",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 169,
-        "itemId": -10039,
-        "name": "Aqua Simulacra",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-05-31T11:00:00",
-    "end": "2022-06-21T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100010,
-    "version": "2.6.2",
-    "items": [
-      {
-        "id": 72,
-        "itemId": 15401,
-        "name": "Favonius Warbow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 108,
-        "itemId": 12504,
-        "name": "The Unforged",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 144,
-        "itemId": -10015,
-        "name": "Mistsplitter Reforged",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-04-19T18:00:00",
-    "end": "2022-05-31T05:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100008,
-    "version": "2.6.1",
-    "items": [
-      {
-        "id": 133,
-        "itemId": -10003,
-        "name": "Elegy for the End",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 70,
-        "itemId": 15405,
-        "name": "Rust",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 168,
-        "itemId": -10038,
-        "name": "Haran Geppaku Futsu",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-03-30T11:00:00",
-    "end": "2022-04-19T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100005,
-    "version": "2.5.2",
-    "items": [
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 150,
-        "itemId": -10021,
-        "name": "Engulfing Lightning",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 151,
-        "itemId": -10022,
-        "name": "Everlasting Moonglow",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 155,
-        "itemId": -10026,
-        "name": "Akuoumaru",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 157,
-        "itemId": -10027,
-        "name": "Mouun's Moon",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-03-08T18:00:00",
-    "end": "2022-03-29T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100004,
-    "version": "2.5.1",
-    "items": [
-      {
-        "id": 123,
-        "itemId": 11505,
-        "name": "Primordial Jade Cutter",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 78,
-        "itemId": 12405,
-        "name": "Rainslasher",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 158,
-        "itemId": -10028,
-        "name": "Wavebreaker's Fin",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 166,
-        "itemId": -10036,
-        "name": "Kagura's Verity",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-02-16T11:00:00",
-    "end": "2022-03-08T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 100002,
-    "version": "2.4.2",
-    "items": [
-      {
-        "id": 100,
-        "itemId": 15502,
-        "name": "Amos' Bow",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 71,
-        "itemId": 15403,
-        "name": "Sacrificial Bow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 121,
-        "itemId": 12410,
-        "name": "Lithic Blade",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 107,
-        "itemId": 13504,
-        "name": "Vortex Vanquisher",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-01-25T18:00:00",
-    "end": "2022-02-15T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 51,
-    "version": "2.4.1",
-    "items": [
-      {
-        "id": 101,
-        "itemId": 13505,
-        "name": "Primordial Jade Winged-Spear",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 72,
-        "itemId": 15401,
-        "name": "Favonius Warbow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 81,
-        "itemId": 12401,
-        "name": "Favonius Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 120,
-        "itemId": 13406,
-        "name": "Lithic Spear",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 164,
-        "itemId": -10034,
-        "name": "Calamity Queller",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-01-05T11:00:00",
-    "end": "2022-01-25T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 49,
-    "version": "2.3.2",
-    "items": [
-      {
-        "id": 140,
-        "itemId": -10011,
-        "name": "Mitternachts Waltz",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 128,
-        "itemId": 15501,
-        "name": "Skyward Harp",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 131,
-        "itemId": -10004,
-        "name": "The Alley Flash",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 159,
-        "itemId": -10029,
-        "name": "Redhorn Stonethresher",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-12-14T18:00:00",
-    "end": "2022-01-04T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 47,
-    "version": "2.3.1",
-    "items": [
-      {
-        "id": 141,
-        "itemId": -10012,
-        "name": "Freedom-Sworn",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 132,
-        "itemId": -10005,
-        "name": "Wine and Song",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 135,
-        "itemId": -10007,
-        "name": "Alley Hunter",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 139,
-        "itemId": -10010,
-        "name": "Song of Broken Pines",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-11-24T11:00:00",
-    "end": "2021-12-14T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 45,
-    "version": "2.2.2",
-    "items": [
-      {
-        "id": 126,
-        "itemId": -10001,
-        "name": "Staff of Homa",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 133,
-        "itemId": -10003,
-        "name": "Elegy for the End",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 78,
-        "itemId": 12405,
-        "name": "Rainslasher",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 157,
-        "itemId": -10027,
-        "name": "Mouun's Moon",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 158,
-        "itemId": -10028,
-        "name": "Wavebreaker's Fin",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-11-02T18:00:00",
-    "end": "2021-11-23T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 43,
-    "version": "2.2.1",
-    "items": [
-      {
-        "id": 109,
-        "itemId": 14504,
-        "name": "Memory of Dust",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 70,
-        "itemId": 15405,
-        "name": "Rust",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 155,
-        "itemId": -10026,
-        "name": "Akuoumaru",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 154,
-        "itemId": -10025,
-        "name": "Polar Star",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-10-13T11:00:00",
-    "end": "2021-11-02T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 41,
-    "version": "2.1.2",
-    "items": [
-      {
-        "id": 123,
-        "itemId": 11505,
-        "name": "Primordial Jade Cutter",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 81,
-        "itemId": 12401,
-        "name": "Favonius Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 151,
-        "itemId": -10022,
-        "name": "Everlasting Moonglow",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-09-21T18:00:00",
-    "end": "2021-10-12T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 39,
-    "version": "2.1.1",
-    "items": [
-      {
-        "id": 71,
-        "itemId": 15403,
-        "name": "Sacrificial Bow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 108,
-        "itemId": 12504,
-        "name": "The Unforged",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 150,
-        "itemId": -10021,
-        "name": "Engulfing Lightning",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-09-01T11:00:00",
-    "end": "2021-09-21T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 37,
-    "version": "2.0.2",
-    "items": [
-      {
-        "id": 119,
-        "itemId": 11502,
-        "name": "Skyward Blade",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 72,
-        "itemId": 15401,
-        "name": "Favonius Warbow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 78,
-        "itemId": 12405,
-        "name": "Rainslasher",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 143,
-        "itemId": -10014,
-        "name": "Thundering Pulse",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-08-10T18:00:00",
-    "end": "2021-08-31T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 33,
-    "version": "2.0.1",
-    "items": [
-      {
-        "id": 117,
-        "itemId": 13502,
-        "name": "Skyward Spine",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 144,
-        "itemId": -10015,
-        "name": "Mistsplitter Reforged",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-07-21T11:00:00",
-    "end": "2021-08-10T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 31,
-    "version": "1.6.2",
-    "items": [
-      {
-        "id": 141,
-        "itemId": -10012,
-        "name": "Freedom-Sworn",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 129,
-        "itemId": 14501,
-        "name": "Skyward Atlas",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 81,
-        "itemId": 12401,
-        "name": "Favonius Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 131,
-        "itemId": -10004,
-        "name": "The Alley Flash",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 132,
-        "itemId": -10005,
-        "name": "Wine and Song",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 135,
-        "itemId": -10007,
-        "name": "Alley Hunter",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-06-29T18:00:00",
-    "end": "2021-07-20T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 29,
-    "version": "1.6.1",
-    "items": [
-      {
-        "id": 140,
-        "itemId": -10011,
-        "name": "Mitternachts Waltz",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 98,
-        "itemId": 14502,
-        "name": "Lost Prayer to the Sacred Winds",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 118,
-        "itemId": 12501,
-        "name": "Skyward Pride",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-06-09T11:00:00",
-    "end": "2021-06-29T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 27,
-    "version": "1.5.2",
-    "items": [
-      {
-        "id": 102,
-        "itemId": 11501,
-        "name": "Aquila Favonia",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 70,
-        "itemId": 15405,
-        "name": "Rust",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 78,
-        "itemId": 12405,
-        "name": "Rainslasher",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 139,
-        "itemId": -10010,
-        "name": "Song of Broken Pines",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-05-18T18:00:00",
-    "end": "2021-06-08T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 25,
-    "version": "1.5.1",
-    "items": [
-      {
-        "id": 109,
-        "itemId": 14504,
-        "name": "Memory of Dust",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 122,
-        "itemId": 11504,
-        "name": "Summit Shaper",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 71,
-        "itemId": 15403,
-        "name": "Sacrificial Bow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 120,
-        "itemId": 13406,
-        "name": "Lithic Spear",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 121,
-        "itemId": 12410,
-        "name": "Lithic Blade",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-04-28T11:00:00",
-    "end": "2021-05-18T17:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 23,
-    "version": "1.4.2",
-    "items": [
-      {
-        "id": 98,
-        "itemId": 14502,
-        "name": "Lost Prayer to the Sacred Winds",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 128,
-        "itemId": 15501,
-        "name": "Skyward Harp",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 135,
-        "itemId": -10007,
-        "name": "Alley Hunter",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-04-06T18:00:00",
-    "end": "2021-04-27T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 20,
-    "version": "1.4.1",
-    "items": [
-      {
-        "id": 119,
-        "itemId": 11502,
-        "name": "Skyward Blade",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 133,
-        "itemId": -10003,
-        "name": "Elegy for the End",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 72,
-        "itemId": 15401,
-        "name": "Favonius Warbow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 81,
-        "itemId": 12401,
-        "name": "Favonius Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 131,
-        "itemId": -10004,
-        "name": "The Alley Flash",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 132,
-        "itemId": -10005,
-        "name": "Wine and Song",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-03-17T10:00:00",
-    "end": "2021-04-06T18:00:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 19,
-    "version": "1.3.2",
-    "items": [
-      {
-        "id": 99,
-        "itemId": 12502,
-        "name": "Wolf's Gravestone",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 126,
-        "itemId": -10001,
-        "name": "Staff of Homa",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 71,
-        "itemId": 15403,
-        "name": "Sacrificial Bow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 120,
-        "itemId": 13406,
-        "name": "Lithic Spear",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 121,
-        "itemId": 12410,
-        "name": "Lithic Blade",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-02-23T18:00:00",
-    "end": "2021-03-16T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 16,
-    "version": "1.3.1",
-    "items": [
-      {
-        "id": 101,
-        "itemId": 13505,
-        "name": "Primordial Jade Winged-Spear",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 123,
-        "itemId": 11505,
-        "name": "Primordial Jade Cutter",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 70,
-        "itemId": 15405,
-        "name": "Rust",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-02-03T01:30:00",
-    "end": "2021-02-23T18:00:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 14,
-    "version": "1.2.2",
-    "items": [
-      {
-        "id": 100,
-        "itemId": 15502,
-        "name": "Amos' Bow",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 118,
-        "itemId": 12501,
-        "name": "Skyward Pride",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 72,
-        "itemId": 15401,
-        "name": "Favonius Warbow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-01-12T18:00:00",
-    "end": "2021-02-02T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 12,
-    "version": "1.2.1",
-    "items": [
-      {
-        "id": 122,
-        "itemId": 11504,
-        "name": "Summit Shaper",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 129,
-        "itemId": 14501,
-        "name": "Skyward Atlas",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 81,
-        "itemId": 12401,
-        "name": "Favonius Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 84,
-        "itemId": 11401,
-        "name": "Favonius Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-12-23T10:00:00",
-    "end": "2021-01-12T18:00:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 10,
-    "version": "1.1.2",
-    "items": [
-      {
-        "id": 72,
-        "itemId": 15401,
-        "name": "Favonius Warbow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 75,
-        "itemId": 14401,
-        "name": "Favonius Codex",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 82,
-        "itemId": 11405,
-        "name": "Lion's Roar",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 108,
-        "itemId": 12504,
-        "name": "The Unforged",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 107,
-        "itemId": 13504,
-        "name": "Vortex Vanquisher",
-        "itemType": "Weapon",
-        "rankType": 5
-      }
-    ],
-    "start": "2020-12-01T18:00:00",
-    "end": "2020-12-22T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 8,
-    "version": "1.1.1",
-    "items": [
-      {
-        "id": 109,
-        "itemId": 14504,
-        "name": "Memory of Dust",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 128,
-        "itemId": 15501,
-        "name": "Skyward Harp",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 70,
-        "itemId": 15405,
-        "name": "Rust",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 78,
-        "itemId": 12405,
-        "name": "Rainslasher",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 115,
-        "itemId": 14409,
-        "name": "Eye of Perception",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-11-11T02:00:00",
-    "end": "2020-12-01T15:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 6,
-    "version": "1.0.2",
-    "items": [
-      {
-        "id": 98,
-        "itemId": 14502,
-        "name": "Lost Prayer to the Sacred Winds",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 99,
-        "itemId": 12502,
-        "name": "Wolf's Gravestone",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 71,
-        "itemId": 15403,
-        "name": "Sacrificial Bow",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 73,
-        "itemId": 14403,
-        "name": "Sacrificial Fragments",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 77,
-        "itemId": 13401,
-        "name": "Dragon's Bane",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 79,
-        "itemId": 12403,
-        "name": "Sacrificial Greatsword",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 83,
-        "itemId": 11403,
-        "name": "Sacrificial Sword",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-10-20T18:00:00",
-    "end": "2020-11-10T14:59:00",
-    "gachaType": "WEAPON_EVENT"
-  },
-  {
-    "id": 5,
-    "version": "1.0.1",
-    "items": [
-      {
-        "id": 100,
-        "itemId": 15502,
-        "name": "Amos' Bow",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 102,
-        "itemId": 11501,
-        "name": "Aquila Favonia",
-        "itemType": "Weapon",
-        "rankType": 5
-      },
-      {
-        "id": 74,
-        "itemId": 14402,
-        "name": "The Widsith",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 76,
-        "itemId": 13407,
-        "name": "Favonius Lance",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 80,
-        "itemId": 12402,
-        "name": "The Bell",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 114,
-        "itemId": 15402,
-        "name": "The Stringless",
-        "itemType": "Weapon",
-        "rankType": 4
-      },
-      {
-        "id": 116,
-        "itemId": 11402,
-        "name": "The Flute",
-        "itemType": "Weapon",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-09-28T12:00:00",
-    "end": "2020-10-18T18:00:00",
-    "gachaType": "WEAPON_EVENT"
-  }
+	{
+		"version": "3.2.2",
+		"items": [
+			{
+				"itemId": 50,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "神乐之真意",
+				"nameEn": "Kagura's Verity"
+			},
+			{
+				"itemId": 51,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "冬极白星",
+				"nameEn": "Polar Star"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2022-11-18 18:00:00",
+		"end": "2022-12-06 14:59:59"
+	},
+	{
+		"version": "3.2.1",
+		"items": [
+			{
+				"itemId": 57,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "千夜浮梦",
+				"nameEn": "A Thousand Floating Dreams"
+			},
+			{
+				"itemId": 58,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "飞雷之弦振",
+				"nameEn": "Thundering Pulse"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 62,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
+			},
+			{
+				"itemId": 63,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			}
+		],
+		"start": "2022-11-02 06:00:00",
+		"end": "2022-11-18 14:59:59"
+	},
+	{
+		"version": "3.1.2",
+		"items": [
+			{
+				"itemId": 64,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Deshret.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "圣显之钥",
+				"nameEn": "Key of Khaj-Nisut"
+			},
+			{
+				"itemId": 65,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "磐岩结绿",
+				"nameEn": "Primordial Jade Cutter"
+			},
+			{
+				"itemId": 66,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Pleroma.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西福斯的月光",
+				"nameEn": "Xiphos' Moonlight"
+			},
+			{
+				"itemId": 67,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "雨裁",
+				"nameEn": "Rainslasher"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 68,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪的晚星",
+				"nameEn": "Wandering Evenstar"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			}
+		],
+		"start": "2022-10-14 18:00:00",
+		"end": "2022-11-01 14:59:59"
+	},
+	{
+		"version": "3.1.1",
+		"items": [
+			{
+				"itemId": 70,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Deshret.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "赤沙之杖",
+				"nameEn": "Staff of the Scarlet Sands"
+			},
+			{
+				"itemId": 71,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "终末嗟叹之诗",
+				"nameEn": "Elegy for the End"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 73,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Pleroma.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "玛海菈的水色",
+				"nameEn": "Makhaira Aquamarine"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 75,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			}
+		],
+		"start": "2022-09-28 06:00:00",
+		"end": "2022-10-14 17:59:59"
+	},
+	{
+		"version": "3.0.2",
+		"items": [
+			{
+				"itemId": 76,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "阿莫斯之弓",
+				"nameEn": "Amos' Bow"
+			},
+			{
+				"itemId": 77,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "不灭月华",
+				"nameEn": "Everlasting Moonglow"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 79,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 63,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			}
+		],
+		"start": "2022-09-09 18:00:00",
+		"end": "2022-09-27 14:59:59"
+	},
+	{
+		"version": "3.0.1",
+		"items": [
+			{
+				"itemId": 81,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Ayus.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "猎人之径",
+				"nameEn": "Hunter's Path"
+			},
+			{
+				"itemId": 82,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "贯虹之槊",
+				"nameEn": "Vortex Vanquisher"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2022-08-24 06:00:00",
+		"end": "2022-09-09 17:59:59"
+	},
+	{
+		"version": "2.8.2",
+		"items": [
+			{
+				"itemId": 58,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "飞雷之弦振",
+				"nameEn": "Thundering Pulse"
+			},
+			{
+				"itemId": 83,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "斫峰之刃",
+				"nameEn": "Summit Shaper"
+			},
+			{
+				"itemId": 84,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷的酒与诗",
+				"nameEn": "Wine and Song"
+			},
+			{
+				"itemId": 85,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷猎手",
+				"nameEn": "Alley Hunter"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			}
+		],
+		"start": "2022-08-02 18:00:00",
+		"end": "2022-08-23 14:59:59"
+	},
+	{
+		"version": "2.8.1",
+		"items": [
+			{
+				"itemId": 86,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "苍古自由之誓",
+				"nameEn": "Freedom-Sworn"
+			},
+			{
+				"itemId": 87,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "四风原典",
+				"nameEn": "Lost Prayer to the Sacred Winds"
+			},
+			{
+				"itemId": 88,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩古剑",
+				"nameEn": "Lithic Blade"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2022-07-13 06:00:00",
+		"end": "2022-08-02 17:59:59"
+	},
+	{
+		"version": "2.7.2",
+		"items": [
+			{
+				"itemId": 89,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "赤角石溃杵",
+				"nameEn": "Redhorn Stonethresher"
+			},
+			{
+				"itemId": 90,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "尘世之锁",
+				"nameEn": "Memory of Dust"
+			},
+			{
+				"itemId": 88,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩古剑",
+				"nameEn": "Lithic Blade"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2022-06-21 18:00:00",
+		"end": "2022-07-12 14:59:59"
+	},
+	{
+		"version": "2.7.1",
+		"items": [
+			{
+				"itemId": 91,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Kirin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "若水",
+				"nameEn": "Aqua Simulacra"
+			},
+			{
+				"itemId": 92,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "和璞鸢",
+				"nameEn": "Primordial Jade Winged-Spear"
+			},
+			{
+				"itemId": 93,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩长枪",
+				"nameEn": "Lithic Spear"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 79,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			}
+		],
+		"start": "2022-05-31 06:00:00",
+		"end": "2022-06-21 17:59:59"
+	},
+	{
+		"version": "2.6.2",
+		"items": [
+			{
+				"itemId": 94,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "雾切之回光",
+				"nameEn": "Mistsplitter Reforged"
+			},
+			{
+				"itemId": 95,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "无工之剑",
+				"nameEn": "The Unforged"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 75,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			}
+		],
+		"start": "2022-04-19 17:59:59",
+		"end": "2022-05-31 05:59:59"
+	},
+	{
+		"version": "2.6.1",
+		"items": [
+			{
+				"itemId": 96,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "波乱月白经津",
+				"nameEn": "Haran Geppaku Futsu"
+			},
+			{
+				"itemId": 71,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "终末嗟叹之诗",
+				"nameEn": "Elegy for the End"
+			},
+			{
+				"itemId": 63,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 62,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			}
+		],
+		"start": "2022-03-30 06:00:00",
+		"end": "2022-04-19 17:59:59"
+	},
+	{
+		"version": "2.5.2",
+		"items": [
+			{
+				"itemId": 97,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "薙草之稻光",
+				"nameEn": "Engulfing Lightning"
+			},
+			{
+				"itemId": 77,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "不灭月华",
+				"nameEn": "Everlasting Moonglow"
+			},
+			{
+				"itemId": 98,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "恶王丸",
+				"nameEn": "Akuoumaru"
+			},
+			{
+				"itemId": 99,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "曚云之月",
+				"nameEn": "Mouun's Moon"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			}
+		],
+		"start": "2022-03-08 18:00:00",
+		"end": "2022-03-29 14:59:59"
+	},
+	{
+		"version": "2.5.1",
+		"items": [
+			{
+				"itemId": 50,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "神乐之真意",
+				"nameEn": "Kagura's Verity"
+			},
+			{
+				"itemId": 65,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "磐岩结绿",
+				"nameEn": "Primordial Jade Cutter"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 67,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "雨裁",
+				"nameEn": "Rainslasher"
+			},
+			{
+				"itemId": 100,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "断浪长鳍",
+				"nameEn": "Wavebreaker's Fin"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2022-02-16 06:00:00",
+		"end": "2022-03-08 17:59:59"
+	},
+	{
+		"version": "2.4.2",
+		"items": [
+			{
+				"itemId": 82,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "贯虹之槊",
+				"nameEn": "Vortex Vanquisher"
+			},
+			{
+				"itemId": 76,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "阿莫斯之弓",
+				"nameEn": "Amos' Bow"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 88,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩古剑",
+				"nameEn": "Lithic Blade"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			}
+		],
+		"start": "2022-01-25 18:00:00",
+		"end": "2022-02-15 14:59:59"
+	},
+	{
+		"version": "2.4.1",
+		"items": [
+			{
+				"itemId": 101,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "息灾",
+				"nameEn": "Calamity Queller"
+			},
+			{
+				"itemId": 92,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "和璞鸢",
+				"nameEn": "Primordial Jade Winged-Spear"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 79,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 93,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩长枪",
+				"nameEn": "Lithic Spear"
+			},
+			{
+				"itemId": 62,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
+			},
+			{
+				"itemId": 75,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			}
+		],
+		"start": "2022-01-05 06:00:00",
+		"end": "2022-01-25 17:59:59"
+	},
+	{
+		"version": "2.3.2",
+		"items": [
+			{
+				"itemId": 89,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "赤角石溃杵",
+				"nameEn": "Redhorn Stonethresher"
+			},
+			{
+				"itemId": 102,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之翼",
+				"nameEn": "Skyward Harp"
+			},
+			{
+				"itemId": 103,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷闪光",
+				"nameEn": "The Alley Flash"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 104,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "幽夜华尔兹",
+				"nameEn": "Mitternachts Waltz"
+			}
+		],
+		"start": "2021-12-14 18:00:00",
+		"end": "2022-01-04 14:59:59"
+	},
+	{
+		"version": "2.3.1",
+		"items": [
+			{
+				"itemId": 86,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "苍古自由之誓",
+				"nameEn": "Freedom-Sworn"
+			},
+			{
+				"itemId": 105,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "松籁响起之时",
+				"nameEn": "Song of Broken Pines"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 84,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷的酒与诗",
+				"nameEn": "Wine and Song"
+			},
+			{
+				"itemId": 85,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷猎手",
+				"nameEn": "Alley Hunter"
+			}
+		],
+		"start": "2021-11-24 06:00:00",
+		"end": "2021-12-14 17:59:59"
+	},
+	{
+		"version": "2.2.2",
+		"items": [
+			{
+				"itemId": 106,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "护摩之杖",
+				"nameEn": "Staff of Homa"
+			},
+			{
+				"itemId": 71,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "终末嗟叹之诗",
+				"nameEn": "Elegy for the End"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 67,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "雨裁",
+				"nameEn": "Rainslasher"
+			},
+			{
+				"itemId": 100,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "断浪长鳍",
+				"nameEn": "Wavebreaker's Fin"
+			},
+			{
+				"itemId": 62,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
+			},
+			{
+				"itemId": 99,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "曚云之月",
+				"nameEn": "Mouun's Moon"
+			}
+		],
+		"start": "2021-11-02 18:00:00",
+		"end": "2021-11-23 14:59:59"
+	},
+	{
+		"version": "2.2.1",
+		"items": [
+			{
+				"itemId": 51,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "冬极白星",
+				"nameEn": "Polar Star"
+			},
+			{
+				"itemId": 90,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "尘世之锁",
+				"nameEn": "Memory of Dust"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 98,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "恶王丸",
+				"nameEn": "Akuoumaru"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 63,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			}
+		],
+		"start": "2021-10-13 06:00:00",
+		"end": "2021-11-02 17:59:59"
+	},
+	{
+		"version": "2.1.2",
+		"items": [
+			{
+				"itemId": 77,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "不灭月华",
+				"nameEn": "Everlasting Moonglow"
+			},
+			{
+				"itemId": 65,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "磐岩结绿",
+				"nameEn": "Primordial Jade Cutter"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 79,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2021-09-21 18:00:00",
+		"end": "2021-10-12 14:59:59"
+	},
+	{
+		"version": "2.1.1",
+		"items": [
+			{
+				"itemId": 97,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "薙草之稻光",
+				"nameEn": "Engulfing Lightning"
+			},
+			{
+				"itemId": 95,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "无工之剑",
+				"nameEn": "The Unforged"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 62,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			}
+		],
+		"start": "2021-09-01 06:00:00",
+		"end": "2021-09-21 17:59:59"
+	},
+	{
+		"version": "2.0.2",
+		"items": [
+			{
+				"itemId": 58,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "飞雷之弦振",
+				"nameEn": "Thundering Pulse"
+			},
+			{
+				"itemId": 107,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之刃",
+				"nameEn": "Skyward Blade"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 67,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "雨裁",
+				"nameEn": "Rainslasher"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 75,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			}
+		],
+		"start": "2021-08-10 18:00:00",
+		"end": "2021-08-31 14:59:59"
+	},
+	{
+		"version": "2.0.1",
+		"items": [
+			{
+				"itemId": 94,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "雾切之回光",
+				"nameEn": "Mistsplitter Reforged"
+			},
+			{
+				"itemId": 108,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之脊",
+				"nameEn": "Skyward Spine"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2021-07-21 06:00:00",
+		"end": "2021-08-10 17:59:59"
+	},
+	{
+		"version": "1.6.2",
+		"items": [
+			{
+				"itemId": 86,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "苍古自由之誓",
+				"nameEn": "Freedom-Sworn"
+			},
+			{
+				"itemId": 109,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之卷",
+				"nameEn": "Skyward Atlas"
+			},
+			{
+				"itemId": 103,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷闪光",
+				"nameEn": "The Alley Flash"
+			},
+			{
+				"itemId": 79,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 84,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷的酒与诗",
+				"nameEn": "Wine and Song"
+			},
+			{
+				"itemId": 85,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷猎手",
+				"nameEn": "Alley Hunter"
+			}
+		],
+		"start": "2021-06-29 18:00:00",
+		"end": "2021-07-20 14:59:59"
+	},
+	{
+		"version": "1.6.1",
+		"items": [
+			{
+				"itemId": 110,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之傲",
+				"nameEn": "Skyward Pride"
+			},
+			{
+				"itemId": 87,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "四风原典",
+				"nameEn": "Lost Prayer to the Sacred Winds"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 62,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
+			},
+			{
+				"itemId": 104,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "幽夜华尔兹",
+				"nameEn": "Mitternachts Waltz"
+			}
+		],
+		"start": "2021-06-09 06:00:00",
+		"end": "2021-06-29 17:59:59"
+	},
+	{
+		"version": "1.5.2",
+		"items": [
+			{
+				"itemId": 105,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "松籁响起之时",
+				"nameEn": "Song of Broken Pines"
+			},
+			{
+				"itemId": 111,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "风鹰剑",
+				"nameEn": "Aquila Favonia"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 67,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "雨裁",
+				"nameEn": "Rainslasher"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 63,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			}
+		],
+		"start": "2021-05-18 18:00:00",
+		"end": "2021-06-08 14:59:59"
+	},
+	{
+		"version": "1.5.1",
+		"items": [
+			{
+				"itemId": 83,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "斫峰之刃",
+				"nameEn": "Summit Shaper"
+			},
+			{
+				"itemId": 90,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "尘世之锁",
+				"nameEn": "Memory of Dust"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 88,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩古剑",
+				"nameEn": "Lithic Blade"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 93,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩长枪",
+				"nameEn": "Lithic Spear"
+			}
+		],
+		"start": "2021-04-28 06:00:00",
+		"end": "2021-05-18 17:59:59"
+	},
+	{
+		"version": "1.4.2",
+		"items": [
+			{
+				"itemId": 102,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之翼",
+				"nameEn": "Skyward Harp"
+			},
+			{
+				"itemId": 87,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "四风原典",
+				"nameEn": "Lost Prayer to the Sacred Winds"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 85,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷猎手",
+				"nameEn": "Alley Hunter"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			}
+		],
+		"start": "2021-04-06 18:00:00",
+		"end": "2021-04-27 14:59:59"
+	},
+	{
+		"version": "1.4.1",
+		"items": [
+			{
+				"itemId": 71,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "终末嗟叹之诗",
+				"nameEn": "Elegy for the End"
+			},
+			{
+				"itemId": 107,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之刃",
+				"nameEn": "Skyward Blade"
+			},
+			{
+				"itemId": 103,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷闪光",
+				"nameEn": "The Alley Flash"
+			},
+			{
+				"itemId": 79,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 75,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			},
+			{
+				"itemId": 84,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷的酒与诗",
+				"nameEn": "Wine and Song"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			}
+		],
+		"start": "2021-03-17 06:00:00",
+		"end": "2021-04-06 15:59:59"
+	},
+	{
+		"version": "1.3.2",
+		"items": [
+			{
+				"itemId": 106,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "护摩之杖",
+				"nameEn": "Staff of Homa"
+			},
+			{
+				"itemId": 112,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "狼的末路",
+				"nameEn": "Wolf's Gravestone"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 88,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩古剑",
+				"nameEn": "Lithic Blade"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			},
+			{
+				"itemId": 62,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
+			},
+			{
+				"itemId": 93,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩长枪",
+				"nameEn": "Lithic Spear"
+			}
+		],
+		"start": "2021-02-23 18:00:00",
+		"end": "2021-03-16 14:59:59"
+	},
+	{
+		"version": "1.3.1",
+		"items": [
+			{
+				"itemId": 65,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "磐岩结绿",
+				"nameEn": "Primordial Jade Cutter"
+			},
+			{
+				"itemId": 92,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "和璞鸢",
+				"nameEn": "Primordial Jade Winged-Spear"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 63,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			}
+		],
+		"start": "2021-02-03 06:00:00",
+		"end": "2021-02-23 15:59:59"
+	},
+	{
+		"version": "1.2.2",
+		"items": [
+			{
+				"itemId": 76,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "阿莫斯之弓",
+				"nameEn": "Amos' Bow"
+			},
+			{
+				"itemId": 110,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之傲",
+				"nameEn": "Skyward Pride"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 75,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			}
+		],
+		"start": "2021-01-12 18:00:00",
+		"end": "2021-02-02 14:59:59"
+	},
+	{
+		"version": "1.2.1",
+		"items": [
+			{
+				"itemId": 83,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "斫峰之刃",
+				"nameEn": "Summit Shaper"
+			},
+			{
+				"itemId": 109,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之卷",
+				"nameEn": "Skyward Atlas"
+			},
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 79,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 56,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "绝弦",
+				"nameEn": "The Stringless"
+			}
+		],
+		"start": "2020-12-23 06:00:00",
+		"end": "2021-01-12 15:59:59"
+	},
+	{
+		"version": "1.1.2",
+		"items": [
+			{
+				"itemId": 82,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "贯虹之槊",
+				"nameEn": "Vortex Vanquisher"
+			},
+			{
+				"itemId": 95,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "无工之剑",
+				"nameEn": "The Unforged"
+			},
+			{
+				"itemId": 72,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "钟剑",
+				"nameEn": "The Bell"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 75,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			}
+		],
+		"start": "2020-12-01 18:00:00",
+		"end": "2020-12-22 14:59:59"
+	},
+	{
+		"version": "1.1.1",
+		"items": [
+			{
+				"itemId": 102,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "天空之翼",
+				"nameEn": "Skyward Harp"
+			},
+			{
+				"itemId": 90,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "尘世之锁",
+				"nameEn": "Memory of Dust"
+			},
+			{
+				"itemId": 59,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "笛剑",
+				"nameEn": "The Flute"
+			},
+			{
+				"itemId": 67,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "雨裁",
+				"nameEn": "Rainslasher"
+			},
+			{
+				"itemId": 80,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 63,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			},
+			{
+				"itemId": 61,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			}
+		],
+		"start": "2020-11-11 06:00:00",
+		"end": "2020-12-01 15:59:59"
+	},
+	{
+		"version": "1.0.2",
+		"items": [
+			{
+				"itemId": 87,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "四风原典",
+				"nameEn": "Lost Prayer to the Sacred Winds"
+			},
+			{
+				"itemId": 112,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "狼的末路",
+				"nameEn": "Wolf's Gravestone"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			}
+		],
+		"start": "2020-10-20 18:00:00",
+		"end": "2020-11-10 14:59:59"
+	},
+	{
+		"version": "1.0.1",
+		"items": [
+			{
+				"itemId": 111,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "风鹰剑",
+				"nameEn": "Aquila Favonia"
+			},
+			{
+				"itemId": 76,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "阿莫斯之弓",
+				"nameEn": "Amos' Bow"
+			},
+			{
+				"itemId": 78,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 60,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 74,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			},
+			{
+				"itemId": 69,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼弓",
+				"nameEn": "Sacrificial Bow"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			}
+		],
+		"start": "2020-09-28 06:00:00",
+		"end": "2020-10-18 17:59:59"
+	}
 ]
