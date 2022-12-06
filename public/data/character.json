@@ -1,1536 +1,1965 @@
 [
-  {
-    "id": 100029,
-    "version": "3.2.2",
-    "items": [
-      {
-        "id": 156,
-        "itemId": -10024,
-        "name": "Thoma",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 165,
-        "itemId": -10035,
-        "name": "Yae Miko",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 112,
-        "itemId": 1033,
-        "name": "Tartaglia",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 0,
-        "itemId": 0,
-        "name": "Shikanoin Heizou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 10000074,
-        "itemId": 10000074,
-        "name": "Layla",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-11-18T18:00:00",
-    "end": "2022-12-06T14:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100027,
-    "version": "3.2.1",
-    "items": [
-      {
-        "id": 10000073,
-        "itemId": 10000073,
-        "name": "Nahida",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 146,
-        "itemId": -10017,
-        "name": "Yoimiya",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 69,
-        "itemId": 1020,
-        "name": "Razor",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 64,
-        "itemId": 1034,
-        "name": "Noelle",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 65,
-        "itemId": 1032,
-        "name": "Bennett",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-11-02T11:00:00",
-    "end": "2022-11-18T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100025,
-    "version": "3.1.2",
-    "items": [
-      {
-        "id": 10000070,
-        "itemId": 10000070,
-        "name": "Nilou",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 124,
-        "itemId": 1038,
-        "name": "Albedo",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 56,
-        "itemId": 1014,
-        "name": "Barbara",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 68,
-        "itemId": 1024,
-        "name": "Beidou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 55,
-        "itemId": 1023,
-        "name": "Xiangling",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-10-14T18:00:00",
-    "end": "2022-11-01T14:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100023,
-    "version": "3.1.1",
-    "items": [
-      {
-        "id": 10000071,
-        "itemId": 10000071,
-        "name": "Cyno",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 53,
-        "itemId": 1022,
-        "name": "Venti",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 10000072,
-        "itemId": 10000072,
-        "name": "Candace",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 172,
-        "itemId": -10041,
-        "name": "Kuki Shinobu",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 147,
-        "itemId": -10018,
-        "name": "Sayu",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-09-28T11:00:00",
-    "end": "2022-10-14T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100021,
-    "version": "3.0.2",
-    "items": [
-      {
-        "id": 152,
-        "itemId": -10023,
-        "name": "Sangonomiya Kokomi",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 125,
-        "itemId": 1037,
-        "name": "Ganyu",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 10000068,
-        "itemId": 10000068,
-        "name": "Dori",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 62,
-        "itemId": 1043,
-        "name": "Sucrose",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 67,
-        "itemId": 1025,
-        "name": "Xingqiu",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-09-09T18:00:00",
-    "end": "2022-09-27T14:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100019,
-    "version": "3.0.1",
-    "items": [
-      {
-        "id": 10000069,
-        "itemId": -10000069,
-        "name": "Tighnari",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 110,
-        "itemId": 1030,
-        "name": "Zhongli",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 10000067,
-        "itemId": 10000067,
-        "name": "Collei",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 113,
-        "itemId": 1039,
-        "name": "Diona",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 54,
-        "itemId": 1031,
-        "name": "Fischl",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-08-24T11:00:00",
-    "end": "2022-09-09T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100017,
-    "version": "2.8.2",
-    "items": [
-      {
-        "id": 146,
-        "itemId": -10017,
-        "name": "Yoimiya",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 162,
-        "itemId": -10032,
-        "name": "Yun Jin",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 65,
-        "itemId": 1032,
-        "name": "Bennett",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 111,
-        "itemId": 1044,
-        "name": "Xinyan",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-08-02T18:00:00",
-    "end": "2022-08-23T14:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100015,
-    "version": "2.8.1",
-    "items": [
-      {
-        "id": 142,
-        "itemId": -10013,
-        "name": "Kaedehara Kazuha",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 103,
-        "itemId": 1029,
-        "name": "Klee",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 66,
-        "itemId": 1027,
-        "name": "Ningguang",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 156,
-        "itemId": -10024,
-        "name": "Thoma",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 0,
-        "itemId": 0,
-        "name": "Shikanoin Heizou",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-07-13T11:00:00",
-    "end": "2022-08-02T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100013,
-    "version": "2.7.2",
-    "items": [
-      {
-        "id": 63,
-        "itemId": 1036,
-        "name": "Chongyun",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 160,
-        "itemId": -10030,
-        "name": "Arataki Itto",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 161,
-        "itemId": -10031,
-        "name": "Gorou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 172,
-        "itemId": -10041,
-        "name": "Kuki Shinobu",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-06-21T17:00:00",
-    "end": "2022-07-12T13:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100011,
-    "version": "2.7.1",
-    "items": [
-      {
-        "id": 56,
-        "itemId": 1014,
-        "name": "Barbara",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 64,
-        "itemId": 1034,
-        "name": "Noelle",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 127,
-        "itemId": -10002,
-        "name": "Xiao",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 137,
-        "itemId": -10008,
-        "name": "Yanfei",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 170,
-        "itemId": -10040,
-        "name": "Yelan",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-05-30T22:30:00",
-    "end": "2022-06-26T16:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100009,
-    "version": "2.6.2",
-    "items": [
-      {
-        "id": 69,
-        "itemId": 1020,
-        "name": "Razor",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 145,
-        "itemId": -10016,
-        "name": "Kamisato Ayaka",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 134,
-        "itemId": -10006,
-        "name": "Rosaria",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 147,
-        "itemId": -10018,
-        "name": "Sayu",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-04-19T16:00:00",
-    "end": "2022-05-30T22:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100007,
-    "version": "2.6.1",
-    "items": [
-      {
-        "id": 55,
-        "itemId": 1023,
-        "name": "Xiangling",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 62,
-        "itemId": 1043,
-        "name": "Sucrose",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 162,
-        "itemId": -10032,
-        "name": "Yun Jin",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 53,
-        "itemId": 1022,
-        "name": "Venti",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 167,
-        "itemId": -10037,
-        "name": "Kamisato Ayato",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-03-30T02:00:00",
-    "end": "2022-04-19T16:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100006,
-    "version": "2.5.2",
-    "items": [
-      {
-        "id": 65,
-        "itemId": 1032,
-        "name": "Bennett",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 111,
-        "itemId": 1044,
-        "name": "Xinyan",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 148,
-        "itemId": -10019,
-        "name": "Raiden Shogun",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 152,
-        "itemId": -10023,
-        "name": "Sangonomiya Kokomi",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 149,
-        "itemId": -10020,
-        "name": "Kujou Sara",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-03-08T18:00:00",
-    "end": "2022-03-29T13:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 100003,
-    "version": "2.5.1",
-    "items": [
-      {
-        "id": 54,
-        "itemId": 1031,
-        "name": "Fischl",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 113,
-        "itemId": 1039,
-        "name": "Diona",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 156,
-        "itemId": -10024,
-        "name": "Thoma",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 165,
-        "itemId": -10035,
-        "name": "Yae Miko",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-02-15T21:00:00",
-    "end": "2022-03-08T16:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 52,
-    "version": "2.4.2",
-    "items": [
-      {
-        "id": 110,
-        "itemId": 1030,
-        "name": "Zhongli",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 125,
-        "itemId": 1037,
-        "name": "Ganyu",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 67,
-        "itemId": 1025,
-        "name": "Xingqiu",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 68,
-        "itemId": 1024,
-        "name": "Beidou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 137,
-        "itemId": -10008,
-        "name": "Yanfei",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2022-01-25T18:00:00",
-    "end": "2022-02-15T14:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 50,
-    "version": "2.4.1",
-    "items": [
-      {
-        "id": 63,
-        "itemId": 1036,
-        "name": "Chongyun",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 66,
-        "itemId": 1027,
-        "name": "Ningguang",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 127,
-        "itemId": -10002,
-        "name": "Xiao",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 162,
-        "itemId": -10032,
-        "name": "Yun Jin",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 163,
-        "itemId": -10033,
-        "name": "Shenhe",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2022-01-04T23:00:00",
-    "end": "2022-01-21T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 48,
-    "version": "2.3.2",
-    "items": [
-      {
-        "id": 55,
-        "itemId": 1023,
-        "name": "Xiangling",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 56,
-        "itemId": 1014,
-        "name": "Barbara",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 160,
-        "itemId": -10030,
-        "name": "Arataki Itto",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 161,
-        "itemId": -10031,
-        "name": "Gorou",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-12-14T18:00:00",
-    "end": "2022-01-04T14:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 46,
-    "version": "2.3.1",
-    "items": [
-      {
-        "id": 124,
-        "itemId": 1038,
-        "name": "Albedo",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 64,
-        "itemId": 1034,
-        "name": "Noelle",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 65,
-        "itemId": 1032,
-        "name": "Bennett",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 134,
-        "itemId": -10006,
-        "name": "Rosaria",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 138,
-        "itemId": -10009,
-        "name": "Eula",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-11-23T22:00:00",
-    "end": "2021-12-14T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 44,
-    "version": "2.2.2",
-    "items": [
-      {
-        "id": 113,
-        "itemId": 1039,
-        "name": "Diona",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 147,
-        "itemId": -10018,
-        "name": "Sayu",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 130,
-        "itemId": 1046,
-        "name": "Hu Tao",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 156,
-        "itemId": -10024,
-        "name": "Thoma",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-11-02T17:00:00",
-    "end": "2021-11-23T13:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 42,
-    "version": "2.2.1",
-    "items": [
-      {
-        "id": 112,
-        "itemId": 1033,
-        "name": "Tartaglia",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 63,
-        "itemId": 1036,
-        "name": "Chongyun",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 66,
-        "itemId": 1027,
-        "name": "Ningguang",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 137,
-        "itemId": -10008,
-        "name": "Yanfei",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-10-13T01:00:00",
-    "end": "2021-11-02T16:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 40,
-    "version": "2.1.2",
-    "items": [
-      {
-        "id": 67,
-        "itemId": 1025,
-        "name": "Xingqiu",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 68,
-        "itemId": 1024,
-        "name": "Beidou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 134,
-        "itemId": -10006,
-        "name": "Rosaria",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 152,
-        "itemId": -10023,
-        "name": "Sangonomiya Kokomi",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-09-21T18:00:00",
-    "end": "2021-10-12T13:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 38,
-    "version": "2.1.1",
-    "items": [
-      {
-        "id": 55,
-        "itemId": 1023,
-        "name": "Xiangling",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 62,
-        "itemId": 1043,
-        "name": "Sucrose",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 148,
-        "itemId": -10019,
-        "name": "Raiden Shogun",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 149,
-        "itemId": -10020,
-        "name": "Kujou Sara",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-08-31T22:00:00",
-    "end": "2021-09-21T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 36,
-    "version": "2.0.2",
-    "items": [
-      {
-        "id": 111,
-        "itemId": 1044,
-        "name": "Xinyan",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 113,
-        "itemId": 1039,
-        "name": "Diona",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 146,
-        "itemId": -10017,
-        "name": "Yoimiya",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 147,
-        "itemId": -10018,
-        "name": "Sayu",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-08-10T18:00:00",
-    "end": "2021-08-31T15:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 32,
-    "version": "2.0.1",
-    "items": [
-      {
-        "id": 63,
-        "itemId": 1036,
-        "name": "Chongyun",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 66,
-        "itemId": 1027,
-        "name": "Ningguang",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 145,
-        "itemId": -10016,
-        "name": "Kamisato Ayaka",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 137,
-        "itemId": -10008,
-        "name": "Yanfei",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-07-20T23:00:00",
-    "end": "2021-08-10T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 30,
-    "version": "1.6.2",
-    "items": [
-      {
-        "id": 65,
-        "itemId": 1032,
-        "name": "Bennett",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 69,
-        "itemId": 1020,
-        "name": "Razor",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 142,
-        "itemId": -10013,
-        "name": "Kaedehara Kazuha",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 134,
-        "itemId": -10006,
-        "name": "Rosaria",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-06-29T18:00:00",
-    "end": "2021-07-20T15:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 28,
-    "version": "1.6.1",
-    "items": [
-      {
-        "id": 103,
-        "itemId": 1029,
-        "name": "Klee",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 54,
-        "itemId": 1031,
-        "name": "Fischl",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 56,
-        "itemId": 1014,
-        "name": "Barbara",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 62,
-        "itemId": 1043,
-        "name": "Sucrose",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-06-08T22:00:00",
-    "end": "2021-06-29T16:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 26,
-    "version": "1.5.2",
-    "items": [
-      {
-        "id": 67,
-        "itemId": 1025,
-        "name": "Xingqiu",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 68,
-        "itemId": 1024,
-        "name": "Beidou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 111,
-        "itemId": 1044,
-        "name": "Xinyan",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 138,
-        "itemId": -10009,
-        "name": "Eula",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-05-18T18:00:00",
-    "end": "2021-06-08T13:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 24,
-    "version": "1.5.1",
-    "items": [
-      {
-        "id": 110,
-        "itemId": 1030,
-        "name": "Zhongli",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 64,
-        "itemId": 1034,
-        "name": "Noelle",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 113,
-        "itemId": 1039,
-        "name": "Diona",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 137,
-        "itemId": -10008,
-        "name": "Yanfei",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-04-27T22:00:00",
-    "end": "2021-05-18T17:59:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 22,
-    "version": "1.4.2",
-    "items": [
-      {
-        "id": 112,
-        "itemId": 1033,
-        "name": "Tartaglia",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 54,
-        "itemId": 1031,
-        "name": "Fischl",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 56,
-        "itemId": 1014,
-        "name": "Barbara",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 134,
-        "itemId": -10006,
-        "name": "Rosaria",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-04-06T18:00:00",
-    "end": "2021-04-27T21:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 21,
-    "version": "1.4.1",
-    "items": [
-      {
-        "id": 62,
-        "itemId": 1043,
-        "name": "Sucrose",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 64,
-        "itemId": 1034,
-        "name": "Noelle",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 69,
-        "itemId": 1020,
-        "name": "Razor",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 53,
-        "itemId": 1022,
-        "name": "Venti",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-03-17T02:00:00",
-    "end": "2021-04-06T17:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 18,
-    "version": "1.3.3",
-    "items": [
-      {
-        "id": 55,
-        "itemId": 1023,
-        "name": "Xiangling",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 63,
-        "itemId": 1036,
-        "name": "Chongyun",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 67,
-        "itemId": 1025,
-        "name": "Xingqiu",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 130,
-        "itemId": 1046,
-        "name": "Hu Tao",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-03-02T18:00:00",
-    "end": "2021-03-17T01:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 17,
-    "version": "1.3.2",
-    "items": [
-      {
-        "id": 57,
-        "itemId": 1042,
-        "name": "Keqing",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 56,
-        "itemId": 1014,
-        "name": "Barbara",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 65,
-        "itemId": 1032,
-        "name": "Bennett",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 66,
-        "itemId": 1027,
-        "name": "Ningguang",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-02-17T18:00:00",
-    "end": "2021-03-02T02:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 15,
-    "version": "1.3.1",
-    "items": [
-      {
-        "id": 68,
-        "itemId": 1024,
-        "name": "Beidou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 111,
-        "itemId": 1044,
-        "name": "Xinyan",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 113,
-        "itemId": 1039,
-        "name": "Diona",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 127,
-        "itemId": -10002,
-        "name": "Xiao",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2021-02-03T01:30:00",
-    "end": "2021-02-17T17:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 13,
-    "version": "1.2.2",
-    "items": [
-      {
-        "id": 125,
-        "itemId": 1037,
-        "name": "Ganyu",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 55,
-        "itemId": 1023,
-        "name": "Xiangling",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 64,
-        "itemId": 1034,
-        "name": "Noelle",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 67,
-        "itemId": 1025,
-        "name": "Xingqiu",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2021-01-12T18:00:00",
-    "end": "2021-02-03T00:30:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 11,
-    "version": "1.2.1",
-    "items": [
-      {
-        "id": 124,
-        "itemId": 1038,
-        "name": "Albedo",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 54,
-        "itemId": 1031,
-        "name": "Fischl",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 62,
-        "itemId": 1043,
-        "name": "Sucrose",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 65,
-        "itemId": 1032,
-        "name": "Bennett",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-12-23T02:00:00",
-    "end": "2021-01-12T17:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 9,
-    "version": "1.1.2",
-    "items": [
-      {
-        "id": 110,
-        "itemId": 1030,
-        "name": "Zhongli",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 63,
-        "itemId": 1036,
-        "name": "Chongyun",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 69,
-        "itemId": 1020,
-        "name": "Razor",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 111,
-        "itemId": 1044,
-        "name": "Xinyan",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-12-01T18:00:00",
-    "end": "2020-12-23T00:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 7,
-    "version": "1.1.1",
-    "items": [
-      {
-        "id": 112,
-        "itemId": 1033,
-        "name": "Tartaglia",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 66,
-        "itemId": 1027,
-        "name": "Ningguang",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 68,
-        "itemId": 1024,
-        "name": "Beidou",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 113,
-        "itemId": 1039,
-        "name": "Diona",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-11-11T02:00:00",
-    "end": "2020-12-01T17:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 4,
-    "version": "1.0.2",
-    "items": [
-      {
-        "id": 103,
-        "itemId": 1029,
-        "name": "Klee",
-        "itemType": "Character",
-        "rankType": 5
-      },
-      {
-        "id": 62,
-        "itemId": 1043,
-        "name": "Sucrose",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 64,
-        "itemId": 1034,
-        "name": "Noelle",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 67,
-        "itemId": 1025,
-        "name": "Xingqiu",
-        "itemType": "Character",
-        "rankType": 4
-      }
-    ],
-    "start": "2020-10-20T18:00:00",
-    "end": "2020-11-11T00:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  },
-  {
-    "id": 3,
-    "version": "1.0.1",
-    "items": [
-      {
-        "id": 54,
-        "itemId": 1031,
-        "name": "Fischl",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 55,
-        "itemId": 1023,
-        "name": "Xiangling",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 56,
-        "itemId": 1014,
-        "name": "Barbara",
-        "itemType": "Character",
-        "rankType": 4
-      },
-      {
-        "id": 53,
-        "itemId": 1022,
-        "name": "Venti",
-        "itemType": "Character",
-        "rankType": 5
-      }
-    ],
-    "start": "2020-09-27T02:00:00",
-    "end": "2020-10-20T17:00:00",
-    "gachaType": "CHARACTER_EVENT"
-  }
+	{
+		"version": "3.2.2",
+		"items": [
+			{
+				"itemId": 0,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "八重神子",
+				"nameEn": "Yae Miko",
+				"element": "Electro"
+			},
+			{
+				"itemId": 1,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "达达利亚",
+				"nameEn": "Tartaglia",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 2,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "莱依拉",
+				"nameEn": "Layla",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 3,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "鹿野院平藏",
+				"nameEn": "Shikanoin Heizou",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 4,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "托马",
+				"nameEn": "Thoma",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-11-18 18:00:00",
+		"end": "2022-12-06 14:59:59"
+	},
+	{
+		"version": "3.2.1",
+		"items": [
+			{
+				"itemId": 5,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "纳西妲",
+				"nameEn": "Nahida",
+				"element": "Dendro"
+			},
+			{
+				"itemId": 6,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "宵宫",
+				"nameEn": "Yoimiya",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 8,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "雷泽",
+				"nameEn": "Razor",
+				"element": "Electro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			}
+		],
+		"start": "2022-11-02 06:00:00",
+		"end": "2022-11-18 17:59:59"
+	},
+	{
+		"version": "3.1.2",
+		"items": [
+			{
+				"itemId": 10,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "妮露",
+				"nameEn": "Nilou",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 11,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "阿贝多",
+				"nameEn": "Albedo",
+				"element": "Geo"
+			},
+			{
+				"itemId": 12,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "北斗",
+				"nameEn": "Beidou",
+				"element": "Electro"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 14,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "香菱",
+				"nameEn": "Xiangling",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-10-14 18:00:00",
+		"end": "2022-11-01 14:59:59"
+	},
+	{
+		"version": "3.1.1",
+		"items": [
+			{
+				"itemId": 15,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "赛诺",
+				"nameEn": "Cyno",
+				"element": "Electro"
+			},
+			{
+				"itemId": 16,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "温迪",
+				"nameEn": "Venti",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 17,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "久岐忍",
+				"nameEn": "Kuki Shinobu",
+				"element": "Electro"
+			},
+			{
+				"itemId": 18,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "早柚",
+				"nameEn": "Sayu",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 19,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "坎蒂丝",
+				"nameEn": "Candace",
+				"element": "Hydro"
+			}
+		],
+		"start": "2022-09-28 06:00:00",
+		"end": "2022-10-14 17:59:59"
+	},
+	{
+		"version": "3.0.2",
+		"items": [
+			{
+				"itemId": 20,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "甘雨",
+				"nameEn": "Ganyu",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 21,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "心海",
+				"nameEn": "Sangonomiya Kokomi",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "砂糖",
+				"nameEn": "Sucrose",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 24,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "多莉",
+				"nameEn": "Dori",
+				"element": "Electro"
+			}
+		],
+		"start": "2022-09-09 18:00:00",
+		"end": "2022-09-27 14:59:59"
+	},
+	{
+		"version": "3.0.1",
+		"items": [
+			{
+				"itemId": 25,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "提纳里",
+				"nameEn": "Tighnari",
+				"element": "Dendro"
+			},
+			{
+				"itemId": 26,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "钟离",
+				"nameEn": "Zhongli",
+				"element": "Geo"
+			},
+			{
+				"itemId": 27,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "云堇",
+				"nameEn": "Yun Jin",
+				"element": "Geo"
+			},
+			{
+				"itemId": 28,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-08-24 06:00:00",
+		"end": "2022-09-09 17:59:59"
+	},
+	{
+		"version": "2.8.2",
+		"items": [
+			{
+				"itemId": 6,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "宵宫",
+				"nameEn": "Yoimiya",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 27,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "云堇",
+				"nameEn": "Yun Jin",
+				"element": "Geo"
+			},
+			{
+				"itemId": 28,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-08-02 18:00:00",
+		"end": "2022-08-23 14:59:59"
+	},
+	{
+		"version": "2.8.1",
+		"items": [
+			{
+				"itemId": 29,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "枫原万叶",
+				"nameEn": "Kaedehara Kazuha",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 30,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "可莉",
+				"nameEn": "Klee",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 31,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "凝光",
+				"nameEn": "Ningguang",
+				"element": "Geo"
+			},
+			{
+				"itemId": 3,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "鹿野院平藏",
+				"nameEn": "Shikanoin Heizou",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 4,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "托马",
+				"nameEn": "Thoma",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-07-13 06:00:00",
+		"end": "2022-08-02 17:59:59"
+	},
+	{
+		"version": "2.7.2",
+		"items": [
+			{
+				"itemId": 32,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "荒泷一斗",
+				"nameEn": "Arataki Itto",
+				"element": "Geo"
+			},
+			{
+				"itemId": 33,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "烟绯",
+				"nameEn": "Yanfei",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			}
+		],
+		"start": "2022-06-21 18:00:00",
+		"end": "2022-07-12 14:59:59"
+	},
+	{
+		"version": "2.7.1",
+		"items": [
+			{
+				"itemId": 34,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "夜兰",
+				"nameEn": "Yelan",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 35,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "魈",
+				"nameEn": "Xiao",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 33,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "烟绯",
+				"nameEn": "Yanfei",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			}
+		],
+		"start": "2022-05-31 06:00:00",
+		"end": "2022-06-21 17:59:59"
+	},
+	{
+		"version": "2.6.2",
+		"items": [
+			{
+				"itemId": 36,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "神里绫华",
+				"nameEn": "Kamisato Ayaka",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 37,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "罗莎莉亚",
+				"nameEn": "Rosaria",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 18,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "早柚",
+				"nameEn": "Sayu",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 8,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "雷泽",
+				"nameEn": "Razor",
+				"element": "Electro"
+			}
+		],
+		"start": "2022-04-19 17:59:59",
+		"end": "2022-05-31 05:59:59"
+	},
+	{
+		"version": "2.6.1",
+		"items": [
+			{
+				"itemId": 38,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "神里绫人",
+				"nameEn": "Kamisato Ayato",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 16,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "温迪",
+				"nameEn": "Venti",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 14,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "香菱",
+				"nameEn": "Xiangling",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "砂糖",
+				"nameEn": "Sucrose",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 27,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "云堇",
+				"nameEn": "Yun Jin",
+				"element": "Geo"
+			}
+		],
+		"start": "2022-03-30 06:00:00",
+		"end": "2022-04-19 17:59:59"
+	},
+	{
+		"version": "2.5.2",
+		"items": [
+			{
+				"itemId": 39,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "雷电将军",
+				"nameEn": "Raiden Shogun",
+				"element": "Electro"
+			},
+			{
+				"itemId": 40,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "珊瑚宫心海",
+				"nameEn": "Sangonomiya Kokomi",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 28,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 41,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "九条裟罗",
+				"nameEn": "Kujou Sara",
+				"element": "Electro"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-03-08 18:00:00",
+		"end": "2022-03-29 14:59:59"
+	},
+	{
+		"version": "2.5.1",
+		"items": [
+			{
+				"itemId": 0,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "八重神子",
+				"nameEn": "Yae Miko",
+				"element": "Electro"
+			},
+			{
+				"itemId": 42,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "菲谢尔",
+				"nameEn": "Fischl",
+				"element": "Electro"
+			},
+			{
+				"itemId": 43,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "迪奥娜",
+				"nameEn": "Diona",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 4,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "托马",
+				"nameEn": "Thoma",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-02-16 06:00:00",
+		"end": "2022-03-08 17:59:59"
+	},
+	{
+		"version": "2.4.2",
+		"items": [
+			{
+				"itemId": 20,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "甘雨",
+				"nameEn": "Ganyu",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 26,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "钟离",
+				"nameEn": "Zhongli",
+				"element": "Geo"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 12,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "北斗",
+				"nameEn": "Beidou",
+				"element": "Electro"
+			},
+			{
+				"itemId": 33,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "烟绯",
+				"nameEn": "Yanfei",
+				"element": "Pyro"
+			}
+		],
+		"start": "2022-01-25 18:00:00",
+		"end": "2022-02-15 14:59:59"
+	},
+	{
+		"version": "2.4.1",
+		"items": [
+			{
+				"itemId": 44,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "申鹤",
+				"nameEn": "Shenhe",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 35,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "魈",
+				"nameEn": "Xiao",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 27,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "云堇",
+				"nameEn": "Yun Jin",
+				"element": "Geo"
+			},
+			{
+				"itemId": 31,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "凝光",
+				"nameEn": "Ningguang",
+				"element": "Geo"
+			},
+			{
+				"itemId": 45,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "重云",
+				"nameEn": "Chongyun",
+				"element": "Cryo"
+			}
+		],
+		"start": "2022-01-05 06:00:00",
+		"end": "2022-01-25 17:59:59"
+	},
+	{
+		"version": "2.3.2",
+		"items": [
+			{
+				"itemId": 32,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "荒泷一斗",
+				"nameEn": "Arataki Itto",
+				"element": "Geo"
+			},
+			{
+				"itemId": 46,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "五郎",
+				"nameEn": "Gorou",
+				"element": "Geo"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 14,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "香菱",
+				"nameEn": "Xiangling",
+				"element": "Pyro"
+			}
+		],
+		"start": "2021-12-14 18:00:00",
+		"end": "2022-01-04 14:59:59"
+	},
+	{
+		"version": "2.3.1",
+		"items": [
+			{
+				"itemId": 11,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "阿贝多",
+				"nameEn": "Albedo",
+				"element": "Geo"
+			},
+			{
+				"itemId": 47,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "优菈",
+				"nameEn": "Eula",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			},
+			{
+				"itemId": 37,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "罗莎莉亚",
+				"nameEn": "Rosaria",
+				"element": "Cryo"
+			}
+		],
+		"start": "2021-11-24 06:00:00",
+		"end": "2021-12-14 17:59:59"
+	},
+	{
+		"version": "2.2.2",
+		"items": [
+			{
+				"itemId": 48,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "胡桃",
+				"nameEn": "Hu Tao",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 4,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "托马",
+				"nameEn": "Thoma",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 43,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "迪奥娜",
+				"nameEn": "Diona",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 18,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "早柚",
+				"nameEn": "Sayu",
+				"element": "Anemo"
+			}
+		],
+		"start": "2021-11-02 18:00:00",
+		"end": "2021-11-23 14:59:59"
+	},
+	{
+		"version": "2.2.1",
+		"items": [
+			{
+				"itemId": 1,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "达达利亚",
+				"nameEn": "Tartaglia",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 31,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "凝光",
+				"nameEn": "Ningguang",
+				"element": "Geo"
+			},
+			{
+				"itemId": 45,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "重云",
+				"nameEn": "Chongyun",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 33,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "烟绯",
+				"nameEn": "Yanfei",
+				"element": "Pyro"
+			}
+		],
+		"start": "2021-10-13 06:00:00",
+		"end": "2021-11-02 17:59:59"
+	},
+	{
+		"version": "2.1.2",
+		"items": [
+			{
+				"itemId": 40,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "珊瑚宫心海",
+				"nameEn": "Sangonomiya Kokomi",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 37,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "罗莎莉亚",
+				"nameEn": "Rosaria",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 12,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "北斗",
+				"nameEn": "Beidou",
+				"element": "Electro"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			}
+		],
+		"start": "2021-09-21 18:00:00",
+		"end": "2021-10-12 14:59:59"
+	},
+	{
+		"version": "2.1.1",
+		"items": [
+			{
+				"itemId": 39,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "雷电将军",
+				"nameEn": "Raiden Shogun",
+				"element": "Electro"
+			},
+			{
+				"itemId": 41,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "九条裟罗",
+				"nameEn": "Kujou Sara",
+				"element": "Electro"
+			},
+			{
+				"itemId": 14,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "香菱",
+				"nameEn": "Xiangling",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "砂糖",
+				"nameEn": "Sucrose",
+				"element": "Anemo"
+			}
+		],
+		"start": "2021-09-01 06:00:00",
+		"end": "2021-09-21 17:59:59"
+	},
+	{
+		"version": "2.0.2",
+		"items": [
+			{
+				"itemId": 6,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "宵宫",
+				"nameEn": "Yoimiya",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 18,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "早柚",
+				"nameEn": "Sayu",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 43,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "迪奥娜",
+				"nameEn": "Diona",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 28,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			}
+		],
+		"start": "2021-08-10 18:00:00",
+		"end": "2021-08-31 14:59:59"
+	},
+	{
+		"version": "2.0.1",
+		"items": [
+			{
+				"itemId": 36,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "神里绫华",
+				"nameEn": "Kamisato Ayaka",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 31,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "凝光",
+				"nameEn": "Ningguang",
+				"element": "Geo"
+			},
+			{
+				"itemId": 45,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "重云",
+				"nameEn": "Chongyun",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 33,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "烟绯",
+				"nameEn": "Yanfei",
+				"element": "Pyro"
+			}
+		],
+		"start": "2021-07-21 06:00:00",
+		"end": "2021-08-10 17:59:59"
+	},
+	{
+		"version": "1.6.2",
+		"items": [
+			{
+				"itemId": 29,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "枫原万叶",
+				"nameEn": "Kaedehara Kazuha",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 37,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "罗莎莉亚",
+				"nameEn": "Rosaria",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 8,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "雷泽",
+				"nameEn": "Razor",
+				"element": "Electro"
+			}
+		],
+		"start": "2021-06-29 18:00:00",
+		"end": "2021-07-20 14:59:59"
+	},
+	{
+		"version": "1.6.1",
+		"items": [
+			{
+				"itemId": 30,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "可莉",
+				"nameEn": "Klee",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "砂糖",
+				"nameEn": "Sucrose",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 42,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "菲谢尔",
+				"nameEn": "Fischl",
+				"element": "Electro"
+			}
+		],
+		"start": "2021-06-09 06:00:00",
+		"end": "2021-06-29 17:59:59"
+	},
+	{
+		"version": "1.5.2",
+		"items": [
+			{
+				"itemId": 47,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "优菈",
+				"nameEn": "Eula",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 28,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 12,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "北斗",
+				"nameEn": "Beidou",
+				"element": "Electro"
+			}
+		],
+		"start": "2021-05-18 18:00:00",
+		"end": "2021-06-08 14:59:59"
+	},
+	{
+		"version": "1.5.1",
+		"items": [
+			{
+				"itemId": 26,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "钟离",
+				"nameEn": "Zhongli",
+				"element": "Geo"
+			},
+			{
+				"itemId": 33,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "烟绯",
+				"nameEn": "Yanfei",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			},
+			{
+				"itemId": 43,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "迪奥娜",
+				"nameEn": "Diona",
+				"element": "Cryo"
+			}
+		],
+		"start": "2021-04-28 06:00:00",
+		"end": "2021-05-18 17:59:59"
+	},
+	{
+		"version": "1.4.2",
+		"items": [
+			{
+				"itemId": 1,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "达达利亚",
+				"nameEn": "Tartaglia",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 37,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "罗莎莉亚",
+				"nameEn": "Rosaria",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 42,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "菲谢尔",
+				"nameEn": "Fischl",
+				"element": "Electro"
+			}
+		],
+		"start": "2021-04-06 18:00:00",
+		"end": "2021-04-27 14:59:59"
+	},
+	{
+		"version": "1.4.1",
+		"items": [
+			{
+				"itemId": 16,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "温迪",
+				"nameEn": "Venti",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "砂糖",
+				"nameEn": "Sucrose",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 8,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "雷泽",
+				"nameEn": "Razor",
+				"element": "Electro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			}
+		],
+		"start": "2021-03-17 06:00:00",
+		"end": "2021-04-06 15:59:59"
+	},
+	{
+		"version": "1.3.3",
+		"items": [
+			{
+				"itemId": 48,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "胡桃",
+				"nameEn": "Hu Tao",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 14,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "香菱",
+				"nameEn": "Xiangling",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 45,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "重云",
+				"nameEn": "Chongyun",
+				"element": "Cryo"
+			}
+		],
+		"start": "2021-03-02 18:00:00",
+		"end": "2021-03-16 14:59:59"
+	},
+	{
+		"version": "1.3.2",
+		"items": [
+			{
+				"itemId": 49,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "刻晴",
+				"nameEn": "Keqing",
+				"element": "Electro"
+			},
+			{
+				"itemId": 31,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "凝光",
+				"nameEn": "Ningguang",
+				"element": "Geo"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			}
+		],
+		"start": "2021-02-17 18:00:00",
+		"end": "2021-03-02 15:59:59"
+	},
+	{
+		"version": "1.3.1",
+		"items": [
+			{
+				"itemId": 35,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "魈",
+				"nameEn": "Xiao",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 43,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "迪奥娜",
+				"nameEn": "Diona",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 12,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "北斗",
+				"nameEn": "Beidou",
+				"element": "Electro"
+			},
+			{
+				"itemId": 28,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			}
+		],
+		"start": "2021-02-03 06:00:00",
+		"end": "2021-02-17 15:59:59"
+	},
+	{
+		"version": "1.2.2",
+		"items": [
+			{
+				"itemId": 20,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "甘雨",
+				"nameEn": "Ganyu",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 14,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "香菱",
+				"nameEn": "Xiangling",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			}
+		],
+		"start": "2021-01-12 18:00:00",
+		"end": "2021-02-02 14:59:59"
+	},
+	{
+		"version": "1.2.1",
+		"items": [
+			{
+				"itemId": 11,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "阿贝多",
+				"nameEn": "Albedo",
+				"element": "Geo"
+			},
+			{
+				"itemId": 42,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "菲谢尔",
+				"nameEn": "Fischl",
+				"element": "Electro"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "砂糖",
+				"nameEn": "Sucrose",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 7,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "班尼特",
+				"nameEn": "Bennett",
+				"element": "Pyro"
+			}
+		],
+		"start": "2020-12-23 06:00:00",
+		"end": "2021-01-12 15:59:59"
+	},
+	{
+		"version": "1.1.2",
+		"items": [
+			{
+				"itemId": 26,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "钟离",
+				"nameEn": "Zhongli",
+				"element": "Geo"
+			},
+			{
+				"itemId": 28,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 8,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "雷泽",
+				"nameEn": "Razor",
+				"element": "Electro"
+			},
+			{
+				"itemId": 45,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "重云",
+				"nameEn": "Chongyun",
+				"element": "Cryo"
+			}
+		],
+		"start": "2020-12-01 18:00:00",
+		"end": "2020-12-22 14:59:59"
+	},
+	{
+		"version": "1.1.1",
+		"items": [
+			{
+				"itemId": 1,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "达达利亚",
+				"nameEn": "Tartaglia",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 43,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "迪奥娜",
+				"nameEn": "Diona",
+				"element": "Cryo"
+			},
+			{
+				"itemId": 12,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "北斗",
+				"nameEn": "Beidou",
+				"element": "Electro"
+			},
+			{
+				"itemId": 31,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "凝光",
+				"nameEn": "Ningguang",
+				"element": "Geo"
+			}
+		],
+		"start": "2020-11-11 06:00:00",
+		"end": "2020-12-01 15:59:59"
+	},
+	{
+		"version": "1.0.2",
+		"items": [
+			{
+				"itemId": 30,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "可莉",
+				"nameEn": "Klee",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "诺艾尔",
+				"nameEn": "Noelle",
+				"element": "Geo"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "砂糖",
+				"nameEn": "Sucrose",
+				"element": "Anemo"
+			}
+		],
+		"start": "2020-10-20 18:00:00",
+		"end": "2020-11-10 14:59:59"
+	},
+	{
+		"version": "1.0.1",
+		"items": [
+			{
+				"itemId": 16,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "温迪",
+				"nameEn": "Venti",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "芭芭拉",
+				"nameEn": "Barbara",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 42,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "菲谢尔",
+				"nameEn": "Fischl",
+				"element": "Electro"
+			},
+			{
+				"itemId": 14,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "香菱",
+				"nameEn": "Xiangling",
+				"element": "Pyro"
+			}
+		],
+		"start": "2020-9-28 06:00:00",
+		"end": "2020-10-18 17:59:59"
+	}
 ]

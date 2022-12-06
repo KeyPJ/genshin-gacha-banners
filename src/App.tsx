@@ -1,14 +1,13 @@
 import {useEffect, useState} from 'react'
 import './App.css'
 import BannersShow from "./components/BannersShow";
-import {gachaData, Item} from "genshin-wishes";
+import {gachaData} from "genshin-wishes";
 import axios from "axios";
 
 import {useRegisterSW} from 'virtual:pwa-register/react';
 import GithubCorner from "react-github-corner";
 import {useTranslation} from "react-i18next";
 import {isMobile} from "react-device-detect";
-import genshindb from "genshin-db";
 import {inject} from "@vercel/analytics";
 
 interface Option {
@@ -17,55 +16,6 @@ interface Option {
 }
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
-
-const getInfo = (name: string, itemType: string, language: string) => {
-    let weaponType = '';
-    let imageUrl = '';
-    let rankType = -1;
-    let element;
-    const opts = {
-        dumpResult: false, // The query result will return an object with the properties: query, folder, match, matchtype, options, filename, result.
-        matchNames: true, // Allows the matching of names.
-        matchAltNames: true, // Allows the matching of alternate or custom names.
-        matchAliases: false, // Allows the matching of aliases. These are searchable fields that returns the data object the query matched in.
-        matchCategories: false, // Allows the matching of categories. If true, then returns an array if it matches.
-        verboseCategories: false, // Used if a category is matched. If true, then replaces each string name in the array with the data object instead.
-        queryLanguages: [genshindb.Language.English, genshindb.Language.ChineseSimplified],
-        resultLanguage: genshindb.Language.English
-    }
-    if (itemType == "Character") {
-        let character = genshindb.characters(name, opts) as genshindb.Character;
-        weaponType = character?.weapontype || '';
-        imageUrl = character?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "") || '';
-        rankType = +character?.rarity || -1;
-        element = character?.element;
-        if ("zh-CN" == language) {
-            name = genshindb.characters(name, {
-                ...opts,
-                resultLanguage: genshindb.Language.ChineseSimplified
-            })?.fullname || name;
-        }
-    } else if (itemType == "Weapon") {
-        let weapon = genshindb.weapons(name, opts) as genshindb.Weapon;
-        weaponType = weapon?.weapontype || '';
-        imageUrl = weapon?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "") || '';
-        rankType = +weapon?.rarity || -1;
-        if ("zh-CN" == language) {
-            name = genshindb.weapons(name, {
-                ...opts,
-                resultLanguage: genshindb.Language.ChineseSimplified
-            })?.name || name;
-        }
-    }
-    return {
-        weaponType,
-        imageUrl,
-        rankType,
-        itemType,
-        name,
-        element
-    } as Item;
-}
 
 const generateOptionEle = (str: string, t: Function) => {
     let elementList: Option[] = [
@@ -92,8 +42,6 @@ function App() {
         }
     });
     const [data, setData] = useState<gachaData[]>([]);
-
-    const [commonItemId, setCommonItemId] = useState<number[]>([]);
 
     const itemTypeList: Option[] = [
         {name: t("CharacterText"), value: "Character"},
@@ -132,34 +80,12 @@ function App() {
         axios.get(`/data/${s}.json`).then(
             res => {
                 const resData = res.data as gachaData[];
-                let set = new Set();
-                setData(resData.map(gachaData => {
-                    const {items} = gachaData
-                    return {
-                        ...gachaData,
-                        items: items.map(item => {
-                            const info = getInfo(item.name, itemType.value, language) as Item;
-                            set.add(info?.element)
-                            return {
-                                ...item,
-                                ...info
-                            }
-                        })
-                    }
-                }).reverse())
-                console.log(set);
+                setData(resData.reverse())
             }
         )
     }, [itemType, language])
 
     useEffect(() => {
-        axios.get(`/data/permanent.json`).then(
-            res => {
-                const {countPerItemId} = res.data;
-                const itemIds = countPerItemId.map((i: { itemId: number; }): number => i.itemId);
-                setCommonItemId(itemIds);
-            }
-        )
         inject()
     }, [])
 
@@ -249,7 +175,6 @@ function App() {
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
                 setShowGachaIndex={setShowGachaIndex}
-                commonItemId={commonItemId}
                 itemType={itemType.value}
             />
             {/*<div className="flex flex-row justify-center text-center my-4">*/}
