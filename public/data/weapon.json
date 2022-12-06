@@ -1,9 +1,79 @@
 [
 	{
+		"version": "3.3.1",
+		"items": [
+			{
+				"itemId": 63,
+				"weaponType": "",
+				"imageUrl": "",
+				"rankType": -1,
+				"itemType": "Weapon",
+				"name": "图莱杜拉的回忆",
+				"nameEn": "图莱杜拉的回忆"
+			},
+			{
+				"itemId": 51,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "赤角石溃杵",
+				"nameEn": "Redhorn Stonethresher"
+			},
+			{
+				"itemId": 9,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼剑",
+				"nameEn": "Sacrificial Sword"
+			},
+			{
+				"itemId": 27,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风大剑",
+				"nameEn": "Favonius Greatsword"
+			},
+			{
+				"itemId": 49,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "断浪长鳍",
+				"nameEn": "Wavebreaker's Fin"
+			},
+			{
+				"itemId": 17,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			},
+			{
+				"itemId": 23,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风猎弓",
+				"nameEn": "Favonius Warbow"
+			}
+		],
+		"start": "2022-12-07 06:00:00",
+		"end": "2022-12-27 17:59:59"
+	},
+	{
 		"version": "3.2.2",
 		"items": [
 			{
-				"itemId": 50,
+				"itemId": 53,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
 				"rankType": 5,
@@ -12,7 +82,7 @@
 				"nameEn": "Kagura's Verity"
 			},
 			{
-				"itemId": 51,
+				"itemId": 47,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
 				"rankType": 5,
@@ -21,7 +91,7 @@
 				"nameEn": "Polar Star"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -30,7 +100,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -39,7 +109,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -48,7 +118,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -57,7 +127,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 56,
+				"itemId": 5,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
@@ -73,7 +143,7 @@
 		"version": "3.2.1",
 		"items": [
 			{
-				"itemId": 57,
+				"itemId": 62,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus.png",
 				"rankType": 5,
@@ -82,7 +152,7 @@
 				"nameEn": "A Thousand Floating Dreams"
 			},
 			{
-				"itemId": 58,
+				"itemId": 44,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
 				"rankType": 5,
@@ -91,7 +161,7 @@
 				"nameEn": "Thundering Pulse"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -100,7 +170,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -109,7 +179,7 @@
 				"nameEn": "Sacrificial Greatsword"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -118,7 +188,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 62,
+				"itemId": 4,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
@@ -127,7 +197,7 @@
 				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 63,
+				"itemId": 18,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
@@ -143,7 +213,7 @@
 		"version": "3.1.2",
 		"items": [
 			{
-				"itemId": 64,
+				"itemId": 59,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Deshret.png",
 				"rankType": 5,
@@ -152,7 +222,7 @@
 				"nameEn": "Key of Khaj-Nisut"
 			},
 			{
-				"itemId": 65,
+				"itemId": 29,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
@@ -161,7 +231,7 @@
 				"nameEn": "Primordial Jade Cutter"
 			},
 			{
-				"itemId": 66,
+				"itemId": 60,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Pleroma.png",
 				"rankType": 4,
@@ -170,7 +240,7 @@
 				"nameEn": "Xiphos' Moonlight"
 			},
 			{
-				"itemId": 67,
+				"itemId": 16,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
@@ -179,7 +249,7 @@
 				"nameEn": "Rainslasher"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -188,7 +258,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 68,
+				"itemId": 61,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma.png",
 				"rankType": 4,
@@ -197,7 +267,7 @@
 				"nameEn": "Wandering Evenstar"
 			},
 			{
-				"itemId": 69,
+				"itemId": 12,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
@@ -213,7 +283,7 @@
 		"version": "3.1.1",
 		"items": [
 			{
-				"itemId": 70,
+				"itemId": 57,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Deshret.png",
 				"rankType": 5,
@@ -222,7 +292,7 @@
 				"nameEn": "Staff of the Scarlet Sands"
 			},
 			{
-				"itemId": 71,
+				"itemId": 34,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
@@ -231,7 +301,7 @@
 				"nameEn": "Elegy for the End"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -240,7 +310,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 73,
+				"itemId": 58,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Pleroma.png",
 				"rankType": 4,
@@ -249,7 +319,7 @@
 				"nameEn": "Makhaira Aquamarine"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -258,7 +328,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -267,7 +337,7 @@
 				"nameEn": "Sacrificial Fragments"
 			},
 			{
-				"itemId": 75,
+				"itemId": 23,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
@@ -283,7 +353,7 @@
 		"version": "3.0.2",
 		"items": [
 			{
-				"itemId": 76,
+				"itemId": 1,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
@@ -292,7 +362,7 @@
 				"nameEn": "Amos' Bow"
 			},
 			{
-				"itemId": 77,
+				"itemId": 46,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
 				"rankType": 5,
@@ -301,7 +371,7 @@
 				"nameEn": "Everlasting Moonglow"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -310,7 +380,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 79,
+				"itemId": 27,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
@@ -319,7 +389,7 @@
 				"nameEn": "Favonius Greatsword"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -328,7 +398,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -337,7 +407,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 63,
+				"itemId": 18,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
@@ -353,7 +423,7 @@
 		"version": "3.0.1",
 		"items": [
 			{
-				"itemId": 81,
+				"itemId": 56,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Ayus.png",
 				"rankType": 5,
@@ -362,7 +432,7 @@
 				"nameEn": "Hunter's Path"
 			},
 			{
-				"itemId": 82,
+				"itemId": 19,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
 				"rankType": 5,
@@ -371,7 +441,7 @@
 				"nameEn": "Vortex Vanquisher"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -380,7 +450,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -389,7 +459,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -398,7 +468,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -407,7 +477,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 56,
+				"itemId": 5,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
@@ -423,7 +493,7 @@
 		"version": "2.8.2",
 		"items": [
 			{
-				"itemId": 58,
+				"itemId": 44,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
 				"rankType": 5,
@@ -432,7 +502,7 @@
 				"nameEn": "Thundering Pulse"
 			},
 			{
-				"itemId": 83,
+				"itemId": 24,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
 				"rankType": 5,
@@ -441,7 +511,7 @@
 				"nameEn": "Summit Shaper"
 			},
 			{
-				"itemId": 84,
+				"itemId": 37,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
@@ -450,7 +520,7 @@
 				"nameEn": "Wine and Song"
 			},
 			{
-				"itemId": 85,
+				"itemId": 38,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
@@ -459,7 +529,7 @@
 				"nameEn": "Alley Hunter"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -468,7 +538,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -477,7 +547,7 @@
 				"nameEn": "Sacrificial Greatsword"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -493,7 +563,7 @@
 		"version": "2.8.1",
 		"items": [
 			{
-				"itemId": 86,
+				"itemId": 41,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
 				"rankType": 5,
@@ -502,7 +572,7 @@
 				"nameEn": "Freedom-Sworn"
 			},
 			{
-				"itemId": 87,
+				"itemId": 7,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
@@ -511,49 +581,49 @@
 				"nameEn": "Lost Prayer to the Sacred Winds"
 			},
 			{
-				"itemId": 88,
-				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
-				"rankType": 4,
-				"itemType": "Weapon",
-				"name": "千岩古剑",
-				"nameEn": "Lithic Blade"
-			},
-			{
-				"itemId": 72,
+				"itemId": 36,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "匣里龙吟",
-				"nameEn": "Lion's Roar"
+				"name": "暗巷闪光",
+				"nameEn": "The Alley Flash"
 			},
 			{
-				"itemId": 54,
+				"itemId": 16,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "雨裁",
+				"nameEn": "Rainslasher"
+			},
+			{
+				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "匣里灭辰",
-				"nameEn": "Dragon's Bane"
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 74,
+				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "祭礼残章",
-				"nameEn": "Sacrificial Fragments"
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 56,
+				"itemId": 40,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "绝弦",
-				"nameEn": "The Stringless"
+				"name": "幽夜华尔兹",
+				"nameEn": "Mitternachts Waltz"
 			}
 		],
 		"start": "2022-07-13 06:00:00",
@@ -563,7 +633,7 @@
 		"version": "2.7.2",
 		"items": [
 			{
-				"itemId": 89,
+				"itemId": 51,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
 				"rankType": 5,
@@ -572,7 +642,7 @@
 				"nameEn": "Redhorn Stonethresher"
 			},
 			{
-				"itemId": 90,
+				"itemId": 15,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
@@ -581,7 +651,7 @@
 				"nameEn": "Memory of Dust"
 			},
 			{
-				"itemId": 88,
+				"itemId": 32,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
@@ -590,7 +660,7 @@
 				"nameEn": "Lithic Blade"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -599,7 +669,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -608,7 +678,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -617,7 +687,7 @@
 				"nameEn": "Sacrificial Fragments"
 			},
 			{
-				"itemId": 56,
+				"itemId": 5,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
@@ -633,7 +703,7 @@
 		"version": "2.7.1",
 		"items": [
 			{
-				"itemId": 91,
+				"itemId": 55,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Kirin.png",
 				"rankType": 5,
@@ -642,7 +712,7 @@
 				"nameEn": "Aqua Simulacra"
 			},
 			{
-				"itemId": 92,
+				"itemId": 30,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
 				"rankType": 5,
@@ -651,7 +721,7 @@
 				"nameEn": "Primordial Jade Winged-Spear"
 			},
 			{
-				"itemId": 93,
+				"itemId": 33,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
@@ -660,7 +730,7 @@
 				"nameEn": "Lithic Spear"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -669,7 +739,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 79,
+				"itemId": 27,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
@@ -678,7 +748,7 @@
 				"nameEn": "Favonius Greatsword"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -687,7 +757,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 69,
+				"itemId": 12,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
@@ -703,7 +773,7 @@
 		"version": "2.6.2",
 		"items": [
 			{
-				"itemId": 94,
+				"itemId": 42,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
 				"rankType": 5,
@@ -712,7 +782,7 @@
 				"nameEn": "Mistsplitter Reforged"
 			},
 			{
-				"itemId": 95,
+				"itemId": 20,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
 				"rankType": 5,
@@ -721,7 +791,7 @@
 				"nameEn": "The Unforged"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -730,7 +800,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -739,7 +809,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -748,7 +818,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -757,7 +827,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 75,
+				"itemId": 23,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
@@ -773,7 +843,7 @@
 		"version": "2.6.1",
 		"items": [
 			{
-				"itemId": 96,
+				"itemId": 54,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
 				"rankType": 5,
@@ -782,7 +852,7 @@
 				"nameEn": "Haran Geppaku Futsu"
 			},
 			{
-				"itemId": 71,
+				"itemId": 34,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
@@ -791,7 +861,7 @@
 				"nameEn": "Elegy for the End"
 			},
 			{
-				"itemId": 63,
+				"itemId": 18,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
@@ -800,7 +870,7 @@
 				"nameEn": "Rust"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -809,7 +879,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 62,
+				"itemId": 4,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
@@ -818,7 +888,7 @@
 				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -827,7 +897,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -843,7 +913,7 @@
 		"version": "2.5.2",
 		"items": [
 			{
-				"itemId": 97,
+				"itemId": 45,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
 				"rankType": 5,
@@ -852,7 +922,7 @@
 				"nameEn": "Engulfing Lightning"
 			},
 			{
-				"itemId": 77,
+				"itemId": 46,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
 				"rankType": 5,
@@ -861,7 +931,7 @@
 				"nameEn": "Everlasting Moonglow"
 			},
 			{
-				"itemId": 98,
+				"itemId": 48,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
 				"rankType": 4,
@@ -870,7 +940,7 @@
 				"nameEn": "Akuoumaru"
 			},
 			{
-				"itemId": 99,
+				"itemId": 50,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
 				"rankType": 4,
@@ -879,7 +949,7 @@
 				"nameEn": "Mouun's Moon"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -888,7 +958,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -897,7 +967,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -913,7 +983,7 @@
 		"version": "2.5.1",
 		"items": [
 			{
-				"itemId": 50,
+				"itemId": 53,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
 				"rankType": 5,
@@ -922,7 +992,7 @@
 				"nameEn": "Kagura's Verity"
 			},
 			{
-				"itemId": 65,
+				"itemId": 29,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
@@ -931,7 +1001,7 @@
 				"nameEn": "Primordial Jade Cutter"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -940,7 +1010,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 67,
+				"itemId": 16,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
@@ -949,7 +1019,7 @@
 				"nameEn": "Rainslasher"
 			},
 			{
-				"itemId": 100,
+				"itemId": 49,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
 				"rankType": 4,
@@ -958,7 +1028,7 @@
 				"nameEn": "Wavebreaker's Fin"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -967,7 +1037,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 56,
+				"itemId": 5,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
@@ -983,7 +1053,7 @@
 		"version": "2.4.2",
 		"items": [
 			{
-				"itemId": 82,
+				"itemId": 19,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
 				"rankType": 5,
@@ -992,7 +1062,7 @@
 				"nameEn": "Vortex Vanquisher"
 			},
 			{
-				"itemId": 76,
+				"itemId": 1,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
@@ -1001,7 +1071,7 @@
 				"nameEn": "Amos' Bow"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -1010,7 +1080,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 88,
+				"itemId": 32,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
@@ -1019,7 +1089,7 @@
 				"nameEn": "Lithic Blade"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -1028,7 +1098,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -1037,7 +1107,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 69,
+				"itemId": 12,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
@@ -1053,7 +1123,7 @@
 		"version": "2.4.1",
 		"items": [
 			{
-				"itemId": 101,
+				"itemId": 52,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
 				"rankType": 5,
@@ -1062,7 +1132,7 @@
 				"nameEn": "Calamity Queller"
 			},
 			{
-				"itemId": 92,
+				"itemId": 30,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
 				"rankType": 5,
@@ -1071,7 +1141,7 @@
 				"nameEn": "Primordial Jade Winged-Spear"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -1080,7 +1150,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 79,
+				"itemId": 27,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
@@ -1089,7 +1159,7 @@
 				"nameEn": "Favonius Greatsword"
 			},
 			{
-				"itemId": 93,
+				"itemId": 33,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
@@ -1098,7 +1168,7 @@
 				"nameEn": "Lithic Spear"
 			},
 			{
-				"itemId": 62,
+				"itemId": 4,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
@@ -1107,7 +1177,7 @@
 				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 75,
+				"itemId": 23,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
@@ -1123,7 +1193,7 @@
 		"version": "2.3.2",
 		"items": [
 			{
-				"itemId": 89,
+				"itemId": 51,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
 				"rankType": 5,
@@ -1132,7 +1202,7 @@
 				"nameEn": "Redhorn Stonethresher"
 			},
 			{
-				"itemId": 102,
+				"itemId": 14,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
 				"rankType": 5,
@@ -1141,7 +1211,7 @@
 				"nameEn": "Skyward Harp"
 			},
 			{
-				"itemId": 103,
+				"itemId": 36,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
@@ -1150,7 +1220,7 @@
 				"nameEn": "The Alley Flash"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -1159,7 +1229,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -1168,7 +1238,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -1177,7 +1247,7 @@
 				"nameEn": "Sacrificial Fragments"
 			},
 			{
-				"itemId": 104,
+				"itemId": 40,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
 				"rankType": 4,
@@ -1193,7 +1263,7 @@
 		"version": "2.3.1",
 		"items": [
 			{
-				"itemId": 86,
+				"itemId": 41,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
 				"rankType": 5,
@@ -1202,7 +1272,7 @@
 				"nameEn": "Freedom-Sworn"
 			},
 			{
-				"itemId": 105,
+				"itemId": 39,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
 				"rankType": 5,
@@ -1211,7 +1281,7 @@
 				"nameEn": "Song of Broken Pines"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -1220,7 +1290,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -1229,7 +1299,7 @@
 				"nameEn": "Sacrificial Greatsword"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -1238,7 +1308,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 84,
+				"itemId": 37,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
@@ -1247,7 +1317,7 @@
 				"nameEn": "Wine and Song"
 			},
 			{
-				"itemId": 85,
+				"itemId": 38,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
@@ -1263,7 +1333,7 @@
 		"version": "2.2.2",
 		"items": [
 			{
-				"itemId": 106,
+				"itemId": 31,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
 				"rankType": 5,
@@ -1272,7 +1342,7 @@
 				"nameEn": "Staff of Homa"
 			},
 			{
-				"itemId": 71,
+				"itemId": 34,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
@@ -1281,7 +1351,7 @@
 				"nameEn": "Elegy for the End"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -1290,7 +1360,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 67,
+				"itemId": 16,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
@@ -1299,7 +1369,7 @@
 				"nameEn": "Rainslasher"
 			},
 			{
-				"itemId": 100,
+				"itemId": 49,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
 				"rankType": 4,
@@ -1308,7 +1378,7 @@
 				"nameEn": "Wavebreaker's Fin"
 			},
 			{
-				"itemId": 62,
+				"itemId": 4,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
@@ -1317,7 +1387,7 @@
 				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 99,
+				"itemId": 50,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
 				"rankType": 4,
@@ -1333,7 +1403,7 @@
 		"version": "2.2.1",
 		"items": [
 			{
-				"itemId": 51,
+				"itemId": 47,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
 				"rankType": 5,
@@ -1342,7 +1412,7 @@
 				"nameEn": "Polar Star"
 			},
 			{
-				"itemId": 90,
+				"itemId": 15,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
@@ -1351,7 +1421,7 @@
 				"nameEn": "Memory of Dust"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -1360,7 +1430,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 98,
+				"itemId": 48,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
 				"rankType": 4,
@@ -1369,7 +1439,7 @@
 				"nameEn": "Akuoumaru"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -1378,7 +1448,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -1387,7 +1457,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 63,
+				"itemId": 18,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
@@ -1403,7 +1473,7 @@
 		"version": "2.1.2",
 		"items": [
 			{
-				"itemId": 77,
+				"itemId": 46,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
 				"rankType": 5,
@@ -1412,7 +1482,7 @@
 				"nameEn": "Everlasting Moonglow"
 			},
 			{
-				"itemId": 65,
+				"itemId": 29,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
@@ -1421,7 +1491,7 @@
 				"nameEn": "Primordial Jade Cutter"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -1430,7 +1500,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 79,
+				"itemId": 27,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
@@ -1439,7 +1509,7 @@
 				"nameEn": "Favonius Greatsword"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -1448,7 +1518,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -1457,7 +1527,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 56,
+				"itemId": 5,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
@@ -1473,7 +1543,7 @@
 		"version": "2.1.1",
 		"items": [
 			{
-				"itemId": 97,
+				"itemId": 45,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
 				"rankType": 5,
@@ -1482,7 +1552,7 @@
 				"nameEn": "Engulfing Lightning"
 			},
 			{
-				"itemId": 95,
+				"itemId": 20,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
 				"rankType": 5,
@@ -1491,7 +1561,7 @@
 				"nameEn": "The Unforged"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -1500,7 +1570,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -1509,7 +1579,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -1518,7 +1588,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 62,
+				"itemId": 4,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
@@ -1527,7 +1597,7 @@
 				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 69,
+				"itemId": 12,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
@@ -1543,7 +1613,7 @@
 		"version": "2.0.2",
 		"items": [
 			{
-				"itemId": 58,
+				"itemId": 44,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
 				"rankType": 5,
@@ -1552,7 +1622,7 @@
 				"nameEn": "Thundering Pulse"
 			},
 			{
-				"itemId": 107,
+				"itemId": 35,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
 				"rankType": 5,
@@ -1561,7 +1631,7 @@
 				"nameEn": "Skyward Blade"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -1570,7 +1640,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 67,
+				"itemId": 16,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
@@ -1579,7 +1649,7 @@
 				"nameEn": "Rainslasher"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -1588,7 +1658,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -1597,7 +1667,7 @@
 				"nameEn": "Sacrificial Fragments"
 			},
 			{
-				"itemId": 75,
+				"itemId": 23,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
@@ -1613,7 +1683,7 @@
 		"version": "2.0.1",
 		"items": [
 			{
-				"itemId": 94,
+				"itemId": 42,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
 				"rankType": 5,
@@ -1622,7 +1692,7 @@
 				"nameEn": "Mistsplitter Reforged"
 			},
 			{
-				"itemId": 108,
+				"itemId": 43,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin.png",
 				"rankType": 5,
@@ -1631,7 +1701,7 @@
 				"nameEn": "Skyward Spine"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -1640,7 +1710,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -1649,7 +1719,7 @@
 				"nameEn": "Sacrificial Greatsword"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -1658,7 +1728,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -1667,7 +1737,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 56,
+				"itemId": 5,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
@@ -1683,7 +1753,7 @@
 		"version": "1.6.2",
 		"items": [
 			{
-				"itemId": 86,
+				"itemId": 41,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
 				"rankType": 5,
@@ -1692,7 +1762,7 @@
 				"nameEn": "Freedom-Sworn"
 			},
 			{
-				"itemId": 109,
+				"itemId": 25,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
 				"rankType": 5,
@@ -1701,7 +1771,7 @@
 				"nameEn": "Skyward Atlas"
 			},
 			{
-				"itemId": 103,
+				"itemId": 36,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
@@ -1710,7 +1780,7 @@
 				"nameEn": "The Alley Flash"
 			},
 			{
-				"itemId": 79,
+				"itemId": 27,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
@@ -1719,7 +1789,7 @@
 				"nameEn": "Favonius Greatsword"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -1728,7 +1798,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 84,
+				"itemId": 37,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
@@ -1737,7 +1807,7 @@
 				"nameEn": "Wine and Song"
 			},
 			{
-				"itemId": 85,
+				"itemId": 38,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
@@ -1753,7 +1823,7 @@
 		"version": "1.6.1",
 		"items": [
 			{
-				"itemId": 110,
+				"itemId": 28,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
 				"rankType": 5,
@@ -1762,7 +1832,7 @@
 				"nameEn": "Skyward Pride"
 			},
 			{
-				"itemId": 87,
+				"itemId": 7,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
@@ -1771,7 +1841,7 @@
 				"nameEn": "Lost Prayer to the Sacred Winds"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -1780,7 +1850,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -1789,7 +1859,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -1798,7 +1868,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 62,
+				"itemId": 4,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
@@ -1807,7 +1877,7 @@
 				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 104,
+				"itemId": 40,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
 				"rankType": 4,
@@ -1823,7 +1893,7 @@
 		"version": "1.5.2",
 		"items": [
 			{
-				"itemId": 105,
+				"itemId": 39,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
 				"rankType": 5,
@@ -1832,7 +1902,7 @@
 				"nameEn": "Song of Broken Pines"
 			},
 			{
-				"itemId": 111,
+				"itemId": 0,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
 				"rankType": 5,
@@ -1841,7 +1911,7 @@
 				"nameEn": "Aquila Favonia"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -1850,7 +1920,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 67,
+				"itemId": 16,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
@@ -1859,7 +1929,7 @@
 				"nameEn": "Rainslasher"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -1868,7 +1938,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -1877,7 +1947,7 @@
 				"nameEn": "Sacrificial Fragments"
 			},
 			{
-				"itemId": 63,
+				"itemId": 18,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
@@ -1893,7 +1963,7 @@
 		"version": "1.5.1",
 		"items": [
 			{
-				"itemId": 83,
+				"itemId": 24,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
 				"rankType": 5,
@@ -1902,7 +1972,7 @@
 				"nameEn": "Summit Shaper"
 			},
 			{
-				"itemId": 90,
+				"itemId": 15,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
@@ -1911,7 +1981,7 @@
 				"nameEn": "Memory of Dust"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -1920,7 +1990,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 88,
+				"itemId": 32,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
@@ -1929,7 +1999,7 @@
 				"nameEn": "Lithic Blade"
 			},
 			{
-				"itemId": 69,
+				"itemId": 12,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
@@ -1938,7 +2008,7 @@
 				"nameEn": "Sacrificial Bow"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -1947,7 +2017,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 93,
+				"itemId": 33,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
@@ -1963,7 +2033,7 @@
 		"version": "1.4.2",
 		"items": [
 			{
-				"itemId": 102,
+				"itemId": 14,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
 				"rankType": 5,
@@ -1972,7 +2042,7 @@
 				"nameEn": "Skyward Harp"
 			},
 			{
-				"itemId": 87,
+				"itemId": 7,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
@@ -1981,7 +2051,7 @@
 				"nameEn": "Lost Prayer to the Sacred Winds"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -1990,7 +2060,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -1999,7 +2069,7 @@
 				"nameEn": "Sacrificial Greatsword"
 			},
 			{
-				"itemId": 85,
+				"itemId": 38,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
@@ -2008,7 +2078,7 @@
 				"nameEn": "Alley Hunter"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -2017,7 +2087,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -2033,7 +2103,7 @@
 		"version": "1.4.1",
 		"items": [
 			{
-				"itemId": 71,
+				"itemId": 34,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
@@ -2042,7 +2112,7 @@
 				"nameEn": "Elegy for the End"
 			},
 			{
-				"itemId": 107,
+				"itemId": 35,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
 				"rankType": 5,
@@ -2051,7 +2121,7 @@
 				"nameEn": "Skyward Blade"
 			},
 			{
-				"itemId": 103,
+				"itemId": 36,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
@@ -2060,7 +2130,7 @@
 				"nameEn": "The Alley Flash"
 			},
 			{
-				"itemId": 79,
+				"itemId": 27,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
@@ -2069,7 +2139,7 @@
 				"nameEn": "Favonius Greatsword"
 			},
 			{
-				"itemId": 75,
+				"itemId": 23,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
@@ -2078,7 +2148,7 @@
 				"nameEn": "Favonius Warbow"
 			},
 			{
-				"itemId": 84,
+				"itemId": 37,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
@@ -2087,7 +2157,7 @@
 				"nameEn": "Wine and Song"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -2103,7 +2173,7 @@
 		"version": "1.3.2",
 		"items": [
 			{
-				"itemId": 106,
+				"itemId": 31,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
 				"rankType": 5,
@@ -2112,7 +2182,7 @@
 				"nameEn": "Staff of Homa"
 			},
 			{
-				"itemId": 112,
+				"itemId": 8,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
 				"rankType": 5,
@@ -2121,7 +2191,7 @@
 				"nameEn": "Wolf's Gravestone"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -2130,7 +2200,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 88,
+				"itemId": 32,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
@@ -2139,7 +2209,7 @@
 				"nameEn": "Lithic Blade"
 			},
 			{
-				"itemId": 69,
+				"itemId": 12,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
@@ -2148,7 +2218,7 @@
 				"nameEn": "Sacrificial Bow"
 			},
 			{
-				"itemId": 62,
+				"itemId": 4,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
@@ -2157,7 +2227,7 @@
 				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 93,
+				"itemId": 33,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
@@ -2173,7 +2243,7 @@
 		"version": "1.3.1",
 		"items": [
 			{
-				"itemId": 65,
+				"itemId": 29,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
@@ -2182,7 +2252,7 @@
 				"nameEn": "Primordial Jade Cutter"
 			},
 			{
-				"itemId": 92,
+				"itemId": 30,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
 				"rankType": 5,
@@ -2191,7 +2261,7 @@
 				"nameEn": "Primordial Jade Winged-Spear"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -2200,7 +2270,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -2209,7 +2279,7 @@
 				"nameEn": "Sacrificial Greatsword"
 			},
 			{
-				"itemId": 63,
+				"itemId": 18,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
@@ -2218,7 +2288,7 @@
 				"nameEn": "Rust"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -2227,7 +2297,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -2243,7 +2313,7 @@
 		"version": "1.2.2",
 		"items": [
 			{
-				"itemId": 76,
+				"itemId": 1,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
@@ -2252,7 +2322,7 @@
 				"nameEn": "Amos' Bow"
 			},
 			{
-				"itemId": 110,
+				"itemId": 28,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
 				"rankType": 5,
@@ -2261,7 +2331,7 @@
 				"nameEn": "Skyward Pride"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -2270,7 +2340,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -2279,7 +2349,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -2288,7 +2358,7 @@
 				"nameEn": "Dragon's Bane"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -2297,7 +2367,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 75,
+				"itemId": 23,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
@@ -2313,7 +2383,7 @@
 		"version": "1.2.1",
 		"items": [
 			{
-				"itemId": 83,
+				"itemId": 24,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
 				"rankType": 5,
@@ -2322,7 +2392,7 @@
 				"nameEn": "Summit Shaper"
 			},
 			{
-				"itemId": 109,
+				"itemId": 25,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
 				"rankType": 5,
@@ -2331,7 +2401,7 @@
 				"nameEn": "Skyward Atlas"
 			},
 			{
-				"itemId": 52,
+				"itemId": 26,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
@@ -2340,7 +2410,7 @@
 				"nameEn": "Favonius Sword"
 			},
 			{
-				"itemId": 79,
+				"itemId": 27,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
@@ -2349,7 +2419,7 @@
 				"nameEn": "Favonius Greatsword"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -2358,7 +2428,7 @@
 				"nameEn": "Favonius Lance"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -2367,7 +2437,7 @@
 				"nameEn": "Sacrificial Fragments"
 			},
 			{
-				"itemId": 56,
+				"itemId": 5,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
@@ -2383,7 +2453,7 @@
 		"version": "1.1.2",
 		"items": [
 			{
-				"itemId": 82,
+				"itemId": 19,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
 				"rankType": 5,
@@ -2392,7 +2462,7 @@
 				"nameEn": "Vortex Vanquisher"
 			},
 			{
-				"itemId": 95,
+				"itemId": 20,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
 				"rankType": 5,
@@ -2401,7 +2471,7 @@
 				"nameEn": "The Unforged"
 			},
 			{
-				"itemId": 72,
+				"itemId": 21,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
@@ -2410,7 +2480,7 @@
 				"nameEn": "Lion's Roar"
 			},
 			{
-				"itemId": 53,
+				"itemId": 3,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
@@ -2419,7 +2489,7 @@
 				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 55,
+				"itemId": 22,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
@@ -2428,7 +2498,7 @@
 				"nameEn": "Favonius Codex"
 			},
 			{
-				"itemId": 75,
+				"itemId": 23,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
@@ -2437,7 +2507,7 @@
 				"nameEn": "Favonius Warbow"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -2453,7 +2523,7 @@
 		"version": "1.1.1",
 		"items": [
 			{
-				"itemId": 102,
+				"itemId": 14,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
 				"rankType": 5,
@@ -2462,7 +2532,7 @@
 				"nameEn": "Skyward Harp"
 			},
 			{
-				"itemId": 90,
+				"itemId": 15,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
@@ -2471,7 +2541,7 @@
 				"nameEn": "Memory of Dust"
 			},
 			{
-				"itemId": 59,
+				"itemId": 2,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
@@ -2480,7 +2550,7 @@
 				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 67,
+				"itemId": 16,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
@@ -2489,7 +2559,7 @@
 				"nameEn": "Rainslasher"
 			},
 			{
-				"itemId": 80,
+				"itemId": 17,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
@@ -2498,7 +2568,7 @@
 				"nameEn": "Eye of Perception"
 			},
 			{
-				"itemId": 63,
+				"itemId": 18,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
@@ -2507,7 +2577,7 @@
 				"nameEn": "Rust"
 			},
 			{
-				"itemId": 61,
+				"itemId": 6,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
@@ -2523,7 +2593,7 @@
 		"version": "1.0.2",
 		"items": [
 			{
-				"itemId": 87,
+				"itemId": 7,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
@@ -2532,7 +2602,7 @@
 				"nameEn": "Lost Prayer to the Sacred Winds"
 			},
 			{
-				"itemId": 112,
+				"itemId": 8,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
 				"rankType": 5,
@@ -2541,7 +2611,7 @@
 				"nameEn": "Wolf's Gravestone"
 			},
 			{
-				"itemId": 78,
+				"itemId": 9,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
@@ -2550,7 +2620,7 @@
 				"nameEn": "Sacrificial Sword"
 			},
 			{
-				"itemId": 60,
+				"itemId": 10,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
@@ -2559,7 +2629,7 @@
 				"nameEn": "Sacrificial Greatsword"
 			},
 			{
-				"itemId": 74,
+				"itemId": 11,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
@@ -2568,7 +2638,7 @@
 				"nameEn": "Sacrificial Fragments"
 			},
 			{
-				"itemId": 69,
+				"itemId": 12,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
@@ -2577,7 +2647,7 @@
 				"nameEn": "Sacrificial Bow"
 			},
 			{
-				"itemId": 54,
+				"itemId": 13,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
@@ -2593,7 +2663,7 @@
 		"version": "1.0.1",
 		"items": [
 			{
-				"itemId": 111,
+				"itemId": 0,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
 				"rankType": 5,
@@ -2602,7 +2672,7 @@
 				"nameEn": "Aquila Favonia"
 			},
 			{
-				"itemId": 76,
+				"itemId": 1,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
@@ -2611,49 +2681,49 @@
 				"nameEn": "Amos' Bow"
 			},
 			{
-				"itemId": 78,
+				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "祭礼剑",
-				"nameEn": "Sacrificial Sword"
+				"name": "笛剑",
+				"nameEn": "The Flute"
 			},
 			{
-				"itemId": 60,
+				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "祭礼大剑",
-				"nameEn": "Sacrificial Greatsword"
+				"name": "钟剑",
+				"nameEn": "The Bell"
 			},
 			{
-				"itemId": 74,
+				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "祭礼残章",
-				"nameEn": "Sacrificial Fragments"
+				"name": "流浪乐章",
+				"nameEn": "The Widsith"
 			},
 			{
-				"itemId": 69,
+				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "祭礼弓",
-				"nameEn": "Sacrificial Bow"
+				"name": "绝弦",
+				"nameEn": "The Stringless"
 			},
 			{
-				"itemId": 54,
+				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
-				"name": "匣里灭辰",
-				"nameEn": "Dragon's Bane"
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
 			}
 		],
 		"start": "2020-09-28 06:00:00",
