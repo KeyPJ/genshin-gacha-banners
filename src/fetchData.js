@@ -9,9 +9,10 @@ const versionNum = [[1, 6], [2, 8], [3, 6]]
 const versions = versionNum.map(([a, b]) => Array.from(new Array(b + 1).keys()).map(v => [`${a}.${v}.1`, `${a}.${v}.2`].join(';')).join(";")).join(";").split(";")
 
 const names = new Set()
-const getId = (name) => {
-    names.add(name)
-    return Array.from(names).findIndex(n => n === name)
+const getId = (name, itemType) => {
+    const value = itemType + name
+    names.add(value)
+    return Array.from(names).filter(n => n.includes(itemType)).findIndex(n => n === value)
 }
 
 const getVersion = (i, itemType) => {
@@ -50,7 +51,7 @@ const getInfo = (name, itemType) => {
         nameEn = weapon?.name || name
     }
     return {
-        itemId: getId(name),
+        itemId: getId(name, itemType),
         weaponType,
         imageUrl,
         rankType,
@@ -61,25 +62,23 @@ const getInfo = (name, itemType) => {
     }
 }
 
-const fetchData = (pool, type) => {
-    get(`https://raw.fastgit.org/Le-niao/Yunzai-Bot/main/plugins/genshin/defSet/pool/${pool}.yaml`)
-        .then(res => {
-            const parse = YAML.parse(res.data)
-            const length = parse.length
-            const data = parse.map((a, i) => {
-                const {from, to, five, four} = a
-                const info5 = five.map(c => getInfo(c, type))
-                const info4 = four.map(c => getInfo(c, type))
-                return {
-                    version: getVersion(length - 1 - i, type),
-                    items: [...info5, ...info4],
-                    start: from,
-                    end: to,
-                }
-            })
-            const characterFilePath = path.join(__dirname, `../public/data/${type.toLowerCase()}.json`)
-            fs.writeFileSync(characterFilePath, JSON.stringify(data, "", "\t"))
-        })
+const fetchData = async (pool, type) => {
+    const res = await get(`https://raw.fastgit.org/Le-niao/Yunzai-Bot/main/plugins/genshin/defSet/pool/${pool}.yaml`)
+    const parse = (YAML.parse(res.data)).reverse()
+    const length = parse.length
+    const data = parse.map((a, i) => {
+        const {from, to, five, four} = a
+        const info5 = five.map(c => getInfo(c, type))
+        const info4 = four.map(c => getInfo(c, type))
+        return {
+            version: getVersion(i, type),
+            items: [...info5, ...info4],
+            start: from,
+            end: to,
+        }
+    })
+    const characterFilePath = path.join(__dirname, `../public/data/${type.toLowerCase()}.json`)
+    fs.writeFileSync(characterFilePath, JSON.stringify(data.reverse(), "", "\t"))
 }
 
 (async () => {
