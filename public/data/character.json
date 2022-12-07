@@ -4,12 +4,13 @@
 		"items": [
 			{
 				"itemId": 51,
-				"weaponType": "",
-				"imageUrl": "",
-				"rankType": -1,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
+				"rankType": 5,
 				"itemType": "Character",
 				"name": "流浪者",
-				"nameEn": "流浪者"
+				"nameEn": "Wanderer",
+				"element": "Anemo"
 			},
 			{
 				"itemId": 33,
@@ -23,12 +24,13 @@
 			},
 			{
 				"itemId": 52,
-				"weaponType": "",
-				"imageUrl": "",
-				"rankType": -1,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
+				"rankType": 4,
 				"itemType": "Character",
 				"name": "珐露珊",
-				"nameEn": "珐露珊"
+				"nameEn": "Faruzan",
+				"element": "Anemo"
 			},
 			{
 				"itemId": 34,

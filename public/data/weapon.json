@@ -4,12 +4,12 @@
 		"items": [
 			{
 				"itemId": 63,
-				"weaponType": "",
-				"imageUrl": "",
-				"rankType": -1,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Alaya.png",
+				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "图莱杜拉的回忆",
-				"nameEn": "图莱杜拉的回忆"
+				"nameEn": "Tulaytullah's Remembrance"
 			},
 			{
 				"itemId": 51,
