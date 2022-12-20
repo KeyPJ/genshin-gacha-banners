@@ -3,7 +3,7 @@
 		"version": "3.3.1",
 		"items": [
 			{
-				"itemId": 51,
+				"itemId": 50,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
 				"rankType": 5,
@@ -23,7 +23,7 @@
 				"element": "Geo"
 			},
 			{
-				"itemId": 52,
+				"itemId": 51,
 				"weaponType": "Bow",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
 				"rankType": 4,
@@ -80,7 +80,7 @@
 				"element": "Hydro"
 			},
 			{
-				"itemId": 50,
+				"itemId": 49,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
 				"rankType": 4,
@@ -117,7 +117,7 @@
 		"version": "3.2.1",
 		"items": [
 			{
-				"itemId": 49,
+				"itemId": 48,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
 				"rankType": 5,
@@ -174,7 +174,7 @@
 		"version": "3.1.2",
 		"items": [
 			{
-				"itemId": 48,
+				"itemId": 47,
 				"weaponType": "Sword",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
 				"rankType": 5,
@@ -231,7 +231,7 @@
 		"version": "3.1.1",
 		"items": [
 			{
-				"itemId": 46,
+				"itemId": 45,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
 				"rankType": 5,
@@ -271,7 +271,7 @@
 				"element": "Anemo"
 			},
 			{
-				"itemId": 47,
+				"itemId": 46,
 				"weaponType": "Polearm",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
 				"rankType": 4,
@@ -298,7 +298,7 @@
 				"element": "Cryo"
 			},
 			{
-				"itemId": 44,
+				"itemId": 31,
 				"weaponType": "Catalyst",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
 				"rankType": 5,
@@ -328,7 +328,7 @@
 				"element": "Anemo"
 			},
 			{
-				"itemId": 45,
+				"itemId": 44,
 				"weaponType": "Claymore",
 				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
 				"rankType": 4,
