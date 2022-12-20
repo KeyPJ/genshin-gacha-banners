@@ -51,7 +51,7 @@ const getInfo = (name, itemType) => {
         nameEn = weapon?.name || name
     }
     return {
-        itemId: getId(name, itemType),
+        itemId: getId(nameEn, itemType),
         weaponType,
         imageUrl,
         rankType,
