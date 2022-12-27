@@ -1,5 +1,75 @@
 [
 	{
+		"version": "3.3.2",
+		"items": [
+			{
+				"itemId": 45,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "薙草之稻光",
+				"nameEn": "Engulfing Lightning"
+			},
+			{
+				"itemId": 54,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "波乱月白经津",
+				"nameEn": "Haran Geppaku Futsu"
+			},
+			{
+				"itemId": 48,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "恶王丸",
+				"nameEn": "Akuoumaru"
+			},
+			{
+				"itemId": 50,
+				"weaponType": "Bow",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "曚云之月",
+				"nameEn": "Mouun's Moon"
+			},
+			{
+				"itemId": 21,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里龙吟",
+				"nameEn": "Lion's Roar"
+			},
+			{
+				"itemId": 6,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风长枪",
+				"nameEn": "Favonius Lance"
+			},
+			{
+				"itemId": 11,
+				"weaponType": "Catalyst",
+				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼残章",
+				"nameEn": "Sacrificial Fragments"
+			}
+		],
+		"start": "2022-12-27 18:00:00",
+		"end": "2023-01-17 14:59:59"
+	},
+	{
 		"version": "3.3.1",
 		"items": [
 			{
