@@ -108,7 +108,7 @@ export default function DataRow(props: IProps) {
     return (
         <div className={"flex flex-row shrink-0 w-fit"}>
             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
-                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn}
+                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn} title={"zh-CN" == i18n.language ? item.name : item.nameEn}
                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                      onClick={() => handleCharacterClick()}
                 />
@@ -130,7 +130,7 @@ export default function DataRow(props: IProps) {
                         return (
                             <div key={key}
                                  className={classNames(itemClassName)}>
-                                <img src={item.imageUrl} alt={item.name}
+                                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn} title={"zh-CN" == i18n.language ? item.name : item.nameEn}
                                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                                      onClick={() => handleCharacterClick()}
                                 />
