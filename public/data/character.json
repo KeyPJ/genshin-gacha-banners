@@ -1,5 +1,62 @@
 [
 	{
+		"version": "3.4.1",
+		"items": [
+			{
+				"itemId": 52,
+				"weaponType": "Sword",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "艾尔海森",
+				"nameEn": "Alhaitham",
+				"element": "Dendro"
+			},
+			{
+				"itemId": 19,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "魈",
+				"nameEn": "Xiao",
+				"element": "Anemo"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Claymore",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "辛焱",
+				"nameEn": "Xinyan",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 36,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "云堇",
+				"nameEn": "Yun Jin",
+				"element": "Geo"
+			},
+			{
+				"itemId": 53,
+				"weaponType": "Polearm",
+				"imageUrl": "game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "瑶瑶",
+				"nameEn": "Yaoyao",
+				"element": "Dendro"
+			}
+		],
+		"start": "2023-01-18 06:00:00",
+		"end": "2023-02-07 17:59:59"
+	},
+	{
 		"version": "3.3.2",
 		"items": [
 			{
