@@ -7,6 +7,7 @@ interface IProps {
     item: Item
     findIndexMax: number
     showGachaIndex: number[]
+    currentGachaItemId: number[]
     setShowGachaIndex: Function
     setCurrentGachaItemId: Function
 }
@@ -23,7 +24,15 @@ export default function DataRow(props: IProps) {
 
     const {t, i18n} = useTranslation();
 
-    const {data, item, findIndexMax, showGachaIndex, setShowGachaIndex, setCurrentGachaItemId} = props;
+    const {
+        data,
+        item,
+        findIndexMax,
+        showGachaIndex,
+        setShowGachaIndex,
+        setCurrentGachaItemId,
+        currentGachaItemId
+    } = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
 
@@ -37,7 +46,7 @@ export default function DataRow(props: IProps) {
 
     const days = Math.floor(moment.duration(moment().diff(moment(pickUpGacha.end))).asDays());
 
-    const handleCharacterClick = () => {
+    const handleCharacterClick = (item: Item) => {
         // setRankType({name: t("ALL"), value: "4,5"});
 
         const gachaIndex = data
@@ -105,12 +114,78 @@ export default function DataRow(props: IProps) {
         return true;
     };
 
-    return (
+    const numbers: number[] = data.map(gacha => gacha.items)
+        .filter(items => items.map(i => i.itemId).includes(item.itemId))
+        .map(items => items.length);
+
+    const pickUpGachaItemSizeMax = Math.max(...numbers);
+
+    console.log("pickUpGachaItemSizeMax", pickUpGachaItemSizeMax);
+
+    const pickUpGachaItem = currentGachaItemId.length != 1 ? [] : [...Array(pickUpGachaItemSizeMax - 1)].map((v, i) =>
         <div className={"flex flex-row shrink-0 w-fit"}>
             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
-                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn} title={"zh-CN" == i18n.language ? item.name : item.nameEn}
+            </div>
+            <div
+                className={classNames(itemClassName, "sticky left-20 bg-white z-10 text-xs whitespace-pre-line")}>
+                <div>
+                </div>
+            </div>
+            {data.map((gacha, index) => {
+                    const key = `${item.itemId}-${gacha.version}`;
+                    if (gacha.items.map(i => i.itemId).includes(item.itemId)) {
+                        tempNumber = 0;
+                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
+                            return <div key={key}/>
+                        }
+                        const pickUpitems = gacha.items.filter(i => i.itemId != item.itemId);
+                        if (pickUpitems.length < i) {
+                            return <div key={key}
+                                        className={classNames(itemClassName, "text-3xl font-bold leading-loose")}
+                            >
+                            </div>
+                        }
+                        const showItem = pickUpitems[i];
+                        console.log("showItem", showItem);
+                        if (!showItem) {
+                            return <div key={key}
+                                        className={classNames(itemClassName, "text-3xl font-bold leading-loose")}
+                            >
+                            </div>
+                        }
+                        const borderColor = showItem.rankType == 5 ? "border-amber-500" : "border-purple-500";
+                        return (
+                            <div key={key}
+                                 className={classNames(itemClassName)}>
+                                <img src={showItem.imageUrl}
+                                     alt={"zh-CN" == i18n.language ? showItem.name : showItem.nameEn}
+                                     title={"zh-CN" == i18n.language ? showItem.name : showItem.nameEn}
+                                     className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
+                                     onClick={() => handleCharacterClick(showItem)}
+                                />
+                            </div>
+                        )
+                    } else {
+                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
+                            return <div/>
+                        }
+                        return <div key={key}
+                                    className={classNames(itemClassName, "text-3xl font-bold leading-loose")}
+                        >
+                        </div>
+                    }
+                }
+            )}
+        </div>
+    )
+
+    return (
+        [<div className={"flex flex-row shrink-0 w-fit"}>
+            <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
+                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn}
+                     title={"zh-CN" == i18n.language ? item.name : item.nameEn}
                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
-                     onClick={() => handleCharacterClick()}
+                     onClick={() => handleCharacterClick(item)}
                 />
             </div>
             <div
@@ -130,9 +205,10 @@ export default function DataRow(props: IProps) {
                         return (
                             <div key={key}
                                  className={classNames(itemClassName)}>
-                                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn} title={"zh-CN" == i18n.language ? item.name : item.nameEn}
+                                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn}
+                                     title={"zh-CN" == i18n.language ? item.name : item.nameEn}
                                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
-                                     onClick={() => handleCharacterClick()}
+                                     onClick={() => handleCharacterClick(item)}
                                 />
                             </div>
                         )
@@ -158,6 +234,8 @@ export default function DataRow(props: IProps) {
                     }
                 }
             )}
-        </div>
+        </div>,
+            ...pickUpGachaItem
+        ]
     )
 }

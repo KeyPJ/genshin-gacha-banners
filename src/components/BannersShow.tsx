@@ -85,8 +85,10 @@ export default function BannersShow(props: IProps) {
                           setShowGachaIndex={setShowGachaIndex}
                 />
                 :
+                // @ts-ignore
                 <DataRow key={index} data={data} item={item} findIndexMax={findIndexMax}
                          showGachaIndex={showGachaIndex}
+                         currentGachaItemId={currentGachaItemId}
                          setShowGachaIndex={setShowGachaIndex}
                          setCurrentGachaItemId={setCurrentGachaItemId}
                 />;
