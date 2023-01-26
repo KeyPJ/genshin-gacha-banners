@@ -120,8 +120,6 @@ export default function DataRow(props: IProps) {
 
     const pickUpGachaItemSizeMax = Math.max(...numbers);
 
-    console.log("pickUpGachaItemSizeMax", pickUpGachaItemSizeMax);
-
     const pickUpGachaItem = currentGachaItemId.length != 1 ? [] : [...Array(pickUpGachaItemSizeMax - 1)].map((v, i) =>
         <div className={"flex flex-row shrink-0 w-fit"}>
             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
@@ -145,8 +143,7 @@ export default function DataRow(props: IProps) {
                             >
                             </div>
                         }
-                        const showItem = pickUpitems[i];
-                        console.log("showItem", showItem);
+                        const showItem = pickUpitems[i]
                         if (!showItem) {
                             return <div key={key}
                                         className={classNames(itemClassName, "text-3xl font-bold leading-loose")}

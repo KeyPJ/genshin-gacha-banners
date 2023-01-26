@@ -9,6 +9,8 @@ import GithubCorner from "react-github-corner";
 import {useTranslation} from "react-i18next";
 import {isMobile} from "react-device-detect";
 import {inject} from "@vercel/analytics";
+import html2canvas from "html2canvas";
+
 
 interface Option {
     name: string,
@@ -124,6 +126,39 @@ function App() {
         setElementType(elementList[0])
     }
 
+    const share = () => {
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                const domRef = document.querySelector(".overscroll-x-auto") as HTMLElement;
+                const domRef2 = document.querySelector(".top-0") as HTMLElement;
+                html2canvas(domRef, {
+                    useCORS: true,
+                    scale: window.devicePixelRatio < 3 ? window.devicePixelRatio : 2,
+                    allowTaint: true,
+                    width: domRef2.scrollWidth,
+                    height: domRef.offsetHeight,
+                    windowWidth: domRef2.scrollWidth,
+                }).then((canvas) => {
+                    canvas.toBlob(blob => {
+                        const url = URL.createObjectURL(blob as Blob);
+                        setTimeout(() => {
+                            saveFile(url, `${location.host}.png`);
+                        }, 50)
+                    }, 'image/png');
+                });
+            }, 300);
+        });
+    }
+
+    const isSNS = /weibo|qq/i.test(navigator.userAgent);
+    const saveFile = (link: string, filename: string, el = document.createElement('a')) => {
+        if (!isSNS) {
+            el.download = filename;
+        }
+        el.href = link;
+        el.click();
+    };
+
     return (
         <div className="App flex flex-col justify-between">
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
@@ -183,7 +218,8 @@ function App() {
             {/*    <div>{t("creditText")}</div>*/}
 
             {/*</div>*/}
-            <div className="flex flex-row justify-center text-center my-4">
+            <div className="flex flex-row justify-center text-center my-2">
+
                 <div className="w-20">{t("language")}</div>
                 {
                     languages.map(l =>
@@ -191,6 +227,11 @@ function App() {
                              onClick={() => changeLanguage(l.code)} key={l.code}>{l.value}
                         </div>)
                 }
+            </div>
+
+            <div className="flex flex-row justify-center text-center mb-4">
+                <div className="w-20 underline hover:bg-purple-700 whitespace-nowrap"
+                     onClick={() => share()}>{t("share")}</div>
             </div>
         </div>
     )

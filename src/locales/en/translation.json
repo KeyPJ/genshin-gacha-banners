@@ -27,5 +27,6 @@
   "release": "Release Time \n ASC",
   "rowClick": "This Row Can Be Clicked",
   "sinceLastPickUp": "It's been \n {{findIndex}} banner(s) ,\n {{days}} day(s) \n since the last",
-  "unavailable": "Unavailable Time \n DESC"
+  "unavailable": "Unavailable Time \n DESC",
+  "share": "Save Image"
 }
