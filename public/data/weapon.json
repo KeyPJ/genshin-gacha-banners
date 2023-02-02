@@ -5,7 +5,7 @@
 			{
 				"itemId": 64,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Ayus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Ayus.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "裁叶萃光",
@@ -14,7 +14,7 @@
 			{
 				"itemId": 30,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "和璞鸢",
@@ -23,7 +23,7 @@
 			{
 				"itemId": 33,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩长枪",
@@ -32,7 +32,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -41,7 +41,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -50,7 +50,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -59,7 +59,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -75,7 +75,7 @@
 			{
 				"itemId": 45,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "薙草之稻光",
@@ -84,7 +84,7 @@
 			{
 				"itemId": 54,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "波乱月白经津",
@@ -93,7 +93,7 @@
 			{
 				"itemId": 48,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "恶王丸",
@@ -102,7 +102,7 @@
 			{
 				"itemId": 50,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "曚云之月",
@@ -111,7 +111,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -120,7 +120,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -129,7 +129,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -145,7 +145,7 @@
 			{
 				"itemId": 63,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Alaya.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Alaya.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "图莱杜拉的回忆",
@@ -154,7 +154,7 @@
 			{
 				"itemId": 51,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "赤角石溃杵",
@@ -163,7 +163,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -172,7 +172,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -181,7 +181,7 @@
 			{
 				"itemId": 49,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "断浪长鳍",
@@ -190,7 +190,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -199,7 +199,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -215,7 +215,7 @@
 			{
 				"itemId": 53,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "神乐之真意",
@@ -224,7 +224,7 @@
 			{
 				"itemId": 47,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "冬极白星",
@@ -233,7 +233,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -242,7 +242,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -251,7 +251,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -260,7 +260,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -269,7 +269,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -285,7 +285,7 @@
 			{
 				"itemId": 62,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Ayus.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "千夜浮梦",
@@ -294,7 +294,7 @@
 			{
 				"itemId": 44,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "飞雷之弦振",
@@ -303,7 +303,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -312,7 +312,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -321,7 +321,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -330,7 +330,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -339,7 +339,7 @@
 			{
 				"itemId": 18,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "弓藏",
@@ -355,7 +355,7 @@
 			{
 				"itemId": 59,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Deshret.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Deshret.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "圣显之钥",
@@ -364,7 +364,7 @@
 			{
 				"itemId": 29,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "磐岩结绿",
@@ -373,7 +373,7 @@
 			{
 				"itemId": 60,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Pleroma.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Pleroma.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西福斯的月光",
@@ -382,7 +382,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -391,7 +391,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -400,7 +400,7 @@
 			{
 				"itemId": 61,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pleroma.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪的晚星",
@@ -409,7 +409,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -425,7 +425,7 @@
 			{
 				"itemId": 57,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Deshret.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Deshret.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "赤沙之杖",
@@ -434,7 +434,7 @@
 			{
 				"itemId": 34,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "终末嗟叹之诗",
@@ -443,7 +443,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -452,7 +452,7 @@
 			{
 				"itemId": 58,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Pleroma.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Pleroma.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "玛海菈的水色",
@@ -461,7 +461,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -470,7 +470,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -479,7 +479,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -495,7 +495,7 @@
 			{
 				"itemId": 1,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "阿莫斯之弓",
@@ -504,7 +504,7 @@
 			{
 				"itemId": 46,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "不灭月华",
@@ -513,7 +513,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -522,7 +522,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -531,7 +531,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -540,7 +540,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -549,7 +549,7 @@
 			{
 				"itemId": 18,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "弓藏",
@@ -565,7 +565,7 @@
 			{
 				"itemId": 56,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Ayus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Ayus.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "猎人之径",
@@ -574,7 +574,7 @@
 			{
 				"itemId": 19,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "贯虹之槊",
@@ -583,7 +583,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -592,7 +592,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -601,7 +601,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -610,7 +610,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -619,7 +619,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -635,7 +635,7 @@
 			{
 				"itemId": 44,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "飞雷之弦振",
@@ -644,7 +644,7 @@
 			{
 				"itemId": 24,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "斫峰之刃",
@@ -653,7 +653,7 @@
 			{
 				"itemId": 37,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷的酒与诗",
@@ -662,7 +662,7 @@
 			{
 				"itemId": 38,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷猎手",
@@ -671,7 +671,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -680,7 +680,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -689,7 +689,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -705,7 +705,7 @@
 			{
 				"itemId": 41,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "苍古自由之誓",
@@ -714,7 +714,7 @@
 			{
 				"itemId": 7,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "四风原典",
@@ -723,7 +723,7 @@
 			{
 				"itemId": 36,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷闪光",
@@ -732,7 +732,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -741,7 +741,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -750,7 +750,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -759,7 +759,7 @@
 			{
 				"itemId": 40,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "幽夜华尔兹",
@@ -775,7 +775,7 @@
 			{
 				"itemId": 51,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "赤角石溃杵",
@@ -784,7 +784,7 @@
 			{
 				"itemId": 15,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "尘世之锁",
@@ -793,7 +793,7 @@
 			{
 				"itemId": 32,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩古剑",
@@ -802,7 +802,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -811,7 +811,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -820,7 +820,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -829,7 +829,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -845,7 +845,7 @@
 			{
 				"itemId": 55,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Kirin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Kirin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "若水",
@@ -854,7 +854,7 @@
 			{
 				"itemId": 30,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "和璞鸢",
@@ -863,7 +863,7 @@
 			{
 				"itemId": 33,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩长枪",
@@ -872,7 +872,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -881,7 +881,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -890,7 +890,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -899,7 +899,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -915,7 +915,7 @@
 			{
 				"itemId": 42,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "雾切之回光",
@@ -924,7 +924,7 @@
 			{
 				"itemId": 20,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "无工之剑",
@@ -933,7 +933,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -942,7 +942,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -951,7 +951,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -960,7 +960,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -969,7 +969,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -985,7 +985,7 @@
 			{
 				"itemId": 54,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Amenoma.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "波乱月白经津",
@@ -994,7 +994,7 @@
 			{
 				"itemId": 34,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "终末嗟叹之诗",
@@ -1003,7 +1003,7 @@
 			{
 				"itemId": 18,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "弓藏",
@@ -1012,7 +1012,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -1021,7 +1021,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -1030,7 +1030,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -1039,7 +1039,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -1055,7 +1055,7 @@
 			{
 				"itemId": 45,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "薙草之稻光",
@@ -1064,7 +1064,7 @@
 			{
 				"itemId": 46,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "不灭月华",
@@ -1073,7 +1073,7 @@
 			{
 				"itemId": 48,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "恶王丸",
@@ -1082,7 +1082,7 @@
 			{
 				"itemId": 50,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "曚云之月",
@@ -1091,7 +1091,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -1100,7 +1100,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -1109,7 +1109,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -1125,7 +1125,7 @@
 			{
 				"itemId": 53,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "神乐之真意",
@@ -1134,7 +1134,7 @@
 			{
 				"itemId": 29,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "磐岩结绿",
@@ -1143,7 +1143,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -1152,7 +1152,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -1161,7 +1161,7 @@
 			{
 				"itemId": 49,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "断浪长鳍",
@@ -1170,7 +1170,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -1179,7 +1179,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -1195,7 +1195,7 @@
 			{
 				"itemId": 19,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "贯虹之槊",
@@ -1204,7 +1204,7 @@
 			{
 				"itemId": 1,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "阿莫斯之弓",
@@ -1213,7 +1213,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -1222,7 +1222,7 @@
 			{
 				"itemId": 32,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩古剑",
@@ -1231,7 +1231,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -1240,7 +1240,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -1249,7 +1249,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -1265,7 +1265,7 @@
 			{
 				"itemId": 52,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Santika.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "息灾",
@@ -1274,7 +1274,7 @@
 			{
 				"itemId": 30,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "和璞鸢",
@@ -1283,7 +1283,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -1292,7 +1292,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -1301,7 +1301,7 @@
 			{
 				"itemId": 33,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩长枪",
@@ -1310,7 +1310,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -1319,7 +1319,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -1335,7 +1335,7 @@
 			{
 				"itemId": 51,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Itadorimaru.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "赤角石溃杵",
@@ -1344,7 +1344,7 @@
 			{
 				"itemId": 14,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之翼",
@@ -1353,7 +1353,7 @@
 			{
 				"itemId": 36,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷闪光",
@@ -1362,7 +1362,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -1371,7 +1371,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -1380,7 +1380,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -1389,7 +1389,7 @@
 			{
 				"itemId": 40,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "幽夜华尔兹",
@@ -1405,7 +1405,7 @@
 			{
 				"itemId": 41,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "苍古自由之誓",
@@ -1414,7 +1414,7 @@
 			{
 				"itemId": 39,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "松籁响起之时",
@@ -1423,7 +1423,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -1432,7 +1432,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -1441,7 +1441,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -1450,7 +1450,7 @@
 			{
 				"itemId": 37,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷的酒与诗",
@@ -1459,7 +1459,7 @@
 			{
 				"itemId": 38,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷猎手",
@@ -1475,7 +1475,7 @@
 			{
 				"itemId": 31,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "护摩之杖",
@@ -1484,7 +1484,7 @@
 			{
 				"itemId": 34,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "终末嗟叹之诗",
@@ -1493,7 +1493,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -1502,7 +1502,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -1511,7 +1511,7 @@
 			{
 				"itemId": 49,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "断浪长鳍",
@@ -1520,7 +1520,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -1529,7 +1529,7 @@
 			{
 				"itemId": 50,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "曚云之月",
@@ -1545,7 +1545,7 @@
 			{
 				"itemId": 47,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Worldbane.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "冬极白星",
@@ -1554,7 +1554,7 @@
 			{
 				"itemId": 15,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "尘世之锁",
@@ -1563,7 +1563,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -1572,7 +1572,7 @@
 			{
 				"itemId": 48,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Maria.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "恶王丸",
@@ -1581,7 +1581,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -1590,7 +1590,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -1599,7 +1599,7 @@
 			{
 				"itemId": 18,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "弓藏",
@@ -1615,7 +1615,7 @@
 			{
 				"itemId": 46,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kaleido.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "不灭月华",
@@ -1624,7 +1624,7 @@
 			{
 				"itemId": 29,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "磐岩结绿",
@@ -1633,7 +1633,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -1642,7 +1642,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -1651,7 +1651,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -1660,7 +1660,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -1669,7 +1669,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -1685,7 +1685,7 @@
 			{
 				"itemId": 45,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "薙草之稻光",
@@ -1694,7 +1694,7 @@
 			{
 				"itemId": 20,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "无工之剑",
@@ -1703,7 +1703,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -1712,7 +1712,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -1721,7 +1721,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -1730,7 +1730,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -1739,7 +1739,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -1755,7 +1755,7 @@
 			{
 				"itemId": 44,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "飞雷之弦振",
@@ -1764,7 +1764,7 @@
 			{
 				"itemId": 35,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之刃",
@@ -1773,7 +1773,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -1782,7 +1782,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -1791,7 +1791,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -1800,7 +1800,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -1809,7 +1809,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -1825,7 +1825,7 @@
 			{
 				"itemId": 42,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Narukami.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "雾切之回光",
@@ -1834,7 +1834,7 @@
 			{
 				"itemId": 43,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之脊",
@@ -1843,7 +1843,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -1852,7 +1852,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -1861,7 +1861,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -1870,7 +1870,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -1879,7 +1879,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -1895,7 +1895,7 @@
 			{
 				"itemId": 41,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "苍古自由之誓",
@@ -1904,7 +1904,7 @@
 			{
 				"itemId": 25,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之卷",
@@ -1913,7 +1913,7 @@
 			{
 				"itemId": 36,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷闪光",
@@ -1922,7 +1922,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -1931,7 +1931,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -1940,7 +1940,7 @@
 			{
 				"itemId": 37,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷的酒与诗",
@@ -1949,7 +1949,7 @@
 			{
 				"itemId": 38,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷猎手",
@@ -1965,7 +1965,7 @@
 			{
 				"itemId": 28,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之傲",
@@ -1974,7 +1974,7 @@
 			{
 				"itemId": 7,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "四风原典",
@@ -1983,7 +1983,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -1992,7 +1992,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -2001,7 +2001,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -2010,7 +2010,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -2019,7 +2019,7 @@
 			{
 				"itemId": 40,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Nachtblind.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "幽夜华尔兹",
@@ -2035,7 +2035,7 @@
 			{
 				"itemId": 39,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "松籁响起之时",
@@ -2044,7 +2044,7 @@
 			{
 				"itemId": 0,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "风鹰剑",
@@ -2053,7 +2053,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -2062,7 +2062,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -2071,7 +2071,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -2080,7 +2080,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -2089,7 +2089,7 @@
 			{
 				"itemId": 18,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "弓藏",
@@ -2105,7 +2105,7 @@
 			{
 				"itemId": 24,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "斫峰之刃",
@@ -2114,7 +2114,7 @@
 			{
 				"itemId": 15,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "尘世之锁",
@@ -2123,7 +2123,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -2132,7 +2132,7 @@
 			{
 				"itemId": 32,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩古剑",
@@ -2141,7 +2141,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -2150,7 +2150,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -2159,7 +2159,7 @@
 			{
 				"itemId": 33,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩长枪",
@@ -2175,7 +2175,7 @@
 			{
 				"itemId": 14,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之翼",
@@ -2184,7 +2184,7 @@
 			{
 				"itemId": 7,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "四风原典",
@@ -2193,7 +2193,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -2202,7 +2202,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -2211,7 +2211,7 @@
 			{
 				"itemId": 38,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷猎手",
@@ -2220,7 +2220,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -2229,7 +2229,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -2245,7 +2245,7 @@
 			{
 				"itemId": 34,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Widsith.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "终末嗟叹之诗",
@@ -2254,7 +2254,7 @@
 			{
 				"itemId": 35,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之刃",
@@ -2263,7 +2263,7 @@
 			{
 				"itemId": 36,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷闪光",
@@ -2272,7 +2272,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -2281,7 +2281,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -2290,7 +2290,7 @@
 			{
 				"itemId": 37,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Outlaw.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "暗巷的酒与诗",
@@ -2299,7 +2299,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -2315,7 +2315,7 @@
 			{
 				"itemId": 31,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "护摩之杖",
@@ -2324,7 +2324,7 @@
 			{
 				"itemId": 8,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "狼的末路",
@@ -2333,7 +2333,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -2342,7 +2342,7 @@
 			{
 				"itemId": 32,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩古剑",
@@ -2351,7 +2351,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -2360,7 +2360,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -2369,7 +2369,7 @@
 			{
 				"itemId": 33,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Lapis.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "千岩长枪",
@@ -2385,7 +2385,7 @@
 			{
 				"itemId": 29,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "磐岩结绿",
@@ -2394,7 +2394,7 @@
 			{
 				"itemId": 30,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Morax.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "和璞鸢",
@@ -2403,7 +2403,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -2412,7 +2412,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -2421,7 +2421,7 @@
 			{
 				"itemId": 18,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "弓藏",
@@ -2430,7 +2430,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -2439,7 +2439,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -2455,7 +2455,7 @@
 			{
 				"itemId": 1,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "阿莫斯之弓",
@@ -2464,7 +2464,7 @@
 			{
 				"itemId": 28,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之傲",
@@ -2473,7 +2473,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -2482,7 +2482,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -2491,7 +2491,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -2500,7 +2500,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -2509,7 +2509,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -2525,7 +2525,7 @@
 			{
 				"itemId": 24,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "斫峰之刃",
@@ -2534,7 +2534,7 @@
 			{
 				"itemId": 25,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之卷",
@@ -2543,7 +2543,7 @@
 			{
 				"itemId": 26,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风剑",
@@ -2552,7 +2552,7 @@
 			{
 				"itemId": 27,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风大剑",
@@ -2561,7 +2561,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -2570,7 +2570,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -2579,7 +2579,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -2595,7 +2595,7 @@
 			{
 				"itemId": 19,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "贯虹之槊",
@@ -2604,7 +2604,7 @@
 			{
 				"itemId": 20,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "无工之剑",
@@ -2613,7 +2613,7 @@
 			{
 				"itemId": 21,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里龙吟",
@@ -2622,7 +2622,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -2631,7 +2631,7 @@
 			{
 				"itemId": 22,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风秘典",
@@ -2640,7 +2640,7 @@
 			{
 				"itemId": 23,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风猎弓",
@@ -2649,7 +2649,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -2665,7 +2665,7 @@
 			{
 				"itemId": 14,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Dvalin.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "天空之翼",
@@ -2674,7 +2674,7 @@
 			{
 				"itemId": 15,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Kunwu.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "尘世之锁",
@@ -2683,7 +2683,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -2692,7 +2692,7 @@
 			{
 				"itemId": 16,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "雨裁",
@@ -2701,7 +2701,7 @@
 			{
 				"itemId": 17,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "昭心",
@@ -2710,7 +2710,7 @@
 			{
 				"itemId": 18,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "弓藏",
@@ -2719,7 +2719,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
@@ -2735,7 +2735,7 @@
 			{
 				"itemId": 7,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fourwinds.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "四风原典",
@@ -2744,7 +2744,7 @@
 			{
 				"itemId": 8,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Wolfmound.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "狼的末路",
@@ -2753,7 +2753,7 @@
 			{
 				"itemId": 9,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼剑",
@@ -2762,7 +2762,7 @@
 			{
 				"itemId": 10,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼大剑",
@@ -2771,7 +2771,7 @@
 			{
 				"itemId": 11,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼残章",
@@ -2780,7 +2780,7 @@
 			{
 				"itemId": 12,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "祭礼弓",
@@ -2789,7 +2789,7 @@
 			{
 				"itemId": 13,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "匣里灭辰",
@@ -2805,7 +2805,7 @@
 			{
 				"itemId": 0,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Falcon.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "风鹰剑",
@@ -2814,7 +2814,7 @@
 			{
 				"itemId": 1,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Amos.png",
 				"rankType": 5,
 				"itemType": "Weapon",
 				"name": "阿莫斯之弓",
@@ -2823,7 +2823,7 @@
 			{
 				"itemId": 2,
 				"weaponType": "Sword",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "笛剑",
@@ -2832,7 +2832,7 @@
 			{
 				"itemId": 3,
 				"weaponType": "Claymore",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "钟剑",
@@ -2841,7 +2841,7 @@
 			{
 				"itemId": 4,
 				"weaponType": "Catalyst",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "流浪乐章",
@@ -2850,7 +2850,7 @@
 			{
 				"itemId": 5,
 				"weaponType": "Bow",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "绝弦",
@@ -2859,7 +2859,7 @@
 			{
 				"itemId": 6,
 				"weaponType": "Polearm",
-				"imageUrl": "game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png",
 				"rankType": 4,
 				"itemType": "Weapon",
 				"name": "西风长枪",
