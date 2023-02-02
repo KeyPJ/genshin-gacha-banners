@@ -39,14 +39,14 @@ const getInfo = (name, itemType) => {
     if (itemType == "Character") {
         let character = genshindb.characters(name, opts)
         weaponType = character?.weapontype || ''
-        imageUrl = character?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "") || ''
+        imageUrl = character?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "/") || ''
         rankType = +character?.rarity || -1
         element = character?.element
         nameEn = character?.fullname || name
     } else if (itemType == "Weapon") {
         let weapon = genshindb.weapons(name, opts)
         weaponType = weapon?.weapontype || ''
-        imageUrl = weapon?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "") || ''
+        imageUrl = weapon?.images?.icon?.replace("https://upload-os-bbs.mihoyo.com/", "/") || ''
         rankType = +weapon?.rarity || -1
         nameEn = weapon?.name || name
     }
