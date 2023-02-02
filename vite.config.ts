@@ -43,17 +43,23 @@ const pwaOptions: Partial<VitePWAOptions> = {
     manifest: {
         name: 'genshin-gacha-banners',
         short_name: 'Banners',
+        description: "原神祈愿卡池一览GenshinGachaBanners",
         icons: [
             {
                 src: 'Sayu.png', // <== don't add slash, for testing
                 sizes: '256x256',
                 type: 'image/png',
+            },
+            {
+                src: 'Sayu.png', // <== don't add slash, for testing
+                sizes: '512x512',
+                type: 'image/png',
             }
         ],
-        "start_url": "./index.html",
-        "display": "standalone",
-        "background_color": "#000000",
-        "theme_color": "#181818"
+        start_url: "/",
+        display: "standalone",
+        background_color: "#F3F3F3",
+        theme_color: "#F3F3F3"
     },
 }
 
