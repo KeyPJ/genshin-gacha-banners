@@ -1,5 +1,75 @@
 [
 	{
+		"version": "3.4.2",
+		"items": [
+			{
+				"itemId": 31,
+				"weaponType": "Polearm",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Homa.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "护摩之杖",
+				"nameEn": "Staff of Homa"
+			},
+			{
+				"itemId": 55,
+				"weaponType": "Bow",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Kirin.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "若水",
+				"nameEn": "Aqua Simulacra"
+			},
+			{
+				"itemId": 32,
+				"weaponType": "Claymore",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Lapis.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "千岩古剑",
+				"nameEn": "Lithic Blade"
+			},
+			{
+				"itemId": 26,
+				"weaponType": "Sword",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风剑",
+				"nameEn": "Favonius Sword"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Polearm",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 22,
+				"weaponType": "Catalyst",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "西风秘典",
+				"nameEn": "Favonius Codex"
+			},
+			{
+				"itemId": 18,
+				"weaponType": "Bow",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "弓藏",
+				"nameEn": "Rust"
+			}
+		],
+		"start": "2023-02-07 18:00:00",
+		"end": "2023-02-28 14:59:59"
+	},
+	{
 		"version": "3.4.1",
 		"items": [
 			{

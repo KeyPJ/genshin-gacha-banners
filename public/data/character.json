@@ -1,5 +1,62 @@
 [
 	{
+		"version": "3.4.2",
+		"items": [
+			{
+				"itemId": 21,
+				"weaponType": "Polearm",
+				"imageUrl": "/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "胡桃",
+				"nameEn": "Hu Tao",
+				"element": "Pyro"
+			},
+			{
+				"itemId": 39,
+				"weaponType": "Bow",
+				"imageUrl": "/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+				"rankType": 5,
+				"itemType": "Character",
+				"name": "夜兰",
+				"nameEn": "Yelan",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 5,
+				"weaponType": "Sword",
+				"imageUrl": "/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "行秋",
+				"nameEn": "Xingqiu",
+				"element": "Hydro"
+			},
+			{
+				"itemId": 11,
+				"weaponType": "Catalyst",
+				"imageUrl": "/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "凝光",
+				"nameEn": "Ningguang",
+				"element": "Geo"
+			},
+			{
+				"itemId": 10,
+				"weaponType": "Claymore",
+				"imageUrl": "/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+				"rankType": 4,
+				"itemType": "Character",
+				"name": "北斗",
+				"nameEn": "Beidou",
+				"element": "Electro"
+			}
+		],
+		"start": "2023-02-07 18:00:00",
+		"end": "2023-02-28 14:59:59"
+	},
+	{
 		"version": "3.4.1",
 		"items": [
 			{
