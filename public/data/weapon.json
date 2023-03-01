@@ -1,5 +1,75 @@
 [
 	{
+		"version": "3.5.1",
+		"items": [
+			{
+				"itemId": 65,
+				"weaponType": "Claymore",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Deshret.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "苇海信标",
+				"nameEn": "Beacon of the Reed Sea"
+			},
+			{
+				"itemId": 57,
+				"weaponType": "Polearm",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Deshret.png",
+				"rankType": 5,
+				"itemType": "Weapon",
+				"name": "赤沙之杖",
+				"nameEn": "Staff of the Scarlet Sands"
+			},
+			{
+				"itemId": 36,
+				"weaponType": "Sword",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Sword_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷闪光",
+				"nameEn": "The Alley Flash"
+			},
+			{
+				"itemId": 38,
+				"weaponType": "Bow",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Bow_Outlaw.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "暗巷猎手",
+				"nameEn": "Alley Hunter"
+			},
+			{
+				"itemId": 10,
+				"weaponType": "Claymore",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "祭礼大剑",
+				"nameEn": "Sacrificial Greatsword"
+			},
+			{
+				"itemId": 13,
+				"weaponType": "Polearm",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "匣里灭辰",
+				"nameEn": "Dragon's Bane"
+			},
+			{
+				"itemId": 17,
+				"weaponType": "Catalyst",
+				"imageUrl": "/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png",
+				"rankType": 4,
+				"itemType": "Weapon",
+				"name": "昭心",
+				"nameEn": "Eye of Perception"
+			}
+		],
+		"start": "2023-03-01 06:00:00",
+		"end": "2023-03-21 17:59:59"
+	},
+	{
 		"version": "3.4.2",
 		"items": [
 			{
