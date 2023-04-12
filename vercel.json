@@ -3,6 +3,10 @@
     {
       "source": "/game_record/(.*)",
       "destination": "https://upload-os-bbs.mihoyo.com/game_record/$1"
+    },
+    {
+      "source": "/data/(.*)",
+      "destination": "https://raw.githubusercontent.com/KeyPJ/FetchData/main/data/gacha/$1"
     }
   ]
 }
