@@ -75,6 +75,7 @@ export default function DataRow(props: IProps) {
         //角色
         "刻晴",
         "提纳里",
+        "迪希雅",
         //五星武器
         "阿莫斯之弓", "天空之翼",
         "四风原典", "天空之卷",
