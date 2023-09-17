@@ -156,8 +156,8 @@ export default function DataRow(props: IProps) {
                             <div key={key}
                                  className={classNames(itemClassName)}>
                                 <img src={showItem.imageUrl}
-                                     alt={"zh-CN" == i18n.language ? showItem.name : showItem.nameEn}
-                                     title={"zh-CN" == i18n.language ? showItem.name : showItem.nameEn}
+                                     alt={showItem.name}
+                                     title={showItem.name}
                                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                                      onClick={() => handleCharacterClick(showItem)}
                                 />
@@ -180,8 +180,8 @@ export default function DataRow(props: IProps) {
     return (
         [<div className={"flex flex-row shrink-0 w-fit"}>
             <div className={classNames(itemClassName, "sticky left-0 bg-white ")}>
-                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn}
-                     title={"zh-CN" == i18n.language ? item.name : item.nameEn}
+                <img src={item.imageUrl} alt={item.name}
+                     title={item.name}
                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                      onClick={() => handleCharacterClick(item)}
                 />
@@ -203,8 +203,8 @@ export default function DataRow(props: IProps) {
                         return (
                             <div key={key}
                                  className={classNames(itemClassName)}>
-                                <img src={item.imageUrl} alt={"zh-CN" == i18n.language ? item.name : item.nameEn}
-                                     title={"zh-CN" == i18n.language ? item.name : item.nameEn}
+                                <img src={item.imageUrl} alt={item.name}
+                                     title={item.name}
                                      className={classNames(itemClassName, borderColor, "border-solid rounded-[50%]")}
                                      onClick={() => handleCharacterClick(item)}
                                 />

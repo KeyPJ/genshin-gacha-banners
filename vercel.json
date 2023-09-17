@@ -11,6 +11,14 @@
     {
       "source": "/data/(.*)",
       "destination": "https://raw.githubusercontent.com/KeyPJ/FetchData/main/data/gacha/$1"
+    },
+    {
+      "source": "/darkmatter/(.*)",
+      "destination": "https://act-webstatic.mihoyo.com/darkmatter/$1"
+    },
+    {
+      "source": "/hk4e/(.*)",
+      "destination": "https://act-webstatic.mihoyo.com/hk4e/$1"
     }
   ]
 }
