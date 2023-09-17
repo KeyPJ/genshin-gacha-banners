@@ -28,5 +28,9 @@
   "rowClick": "This Row Can Be Clicked",
   "sinceLastPickUp": "It's been \n {{findIndex}} banner(s) ,\n {{days}} day(s) \n since the last",
   "unavailable": "Unavailable Time \n DESC",
-  "share": "Save Image"
+  "share": "Save Image",
+  "gi": "Genshin Impact",
+  "hsr": "Honkai:Star Rail(new)",
+  "pathType": "Path:",
+  "DamageType": "Damage:"
 }

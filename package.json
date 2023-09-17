@@ -21,11 +21,13 @@
     "react-github-corner": "^2.5.0",
     "react-i18next": "^11.16.6",
     "react-indiana-drag-scroll": "^2.1.0",
+    "react-router-dom": "^5.3.4",
     "workbox-window": "^6.5.3"
   },
   "devDependencies": {
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^1.0.7",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",

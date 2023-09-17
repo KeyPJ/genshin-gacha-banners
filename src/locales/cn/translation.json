@@ -28,5 +28,9 @@
   "rowClick": "此行 \n 可以点击",
   "sinceLastPickUp": "距离上次祈愿\n已经过去\n{{findIndex}}个卡池\n{{days}}天",
   "unavailable": "间隔时间 \n 倒序",
-  "share": "保存图片"
+  "share": "保存图片",
+  "gi": "原神",
+  "hsr": "崩坏:星穹铁道(new)",
+  "pathType": "命途:",
+  "DamageType": "属性:"
 }
