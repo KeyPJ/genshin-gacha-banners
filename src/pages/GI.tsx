@@ -90,23 +90,33 @@ function App() {
 
 
     const weaponTypeElements = weaponTypeList.map(rank => {
+        let b = rank.value.split(",").length > 1;
         return <div key={rank.value}
-                    className={classNames(classToSelect, rank.value == weaponType.value ? classSelected : "")}
+                    className={classNames(classToSelect, rank.value == weaponType.value ? classSelected : "","flex justify-center align-middle")}
                     onClick={() => {
                         setWeaponType(rank)
                         setShowGachaIndex([])
-                    }}>{rank.name}</div>
+                    }}>{b ? rank.name : <img src={`/weapon/${rank.name}.png`}
+                                             alt={rank.name}
+                                             title={rank.name}
+                                             className={classNames(classToSelect, "border-solid rounded-[50%] bg-black w-10 h-10")}
+        />}</div>
     })
     weaponTypeElements.splice(4, 0, ...Array(3).fill(<div/>));
     weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(2).fill(<div/>));
 
     const characterElements = elementList.map(rank => {
+        let b = rank.value.split(",").length > 1;
         return <div key={rank.value}
-                    className={classNames(classToSelect, rank.value == elementType.value ? classSelected : "")}
+                    className={classNames(classToSelect, rank.value == elementType.value ? classSelected : "","flex justify-center align-middle")}
                     onClick={() => {
                         setElementType(rank)
                         setShowGachaIndex([])
-                    }}>{rank.name}</div>
+                    }}>{b ? rank.name : <img src={`/element/${rank.name}.png`}
+                                             alt={rank.name}
+                                             title={rank.name}
+                                             className={classNames(classToSelect, "border-solid rounded-[50%] w-10 h-10")}
+        />}</div>
     })
     characterElements.splice(4, 0, ...Array(2).fill(<div/>));
 
