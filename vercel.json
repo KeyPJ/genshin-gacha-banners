@@ -19,6 +19,10 @@
     {
       "source": "/hk4e/(.*)",
       "destination": "https://act-webstatic.mihoyo.com/hk4e/$1"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
     }
   ]
 }
