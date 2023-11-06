@@ -9,26 +9,8 @@ import {useTranslation} from "react-i18next";
 import {isMobile} from "react-device-detect";
 import html2canvas from "html2canvas";
 import {Link} from "react-router-dom";
+import {classNames, generateOptionEle, getDivElements, Option} from "../components/Common";
 
-
-interface Option {
-    name: string,
-    value: string,
-}
-
-const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
-
-const generateOptionEle = (str: string, t: Function) => {
-    let elementList: Option[] = [
-        {name: t("ALL"), value: str},
-    ]
-    str.split(",").forEach(
-        e => {
-            elementList = elementList.concat({name: t(e), value: e})
-        }
-    )
-    return elementList;
-}
 
 function App() {
 
@@ -88,35 +70,11 @@ function App() {
     const [showGachaIndex, setShowGachaIndex] = useState<number[]>([]);
 
 
-    const weaponTypeElements = weaponTypeList.map(rank => {
-        let b = rank.value.split(",").length > 1;
-        return <div key={rank.value}
-                    className={classNames(classToSelect, rank.value == weaponType.value ? classSelected : "","flex justify-center align-middle")}
-                    onClick={() => {
-                        setWeaponType(rank)
-                        setShowGachaIndex([])
-                    }}>{b ? rank.name : <img src={`/path/${rank.name}.png`}
-                                             alt={rank.name}
-                                             title={rank.name}
-                                             className={classNames(classToSelect, "border-solid rounded-[50%] bg-black w-10 h-10")}
-        />}</div>
-    })
+    const weaponTypeElements = getDivElements(weaponTypeList, weaponType, "path", setWeaponType, setShowGachaIndex)
     weaponTypeElements.splice(4, 0, ...Array(2).fill(<div/>));
     weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(1).fill(<div/>));
 
-    const characterElements = elementList.map(rank => {
-        let b = rank.value.split(",").length > 1;
-        return <div key={rank.value}
-                    className={classNames(classToSelect, rank.value == elementType.value ? classSelected : "","flex justify-center align-middle")}
-                    onClick={() => {
-                        setElementType(rank)
-                        setShowGachaIndex([])
-                    }}>{b ? rank.name : <img src={`/damage/${rank.name}.png`}
-                                             alt={rank.name}
-                                             title={rank.name}
-                                             className={classNames(classToSelect, "border-solid rounded-[50%] bg-black w-10 h-10")}
-        />}</div>
-    })
+    const characterElements = getDivElements(elementList, elementType, "damage", setElementType, setShowGachaIndex)
     characterElements.splice(4, 0, ...Array(2).fill(<div/>));
 
     const reset = () => {

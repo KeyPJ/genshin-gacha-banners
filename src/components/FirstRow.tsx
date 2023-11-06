@@ -12,6 +12,7 @@ interface IProps {
     setSortB: Function
     showGachaIndex: number[]
     setShowGachaIndex: Function
+    version?: string
 }
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
@@ -30,7 +31,8 @@ export default function FirstRow(props: IProps) {
         sortB,
         setSortB,
         showGachaIndex,
-        setShowGachaIndex
+        setShowGachaIndex,
+        version,
     } = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
@@ -71,8 +73,10 @@ export default function FirstRow(props: IProps) {
             {data.map((gacha, index) => {
                     const {start, end} = gacha;
                     const key = `0-${gacha.version}`;
-                    if (showGachaIndex.length > 0 && !showGachaIndex.includes(index)) {
-                        return <div key={key} className={showIndex.includes(index) ? itemClassName : ""}/>
+                    let showGacha = showGachaIndex.length > 0 && !showGachaIndex.includes(index);
+                    let showVersion = version && version.split(",").length == 1 && !gacha.version.startsWith(version.substring(0, 1));
+                    if (showGacha || showVersion) {
+                        return <div key={key} className={showIndex.includes(index) && !showVersion ? itemClassName : ""}/>
                     }
                     return (
                         <div key={key}

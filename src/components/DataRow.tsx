@@ -10,6 +10,8 @@ interface IProps {
     currentGachaItemId: number[]
     setShowGachaIndex: Function
     setCurrentGachaItemId: Function
+    version?: string
+    resetVersion?: Function
 }
 
 // const imageBaseUrl = '/api/content?i=';
@@ -22,7 +24,7 @@ const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
 };
 export default function DataRow(props: IProps) {
 
-    const {t, i18n} = useTranslation();
+    const {t} = useTranslation();
 
     const {
         data,
@@ -31,7 +33,9 @@ export default function DataRow(props: IProps) {
         showGachaIndex,
         setShowGachaIndex,
         setCurrentGachaItemId,
-        currentGachaItemId
+        currentGachaItemId,
+        version,
+        resetVersion,
     } = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
@@ -60,8 +64,8 @@ export default function DataRow(props: IProps) {
             setShowGachaIndex(gachaIndex)
             setCurrentGachaItemId([item.itemId]);
         }
-
-
+        // @ts-ignore
+        resetVersion()
     }
 
     const showIndex = showGachaIndex
@@ -132,9 +136,12 @@ export default function DataRow(props: IProps) {
             </div>
             {data.map((gacha, index) => {
                     const key = `${item.itemId}-${gacha.version}`;
+                    let showGacha = showGachaIndex.length > 0 && !showIndex.includes(index);
+                    let showVersion = version && version.split(",").length == 1 && !gacha.version.startsWith(version.substring(0, 1));
+
                     if (gacha.items.map(i => i.itemId).includes(item.itemId)) {
                         tempNumber = 0;
-                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
+                        if (showGacha || showVersion) {
                             return <div key={key}/>
                         }
                         const pickUpitems = gacha.items.filter(i => i.itemId != item.itemId);
@@ -164,7 +171,7 @@ export default function DataRow(props: IProps) {
                             </div>
                         )
                     } else {
-                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
+                        if (showGacha || showVersion) {
                             return <div/>
                         }
                         return <div key={key}
@@ -195,9 +202,11 @@ export default function DataRow(props: IProps) {
             </div>
             {data.map((gacha, index) => {
                     const key = `${item.itemId}-${gacha.version}`;
+                    let showGacha = showGachaIndex.length > 0 && !showIndex.includes(index);
+                    let showVersion = version && version.split(",").length == 1 && !gacha.version.startsWith(version.substring(0, 1));
                     if (gacha.items.map(i => i.itemId).includes(item.itemId)) {
                         tempNumber = 0;
-                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
+                        if (showGacha || showVersion) {
                             return <div key={key}/>
                         }
                         return (
@@ -220,7 +229,7 @@ export default function DataRow(props: IProps) {
                             style = {backgroundImage: `linear-gradient(to right, rgb(${from}, ${from}, 255) , rgb(${to}, ${to}, 255))`}
                         }
 
-                        if (showGachaIndex.length > 0 && !showIndex.includes(index)) {
+                        if (showGacha || showVersion) {
                             return <div/>
                         }
                         return <div key={key}

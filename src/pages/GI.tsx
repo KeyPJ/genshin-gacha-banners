@@ -9,26 +9,8 @@ import {useTranslation} from "react-i18next";
 import {isMobile} from "react-device-detect";
 import html2canvas from "html2canvas";
 import {Link} from "react-router-dom";
+import {classNames, generateOptionEle, getDivElements, Option} from "../components/Common";
 
-
-interface Option {
-    name: string,
-    value: string,
-}
-
-const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
-
-const generateOptionEle = (str: string, t: Function) => {
-    let elementList: Option[] = [
-        {name: t("ALL"), value: str},
-    ]
-    str.split(",").forEach(
-        e => {
-            elementList = elementList.concat({name: t(e), value: e})
-        }
-    )
-    return elementList;
-}
 
 function App() {
 
@@ -52,10 +34,13 @@ function App() {
 
     const elementList = generateOptionEle("Pyro,Hydro,Anemo,Electro,Dendro,Cryo,Geo", t)
 
+    const versionList = generateOptionEle("1.0,2.0,3.0,4.0", t)
+
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
     const [weaponType, setWeaponType] = useState(weaponTypeList[0]);
     const [elementType, setElementType] = useState(elementList[0]);
+    const [version, setVersion] = useState(versionList[0]);
 
     const languages = [
         {code: "zh-CN", value: "中文"},
@@ -75,10 +60,10 @@ function App() {
             res => {
                 const resData = res.data as gachaData[];
                 setData(resData.reverse())
+                setVersion(versionList[versionList.length - 1])
             }
         )
     }, [itemType, language])
-
 
 
     const classToSelect = "bg-white shadow-sm text-gray-900 cursor-pointer"
@@ -89,41 +74,23 @@ function App() {
     const [showGachaIndex, setShowGachaIndex] = useState<number[]>([]);
 
 
-    const weaponTypeElements = weaponTypeList.map(rank => {
-        let b = rank.value.split(",").length > 1;
-        return <div key={rank.value}
-                    className={classNames(classToSelect, rank.value == weaponType.value ? classSelected : "","flex justify-center align-middle")}
-                    onClick={() => {
-                        setWeaponType(rank)
-                        setShowGachaIndex([])
-                    }}>{b ? rank.name : <img src={`/weapon/${rank.name}.png`}
-                                             alt={rank.name}
-                                             title={rank.name}
-                                             className={classNames(classToSelect, "border-solid rounded-[50%] bg-black w-10 h-10")}
-        />}</div>
-    })
+    const weaponTypeElements = getDivElements(weaponTypeList, weaponType, "weapon", setWeaponType, setShowGachaIndex)
     weaponTypeElements.splice(4, 0, ...Array(3).fill(<div/>));
     weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(2).fill(<div/>));
 
-    const characterElements = elementList.map(rank => {
-        let b = rank.value.split(",").length > 1;
-        return <div key={rank.value}
-                    className={classNames(classToSelect, rank.value == elementType.value ? classSelected : "","flex justify-center align-middle")}
-                    onClick={() => {
-                        setElementType(rank)
-                        setShowGachaIndex([])
-                    }}>{b ? rank.name : <img src={`/element/${rank.name}.png`}
-                                             alt={rank.name}
-                                             title={rank.name}
-                                             className={classNames(classToSelect, "border-solid rounded-[50%] w-10 h-10")}
-        />}</div>
-    })
+    const characterElements = getDivElements(elementList, elementType, "element", setElementType, setShowGachaIndex)
+
     characterElements.splice(4, 0, ...Array(2).fill(<div/>));
+    characterElements.splice(characterElements.length, 0, ...Array(1).fill(<div/>));
+
+    const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
+    versionElements.splice(4, 0, ...Array(3).fill(<div/>));
 
     const reset = () => {
         setRankType(rankTypeList[0]);
         setWeaponType(weaponTypeList[0])
         setElementType(elementList[0])
+        setVersion(versionList[versionList.length - 1])
     }
 
     const share = () => {
@@ -197,6 +164,10 @@ function App() {
                 {
                     itemType.value == 'Character' && characterElements
                 }
+                <div className="text-right">{t("version")}</div>
+                {
+                    versionElements
+                }
             </div>
             {!isMobile && <div className="text-center text-sm">❕{t("notice")}❕</div>}
             <BannersShow
@@ -210,6 +181,8 @@ function App() {
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
                 setShowGachaIndex={setShowGachaIndex}
+                version={version.value}
+                resetVersion={() => setVersion(versionList[0])}
                 itemType={itemType.value}
             />
             {/*<div className="flex flex-row justify-center text-center my-4">*/}

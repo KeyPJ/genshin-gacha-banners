@@ -17,6 +17,8 @@ interface IProps {
     showGachaIndex: number[]
     setShowGachaIndex: Function
     itemType: string
+    version?: string
+    resetVersion?: Function
 }
 
 const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
@@ -34,7 +36,9 @@ export default function BannersShow(props: IProps) {
         setCurrentGachaItemId,
         showGachaIndex,
         setShowGachaIndex,
-        itemType
+        itemType,
+        version,
+        resetVersion,
     } = props;
 
     //enable Sort?default:false
@@ -83,6 +87,7 @@ export default function BannersShow(props: IProps) {
                           setSortB={setSortB}
                           showGachaIndex={showGachaIndex}
                           setShowGachaIndex={setShowGachaIndex}
+                          version={version}
                 />
                 :
                 // @ts-ignore
@@ -91,6 +96,8 @@ export default function BannersShow(props: IProps) {
                          currentGachaItemId={currentGachaItemId}
                          setShowGachaIndex={setShowGachaIndex}
                          setCurrentGachaItemId={setCurrentGachaItemId}
+                         version={version}
+                         resetVersion={resetVersion}
                 />;
         })
     }</>;
