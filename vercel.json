@@ -21,6 +21,10 @@
       "destination": "https://act-webstatic.mihoyo.com/hk4e/$1"
     },
     {
+      "source": "/pool/(.*)",
+      "destination": "https://gitee.com/yoimiya-kokomi/Miao-Yunzai/raw/master/plugins/genshin/defSet/pool/$1"
+    },
+    {
       "source": "/:path*",
       "destination": "/index.html"
     }
