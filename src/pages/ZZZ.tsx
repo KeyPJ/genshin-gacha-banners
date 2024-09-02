@@ -16,6 +16,7 @@ function App() {
 
     const {t, i18n} = useTranslation();
 
+
     const [data, setData] = useState<gachaData[]>([]);
 
     const itemTypeList: Option[] = [
@@ -25,23 +26,21 @@ function App() {
 
     const rankTypeList: Option[] = [
         {name: t("ALL"), value: "4,5"},
-        {name: "☆5", value: "5"},
-        {name: "☆4", value: "4"},
+        {name: "S", value: "5"},
+        {name: "A", value: "4"},
     ]
 
-    const weaponTypeList = generateOptionEle("knight,mage,priest,rogue,shaman,warlock,warrior", t)
-// const weaponTypeList = generateOptionEle("1,2,3,4,5,6,7", t)
+    const weaponTypeList = generateOptionEle("Attack,Stun,Anomaly,Support,Defense", t)
 
-    const elementList = generateOptionEle("fire,ice,imaginary,physical,quantum,thunder,wind", t);
-// const elementList = generateOptionEle("1,2,4,8,16,32,64", t)
+    const elementList = generateOptionEle("Physical,Fire,Ice,Electric,Ether", t)
 
-    const versionList = generateOptionEle("1.0,2.0", t)
+    // const versionList = generateOptionEle("1.0", t)
 
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
     const [weaponType, setWeaponType] = useState(weaponTypeList[0]);
     const [elementType, setElementType] = useState(elementList[0]);
-    const [version, setVersion] = useState(versionList[0]);
+    // const [version, setVersion] = useState(versionList[0]);
 
     const languages = [
         {code: "zh-CN", value: "中文"},
@@ -57,14 +56,15 @@ function App() {
 
     useEffect(() => {
         let s = itemType.value.toLowerCase();
-        axios.get(`/data/hsr/${s}.json`).then(
+        axios.get(`/data/zzz/${s}.json`).then(
             res => {
                 const resData = res.data as gachaData[];
                 setData(resData.reverse())
-                setVersion(versionList[versionList.length - 1])
+                // setVersion(versionList[versionList.length - 1])
             }
         )
     }, [itemType, language])
+
 
     const classToSelect = "bg-white shadow-sm text-gray-900 cursor-pointer"
     const classSelected = "ring-2 border-indigo-500"
@@ -74,20 +74,23 @@ function App() {
     const [showGachaIndex, setShowGachaIndex] = useState<number[]>([]);
 
 
-    const weaponTypeElements = getDivElements(weaponTypeList, weaponType, "path", setWeaponType, setShowGachaIndex)
-    weaponTypeElements.splice(4, 0, ...Array(2).fill(<div/>));
-    weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(1).fill(<div/>));
+    const weaponTypeElements = getDivElements(weaponTypeList, weaponType, "weapon/zzz", setWeaponType, setShowGachaIndex)
+    weaponTypeElements.splice(4, 0, ...Array(3).fill(<div/>));
+    weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(2).fill(<div/>));
 
-    const characterElements = getDivElements(elementList, elementType, "damage", setElementType, setShowGachaIndex)
+    const characterElements = getDivElements(elementList, elementType, "element/zzz", setElementType, setShowGachaIndex)
+
     characterElements.splice(4, 0, ...Array(3).fill(<div/>));
+    characterElements.splice(characterElements.length, 0, ...Array(1).fill(<div/>));
 
-    const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
-    versionElements.splice(4, 0, ...Array(2).fill(<div/>));
+    // const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
+    // versionElements.splice(4, 0, ...Array(2).fill(<div/>));
 
     const reset = () => {
         setRankType(rankTypeList[0]);
         setWeaponType(weaponTypeList[0])
         setElementType(elementList[0])
+        // setVersion(versionList[versionList.length - 1])
     }
 
     const share = () => {
@@ -153,18 +156,18 @@ function App() {
                 }
                 <div/>
                 <div/>
-                <div className="text-right">{t("pathType")}</div>
+                <div className="text-right">{t("weaponType")}</div>
                 {
                     weaponTypeElements
                 }
-                {itemType.value == 'Character' && <div className="text-right">{t("DamageType")}</div>}
+                {itemType.value == 'Character' && <div className="text-right">{t("ElementType")}</div>}
                 {
                     itemType.value == 'Character' && characterElements
                 }
-                <div className="text-right">{t("version")}</div>
-                {
-                    versionElements
-                }
+                {/*<div className="text-right">{t("version")}</div>*/}
+                {/*{*/}
+                {/*    versionElements*/}
+                {/*}*/}
             </div>
             {!isMobile && <div className="text-center text-sm">❕{t("notice")}❕</div>}
             <BannersShow
@@ -178,8 +181,8 @@ function App() {
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
                 setShowGachaIndex={setShowGachaIndex}
-                version={version.value}
-                resetVersion={() => setVersion(versionList[0])}
+                // version={version.value}
+                // resetVersion={() => setVersion(versionList[0])}
                 itemType={itemType.value}
             />
             {/*<div className="flex flex-row justify-center text-center my-4">*/}
@@ -203,10 +206,10 @@ function App() {
                 <div className="w-1/4 underline">
                     <Link to="/">{t("gi")}</Link>
                 </div>
-                <div className="w-1/4 ">
+                <div className="w-1/4 underline">
                     <Link to="/hsr">{t("hsr")}</Link>
                 </div>
-                <div className="w-1/4 underline">
+                <div className="w-1/4 ">
                     <Link to="/zzz">{t("zzz")}</Link>
                 </div>
             </div>
@@ -215,7 +218,6 @@ function App() {
                 <div className="w-20 underline hover:bg-purple-700 whitespace-nowrap"
                      onClick={() => share()}>{t("share")}</div>
             </div>
-
 
         </div>
     )

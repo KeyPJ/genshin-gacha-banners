@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png",
-      "destination": "https://act-webstatic.mihoyo.com/hk4e/e20200928calculate/item_icon_u82ase/09f16853b42c95407e2071af70953556.png"
+      "source": "/event-static-hoyowiki-admin/(.*)",
+      "destination": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/$1"
     },
     {
-      "source": "/game_record/(.*)",
-      "destination": "https://upload-os-bbs.mihoyo.com/game_record/$1"
+      "source": "/event-ugc-hoyowiki/(.*)",
+      "destination": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/$1"
     },
     {
       "source": "/data/(.*)",

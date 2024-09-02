@@ -84,7 +84,7 @@ function App() {
     characterElements.splice(characterElements.length, 0, ...Array(1).fill(<div/>));
 
     const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
-    versionElements.splice(4, 0, ...Array(2).fill(<div/>));
+    versionElements.splice(4, 0, ...Array(3).fill(<div/>));
 
     const reset = () => {
         setRankType(rankTypeList[0]);
@@ -202,14 +202,23 @@ function App() {
                 }
             </div>
 
+            <div className="flex flex-row justify-center text-center my-2">
+                <div className="w-1/4 ">
+                    <Link to="/">{t("gi")}</Link>
+                </div>
+                <div className="w-1/4 underline">
+                    <Link to="/hsr">{t("hsr")}</Link>
+                </div>
+                <div className="w-1/4 underline">
+                    <Link to="/zzz">{t("zzz")}</Link>
+                </div>
+            </div>
+
             <div className="flex flex-row justify-center text-center mb-4">
                 <div className="w-20 underline hover:bg-purple-700 whitespace-nowrap"
                      onClick={() => share()}>{t("share")}</div>
             </div>
 
-            <div className="flex flex-row justify-center text-center mb-4 underline">
-                <Link to="/hsr">{t("hsr")}</Link>
-            </div>
         </div>
     )
 }

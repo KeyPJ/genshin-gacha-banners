@@ -18,7 +18,9 @@
   "unavailable": "Unavailable Time \n DESC",
   "share": "Save Image",
   "gi": "Genshin Impact",
-  "hsr": "Honkai:Star Rail(new)",
+  "hsr": "Honkai:Star Rail",
+  "zzz": "Zenless Zone Zero(new)",
   "pathType": "Path:",
-  "DamageType": "Damage:"
+  "DamageType": "Damage:",
+  "version": "Version:"
 }

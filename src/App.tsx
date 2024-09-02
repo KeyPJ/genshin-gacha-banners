@@ -6,6 +6,7 @@ import HSR from "./pages/HSR";
 import {useRegisterSW} from "virtual:pwa-register/react";
 import {useEffect} from "react";
 import {inject} from "@vercel/analytics";
+import ZZZ from "./pages/ZZZ";
 
 function App() {
 
@@ -24,11 +25,14 @@ function App() {
 
     return (
         <div><BrowserRouter>
-            <Route exact path="/">
+            <Route key="gi" exact path="/">
                 <GI/>
             </Route>
-            <Route exact path="/hsr">
+            <Route key="hsr" exact path="/hsr">
                 <HSR/>
+            </Route>
+            <Route key="zzz" exact path="/zzz">
+                <ZZZ/>
             </Route>
         </BrowserRouter>
         </div>
