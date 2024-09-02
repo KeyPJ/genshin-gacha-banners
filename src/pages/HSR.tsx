@@ -79,7 +79,8 @@ function App() {
     weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(1).fill(<div/>));
 
     const characterElements = getDivElements(elementList, elementType, "damage", setElementType, setShowGachaIndex)
-    characterElements.splice(4, 0, ...Array(3).fill(<div/>));
+    characterElements.splice(4, 0, ...Array(2).fill(<div/>));
+    characterElements.splice(weaponTypeElements.length, 0, ...Array(1).fill(<div/>));
 
     const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
     versionElements.splice(4, 0, ...Array(2).fill(<div/>));
