@@ -35,10 +35,13 @@ function App() {
     const elementList = generateOptionEle("fire,ice,imaginary,physical,quantum,thunder,wind", t);
 // const elementList = generateOptionEle("1,2,4,8,16,32,64", t)
 
+    const versionList = generateOptionEle("1.0,2.0", t)
+
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
     const [weaponType, setWeaponType] = useState(weaponTypeList[0]);
     const [elementType, setElementType] = useState(elementList[0]);
+    const [version, setVersion] = useState(versionList[0]);
 
     const languages = [
         {code: "zh-CN", value: "中文"},
@@ -58,6 +61,7 @@ function App() {
             res => {
                 const resData = res.data as gachaData[];
                 setData(resData.reverse())
+                setVersion(versionList[versionList.length - 1])
             }
         )
     }, [itemType, language])
@@ -75,7 +79,10 @@ function App() {
     weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(1).fill(<div/>));
 
     const characterElements = getDivElements(elementList, elementType, "damage", setElementType, setShowGachaIndex)
-    characterElements.splice(4, 0, ...Array(2).fill(<div/>));
+    characterElements.splice(4, 0, ...Array(3).fill(<div/>));
+
+    const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
+    versionElements.splice(4, 0, ...Array(1).fill(<div/>));
 
     const reset = () => {
         setRankType(rankTypeList[0]);
@@ -116,15 +123,6 @@ function App() {
         el.click();
     };
 
-    // return (
-    //     <div>
-    //         123123123
-    //         <div className="flex flex-row justify-center text-center mb-4 underline">
-    //             <Link to="/">{t("gi")}</Link>
-    //         </div>
-    //     </div>
-    // )
-
     return (
         <div className="App flex flex-col justify-between">
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
@@ -163,6 +161,10 @@ function App() {
                 {
                     itemType.value == 'Character' && characterElements
                 }
+                <div className="text-right">{t("version")}</div>
+                {
+                    versionElements
+                }
             </div>
             {!isMobile && <div className="text-center text-sm">❕{t("notice")}❕</div>}
             <BannersShow
@@ -176,6 +178,8 @@ function App() {
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
                 setShowGachaIndex={setShowGachaIndex}
+                version={version.value}
+                resetVersion={() => setVersion(versionList[0])}
                 itemType={itemType.value}
             />
             {/*<div className="flex flex-row justify-center text-center my-4">*/}

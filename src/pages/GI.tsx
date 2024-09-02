@@ -34,7 +34,7 @@ function App() {
 
     const elementList = generateOptionEle("Pyro,Hydro,Anemo,Electro,Dendro,Cryo,Geo", t)
 
-    const versionList = generateOptionEle("1.0,2.0,3.0,4.0", t)
+    const versionList = generateOptionEle("1.0,2.0,3.0,4.0,5.0", t)
 
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
@@ -84,7 +84,7 @@ function App() {
     characterElements.splice(characterElements.length, 0, ...Array(1).fill(<div/>));
 
     const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
-    versionElements.splice(4, 0, ...Array(3).fill(<div/>));
+    versionElements.splice(4, 0, ...Array(2).fill(<div/>));
 
     const reset = () => {
         setRankType(rankTypeList[0]);
