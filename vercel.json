@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/hoyolab-wiki/(.*)",
+      "destination": "https://upload-static.hoyoverse.com/hoyolab-wiki/$1"
+    },
+    {
+      "source": "/hoyowiki/(.*)",
+      "destination": "https://bbs.hoyolab.com/hoyowiki/$1"
+    },
+    {
       "source": "/event-static-hoyowiki-admin/(.*)",
       "destination": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/$1"
     },
