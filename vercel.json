@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/hsr/UI/(.*)",
-      "destination": "https://api.hakush.in/hsr/UI/$1"
+      "source": "/(hsr|gi|zzz)/UI/(.*)",
+      "destination": "https://api.hakush.in/$1/UI/$2"
     },
     {
       "source": "/hoyolab-wiki/(.*)",
