@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/hsr/UI/(.*)",
+      "destination": "https://api.hakush.in/hsr/UI/$1"
+    },
+    {
       "source": "/hoyolab-wiki/(.*)",
       "destination": "https://upload-static.hoyoverse.com/hoyolab-wiki/$1"
     },
