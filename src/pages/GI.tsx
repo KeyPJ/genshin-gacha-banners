@@ -59,7 +59,7 @@ function App() {
         axios.get(`/data/gi/${s}.json`).then(
             res => {
                 const resData = res.data as gachaData[];
-                setData(resData.reverse())
+                setData(resData.filter(a=>a.start<new Date().toISOString()).reverse())
                 setVersion(versionList[versionList.length - 1])
             }
         )

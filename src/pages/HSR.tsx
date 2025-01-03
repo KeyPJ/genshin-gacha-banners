@@ -29,13 +29,13 @@ function App() {
         {name: "☆4", value: "4"},
     ]
 
-    const weaponTypeList = generateOptionEle("knight,mage,priest,rogue,shaman,warlock,warrior", t)
+    const weaponTypeList = generateOptionEle("knight,mage,priest,rogue,shaman,warlock,warrior,memory", t)
 // const weaponTypeList = generateOptionEle("1,2,3,4,5,6,7", t)
 
     const elementList = generateOptionEle("fire,ice,imaginary,physical,quantum,thunder,wind", t);
 // const elementList = generateOptionEle("1,2,4,8,16,32,64", t)
 
-    const versionList = generateOptionEle("1.0,2.0", t)
+    const versionList = generateOptionEle("1.0,2.0,3.0", t)
 
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
@@ -60,7 +60,7 @@ function App() {
         axios.get(`/data/hsr/${s}.json`).then(
             res => {
                 const resData = res.data as gachaData[];
-                setData(resData.reverse())
+                setData(resData.filter(a=>a.start<new Date().toISOString()).reverse())
                 setVersion(versionList[versionList.length - 1])
             }
         )
@@ -75,7 +75,7 @@ function App() {
 
 
     const weaponTypeElements = getDivElements(weaponTypeList, weaponType, "path", setWeaponType, setShowGachaIndex)
-    weaponTypeElements.splice(4, 0, ...Array(2).fill(<div/>));
+    weaponTypeElements.splice(4, 0, ...Array(1).fill(<div/>));
     weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(1).fill(<div/>));
 
     const characterElements = getDivElements(elementList, elementType, "damage", setElementType, setShowGachaIndex)
