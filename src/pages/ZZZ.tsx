@@ -30,17 +30,17 @@ function App() {
         {name: "A", value: "4"},
     ]
 
-    const weaponTypeList = generateOptionEle("Attack,Stun,Anomaly,Support,Defense", t)
+    const weaponTypeList = generateOptionEle("Attack,Stun,Anomaly,Support,Defense,Rupture", t)
 
     const elementList = generateOptionEle("Physical,Fire,Ice,Electric,Ether", t)
 
-    // const versionList = generateOptionEle("1.0", t)
+    const versionList = generateOptionEle("1.0,2.0", t)
 
     const [itemType, setItemType] = useState(itemTypeList[0]);
     const [rankType, setRankType] = useState(rankTypeList[1]);
     const [weaponType, setWeaponType] = useState(weaponTypeList[0]);
     const [elementType, setElementType] = useState(elementList[0]);
-    // const [version, setVersion] = useState(versionList[0]);
+    const [version, setVersion] = useState(versionList[0]);
 
     const languages = [
         {code: "zh-CN", value: "中文"},
@@ -60,7 +60,7 @@ function App() {
             res => {
                 const resData = res.data as gachaData[];
                 setData(resData.filter(a=>a.start<new Date().toISOString()).reverse())
-                // setVersion(versionList[versionList.length - 1])
+                setVersion(versionList[versionList.length - 1])
             }
         )
     }, [itemType, language])
@@ -76,15 +76,15 @@ function App() {
 
     const weaponTypeElements = getDivElements(weaponTypeList, weaponType, "weapon/zzz", setWeaponType, setShowGachaIndex)
     weaponTypeElements.splice(4, 0, ...Array(3).fill(<div/>));
-    weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(2).fill(<div/>));
+    weaponTypeElements.splice(weaponTypeElements.length, 0, ...Array(1).fill(<div/>));
 
     const characterElements = getDivElements(elementList, elementType, "element/zzz", setElementType, setShowGachaIndex)
 
     characterElements.splice(4, 0, ...Array(3).fill(<div/>));
-    characterElements.splice(characterElements.length, 0, ...Array(1).fill(<div/>));
+    characterElements.splice(characterElements.length, 0, ...Array(2).fill(<div/>));
 
-    // const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
-    // versionElements.splice(4, 0, ...Array(2).fill(<div/>));
+    const versionElements = getDivElements(versionList, version, "", setVersion, setShowGachaIndex)
+    versionElements.splice(4, 0, ...Array(2).fill(<div/>));
 
     const reset = () => {
         setRankType(rankTypeList[0]);
@@ -164,10 +164,10 @@ function App() {
                 {
                     itemType.value == 'Character' && characterElements
                 }
-                {/*<div className="text-right">{t("version")}</div>*/}
-                {/*{*/}
-                {/*    versionElements*/}
-                {/*}*/}
+                <div className="text-right">{t("version")}</div>
+                {
+                    versionElements
+                }
             </div>
             {!isMobile && <div className="text-center text-sm">❕{t("notice")}❕</div>}
             <BannersShow
@@ -181,8 +181,8 @@ function App() {
                 setCurrentGachaItemId={setCurrentGachaItemId}
                 showGachaIndex={showGachaIndex}
                 setShowGachaIndex={setShowGachaIndex}
-                // version={version.value}
-                // resetVersion={() => setVersion(versionList[0])}
+                version={version.value}
+                resetVersion={() => setVersion(versionList[0])}
                 itemType={itemType.value}
             />
             {/*<div className="flex flex-row justify-center text-center my-4">*/}
