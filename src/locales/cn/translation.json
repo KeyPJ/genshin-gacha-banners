@@ -16,11 +16,19 @@
   "rowClick": "此行 \n 可以点击",
   "sinceLastPickUp": "距离上次up\n已经过去\n{{findIndex}}个卡池\n{{days}}天",
   "unavailable": "间隔时间 \n 倒序",
-  "share": "保存图片",
+  "share": "分享链接",
+  "sharing": "分享中...",
+  "save": "保存图片",
+  "saving": "保存中...",
   "gi": "原神",
   "hsr": "崩坏:星穹铁道",
-  "zzz": "绝区零(new)",
+  "zzz": "绝区零",
   "pathType": "命途:",
   "DamageType": "属性:",
-  "version": "版本:"
+  "version": "版本:",
+  "please_use_portrait_mode_to_save_image": "请用竖屏模式下保存图片",
+  "please_rotate_to_landscape": "请旋转屏幕至横屏",
+  "better_experience_in_landscape": "横屏模式下查看体验更佳",
+  "click_to_dismiss_continue": "点击可取消本次提示仍可继续查看",
+  "Loading": "加载中..."
 }

@@ -5,36 +5,12 @@
       "destination": "https://api.hakush.in/$1/UI/$2"
     },
     {
-      "source": "/hoyolab-wiki/(.*)",
-      "destination": "https://upload-static.hoyoverse.com/hoyolab-wiki/$1"
-    },
-    {
-      "source": "/hoyowiki/(.*)",
-      "destination": "https://bbs.hoyolab.com/hoyowiki/$1"
-    },
-    {
-      "source": "/event-static-hoyowiki-admin/(.*)",
-      "destination": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/$1"
-    },
-    {
-      "source": "/event-ugc-hoyowiki/(.*)",
-      "destination": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/$1"
-    },
-    {
       "source": "/data/(.*)",
       "destination": "https://raw.githubusercontent.com/KeyPJ/FetchData/main/data/gacha/$1"
     },
     {
-      "source": "/darkmatter/(.*)",
-      "destination": "https://act-webstatic.mihoyo.com/darkmatter/$1"
-    },
-    {
-      "source": "/hk4e/(.*)",
-      "destination": "https://act-webstatic.mihoyo.com/hk4e/$1"
-    },
-    {
-      "source": "/pool/(.*)",
-      "destination": "https://gitee.com/yoimiya-kokomi/Miao-Yunzai/raw/master/plugins/genshin/defSet/pool/$1"
+      "source": "/icon/(.*)",
+      "destination": "/icon/$1"
     },
     {
       "source": "/:path*",

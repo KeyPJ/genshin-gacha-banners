@@ -89,6 +89,15 @@ export default defineConfig({
                 // rewrite: path => path.replace(/^\/data/, ''), // 重写传过来的path路径，比如 `/api/index/1?id=10&name=zs`（注意:path路径最前面有斜杠（/），因此，正则匹配的时候不要忘了是斜杠（/）开头的；选项的 key 也是斜杠（/）开头的）
                 changeOrigin: true,  // true/false, Default: false - changes the origin of the host header to the target URL
             },
+            // 匹配以 /hsr/UI、/gi/UI 或 /zzz/UI 开头的请求
+            '^/(hsr|gi|zzz)/UI': {
+                target: 'https://api.hakush.in',
+                changeOrigin: true, // 必要时修改请求头中的 Host
+                rewrite: (path) => {
+                    // 移除开头的 '/'，因为目标 URL 已经包含对应的路径
+                    return path.replace(/^\/(hsr|gi|zzz)/, '$1');
+                },
+            },
             // 选项写法
             // '/api': {
             //     target: 'https://genshin-wishes.com/api', // 所要代理的目标地址

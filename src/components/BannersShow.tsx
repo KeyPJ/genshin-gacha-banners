@@ -1,11 +1,13 @@
 import {gachaData, Item} from "genshin-wishes";
-import {useEffect, useState} from "react";
-import ScrollContainer from 'react-indiana-drag-scroll'
+import React, {useEffect, useState} from "react";
+import ScrollContainer from 'react-indiana-drag-scroll';
 import {isMobile} from 'react-device-detect';
+import {getFindLatestIndex} from "./Common";
 import FirstRow from "./FirstRow";
 import DataRow from "./DataRow";
 
-interface IProps {
+// BannersShow 主组件
+interface BannersShowProps {
     rankType: number[],
     setRankType: Function,
     weaponType: string[],
@@ -14,17 +16,16 @@ interface IProps {
     data: gachaData[],
     currentGachaItemId: number[],
     setCurrentGachaItemId: Function;
-    showGachaIndex: number[]
-    setShowGachaIndex: Function
+    showGachaVersions: string[]  // 改为存储版本号
+    setShowGachaVersions: Function  // 对应修改
     itemType: string
     version?: string
     resetVersion?: Function
 }
 
-const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
-    return data.map(gacha => gacha.items.map(i => i.itemId).includes(itemId)).reverse().findIndex(tf => tf);
-};
-export default function BannersShow(props: IProps) {
+export default function BannersShow(props: BannersShowProps) {
+
+
     const {
         rankType,
         setRankType,
@@ -34,82 +35,102 @@ export default function BannersShow(props: IProps) {
         data,
         currentGachaItemId,
         setCurrentGachaItemId,
-        showGachaIndex,
-        setShowGachaIndex,
+        showGachaVersions,
+        setShowGachaVersions,
         itemType,
         version,
         resetVersion,
     } = props;
 
-    //enable Sort?default:false
+    if (!data || data.length === 0) {
+        return <div>加载中...</div>;
+    }
+
     const [sortB, setSortB] = useState(1);
 
     const columnItems: Item[] = data
         .map(a => a.items)
-        .reduce(
-            (accumulator, current) => {
-                current.sort((b, a) => a.rankType - b.rankType)
-                for (let currentElement of current) {
-                    accumulator = accumulator.map(a => a.itemId).includes(currentElement.itemId) ? accumulator : accumulator.concat(currentElement);
+        .reduce((accumulator, current) => {
+            current.sort((b, a) => a.rankType - b.rankType);
+            for (const currentElement of current) {
+                if (!accumulator.map(a => a.itemId).includes(currentElement.itemId)) {
+                    accumulator.push(currentElement);
                 }
-                return accumulator
-            }, [])
-        .filter(
-            item => rankType.includes(item.rankType)
-                && (weaponType.includes(item.weaponType))
-                && (itemType == 'Weapon' || elementType.includes(item.element || ''))
-                && (currentGachaItemId.length == 0 || currentGachaItemId.includes(item.itemId))
+            }
+            return accumulator;
+        }, [] as Item[])
+        .filter(item =>
+            rankType.includes(item.rankType) &&
+            weaponType.includes(item.weaponType) &&
+            (itemType === 'Weapon' || elementType.includes(item.element || '')) &&
+            (currentGachaItemId.length === 0 || currentGachaItemId.includes(item.itemId))
         )
         .sort((a, b) => {
-            let findIndexA = getFindLatestIndex(data, a.itemId);
-            let findIndexB = getFindLatestIndex(data, b.itemId);
-            return (sortB || findIndexB == 0 ? 1 : findIndexA == 0 ? -1 : findIndexB - findIndexA);
+            const findIndexA = getFindLatestIndex(data, a.itemId);
+            const findIndexB = getFindLatestIndex(data, b.itemId);
+            return (sortB || findIndexB === 0 ? 1 : findIndexA === 0 ? -1 : findIndexB - findIndexA);
         })
-        .sort((b, a) => currentGachaItemId.length == 0 ? 1 : a.rankType - b.rankType)
-    useEffect(() => {
-        if (columnItems.length == 0) {
-            reset()
-        }
-    }, [columnItems.length])
+        .sort((b, a) => currentGachaItemId.length === 0 ? 1 : a.rankType - b.rankType);
 
-    const numbers = data.map(a => a.items.map(i => i.itemId).join(",")).join(",").split(",").map(
-        id => getFindLatestIndex(data, +id)
-    );
+    useEffect(() => {
+        if (columnItems.length === 0) {
+            reset();
+        }
+    }, [columnItems.length, reset]);
+
+    const numbers = data
+        .map(a => a.items.map(i => i.itemId).join(","))
+        .join(",")
+        .split(",")
+        .map(id => getFindLatestIndex(data, +id));
 
     const findIndexMax = Math.max(...numbers);
-    const flexRows = <>{columnItems.length > 0 && columnItems.slice(-1).concat(columnItems)
-        .map((item, index) => {
-            return index == 0 ?
-                <FirstRow key={index} rankType={rankType} setRankType={setRankType} data={data}
-                          currentGachaItemId={currentGachaItemId}
-                          setCurrentGachaItemId={setCurrentGachaItemId}
-                          sortB={sortB}
-                          setSortB={setSortB}
-                          showGachaIndex={showGachaIndex}
-                          setShowGachaIndex={setShowGachaIndex}
-                          version={version}
-                />
-                :
-                // @ts-ignore
-                <DataRow key={index} data={data} item={item} findIndexMax={findIndexMax}
-                         showGachaIndex={showGachaIndex}
-                         currentGachaItemId={currentGachaItemId}
-                         setShowGachaIndex={setShowGachaIndex}
-                         setCurrentGachaItemId={setCurrentGachaItemId}
-                         version={version}
-                         resetVersion={resetVersion}
-                />;
-        })
-    }</>;
+
+    const flexRows = (
+        <>
+            {columnItems.length > 0 && columnItems.slice(-1).concat(columnItems).map((item, index) => (
+                index === 0 ? (
+                    <FirstRow
+                        key={index}
+                        rankType={rankType}
+                        setRankType={setRankType}
+                        data={data}
+                        currentGachaItemId={currentGachaItemId}
+                        setCurrentGachaItemId={setCurrentGachaItemId}
+                        sortB={sortB}
+                        setSortB={setSortB}
+                        showGachaVersions={showGachaVersions}  // 传递版本数组
+                        setShowGachaVersions={setShowGachaVersions}  // 传递版本设置函数
+                        version={version}
+                    />
+                ) : (
+                    <DataRow
+                        key={index}
+                        data={data}
+                        item={item}
+                        findIndexMax={findIndexMax}
+                        showGachaVersions={showGachaVersions}  // 传递版本数组
+                        currentGachaItemId={currentGachaItemId}
+                        setShowGachaVersions={setShowGachaVersions}  // 传递版本设置函数
+                        setCurrentGachaItemId={setCurrentGachaItemId}
+                        version={version}
+                        resetVersion={resetVersion}
+                    />
+                )
+            ))}
+        </>
+    );
+
+    console.log("showGachaVersions:", showGachaVersions)
+    console.log("currentGachaItemId:", currentGachaItemId)
+
     return (
-        <div
-            className="text-center flex flex-col min-w-screen min-w-screen overflow-x-auto overflow-hidden overscroll-x-auto">
-            {
-                isMobile ? flexRows :
-                    <ScrollContainer vertical={false}>
-                        {flexRows}
-                    </ScrollContainer>
-            }
+        <div className="text-center flex flex-col min-w-screen overflow-x-auto overflow-hidden overscroll-x-auto">
+            {isMobile ? flexRows : (
+                <ScrollContainer vertical={false}>
+                    {flexRows}
+                </ScrollContainer>
+            )}
         </div>
-    )
+    );
 }

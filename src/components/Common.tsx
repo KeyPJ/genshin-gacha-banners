@@ -1,3 +1,6 @@
+import {gachaData} from "genshin-wishes";
+import moment from "moment";
+
 export interface Option {
     name: string,
     value: string,
@@ -17,23 +20,16 @@ export const generateOptionEle = (str: string, t: Function) => {
     return elementList;
 }
 
-const classToSelect = "bg-white shadow-sm text-gray-900 cursor-pointer"
-const classSelected = "ring-2 border-indigo-500"
+export const dateFormat = (start: string) => moment(start).format("YYYYMMDD");
 
-export const getDivElements = (weaponTypeList: Option[], weaponType: Option, type: string, setWeaponType: Function, setShowGachaIndex: Function) => {
-    return weaponTypeList.map(rank => {
-        let b = rank.value.split(",").length > 1;
-        let getImg = (s: string) => `/${s}/${rank.name}.png`
-
-        return <div key={rank.value}
-                    className={classNames(classToSelect, rank.value == weaponType.value ? classSelected : "", "flex justify-center align-middle")}
-                    onClick={() => {
-                        setWeaponType(rank)
-                        setShowGachaIndex([])
-                    }}>{(b || !type) ? rank.name : <img src={getImg(type)}
-                                                        alt={rank.name}
-                                                        title={rank.name}
-                                                        className={classNames(classToSelect, "border-solid rounded-[50%] bg-black w-10 h-10")}
-        />}</div>
-    });
-}
+// 工具函数：版本与索引转换
+export const getIndexByVersion = (data: gachaData[], version: string): number => {
+    return data?.findIndex(gacha => gacha.version === version);
+};
+// 计算最新出现索引
+export const getFindLatestIndex = (data: gachaData[], itemId: number): number => {
+    return data
+        .map(gacha => gacha.items.some(i => i.itemId === itemId))
+        .reverse()
+        .findIndex(Boolean);
+};

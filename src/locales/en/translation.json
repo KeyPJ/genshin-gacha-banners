@@ -16,11 +16,19 @@
   "rowClick": "This Row Can Be Clicked",
   "sinceLastPickUp": "It's been \n {{findIndex}} banner(s) ,\n {{days}} day(s) \n since the last",
   "unavailable": "Unavailable Time \n DESC",
-  "share": "Save Image",
+  "share": "Share Url",
+  "sharing": "Sharing",
+  "save": "Save Image",
+  "saving": "Saving",
   "gi": "Genshin Impact",
   "hsr": "Honkai:Star Rail",
-  "zzz": "Zenless Zone Zero(new)",
+  "zzz": "Zenless Zone Zero",
   "pathType": "Path:",
   "DamageType": "Damage:",
-  "version": "Version:"
+  "version": "Version:",
+  "please_use_portrait_mode_to_save_image":"please use portrait mode to save image",
+  "please_rotate_to_landscape": "Please rotate to landscape mode",
+  "better_experience_in_landscape": "Better experience in landscape mode",
+  "click_to_dismiss_continue": "Click to dismiss and continue viewing",
+  "Loading": "Loading..."
 }
