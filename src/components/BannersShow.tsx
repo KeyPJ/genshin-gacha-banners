@@ -46,7 +46,7 @@ export default function BannersShow(props: BannersShowProps) {
         return <div>加载中...</div>;
     }
 
-    const [sortB, setSortB] = useState(1);
+    const [sortB, setSortB] = useState(0);
 
     const columnItems: Item[] = data
         .map(a => a.items)
