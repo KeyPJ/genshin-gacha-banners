@@ -571,6 +571,42 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         }, 100);
     };
 
+    // 在原有状态定义中添加下拉框控制状态
+// 在现有状态定义中添加
+    const [showGameDropdown, setShowGameDropdown] = useState(false);
+    const gameDropdownRef = useRef<HTMLDivElement>(null);
+    const gameTitleRef = useRef<HTMLHeadingElement>(null);
+
+// 点击外部关闭下拉框的逻辑
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            // 如果下拉框是打开的，且点击位置不在标题和下拉框内部，则关闭
+            if (
+                showGameDropdown &&
+                gameTitleRef.current &&
+                !gameTitleRef.current.contains(event.target as Node) &&
+                gameDropdownRef.current &&
+                !gameDropdownRef.current.contains(event.target as Node)
+            ) {
+                setShowGameDropdown(false);
+            }
+        };
+
+        // 添加事件监听
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            // 移除事件监听
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [showGameDropdown]);
+
+// 新增游戏导航数据
+    const gameNavigations = [
+        {path: "/", key: "gi", label: t("gi")},
+        {path: "/hsr", key: "hsr", label: t("hsr")},
+        {path: "/zzz", key: "zzz", label: t("zzz")}
+    ].filter(game => game.key !== config.gameKey); // 过滤当前游戏
+
     return (
         <div className="App flex flex-col justify-between min-h-screen bg-gray-50">
             {/* 横屏提示蒙版 */}
@@ -593,7 +629,32 @@ const GamePage = ({history, location, config}: GamePageProps) => {
 
             <GithubCorner href="https://github.com/KeyPJ/genshin-gacha-banners"/>
 
-            <h1 className="text-2xl font-bold my-4 ml-4 sm:ml-8 md:ml-12">{t(config.gameKey)}</h1>
+            <h1
+                ref={gameTitleRef}
+                className="text-2xl font-bold my-4 ml-4 sm:ml-8 md:ml-12 cursor-pointer relative text-black-700 hover:text-blue-900 hover:underline transition-colors duration-200"
+                onClick={() => setShowGameDropdown(!showGameDropdown)}
+            >
+                {t(config.gameKey)}
+                <span className="ml-2 text-sm">▼</span>
+                {/* 下拉框 - 添加ref属性 */}
+                {showGameDropdown && (
+                    <div
+                        ref={gameDropdownRef}
+                        className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-40 border-gray-200"
+                    >
+                        {gameNavigations.map(game => (
+                            <Link
+                                key={game.path}
+                                to={game.path}
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                onClick={() => setShowGameDropdown(false)}
+                            >
+                                {game.label}
+                            </Link>
+                        ))}
+                    </div>
+                )}
+            </h1>
 
             <div className="desktop-left-container px-4 sm:px-8 md:px-12">
                 <div className="max-w-3xl">
