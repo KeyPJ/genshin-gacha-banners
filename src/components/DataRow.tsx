@@ -14,6 +14,7 @@ interface IProps {
     setCurrentGachaItemId: Function,
     version?: string,
     resetVersion?: Function
+    setCurrentGachaVersion: Function
 }
 
 // 常驻物品列表（提取为常量）
@@ -41,6 +42,7 @@ export default function DataRow(props: IProps) {
         currentGachaItemId,
         version,
         resetVersion,
+        setCurrentGachaVersion,
     } = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
@@ -63,6 +65,7 @@ export default function DataRow(props: IProps) {
             setShowGachaVersions(gachaVersions || []);  // 存储版本号数组
             setCurrentGachaItemId([item.itemId]);
         }
+        setCurrentGachaVersion("")
         // @ts-ignore
         resetVersion?.();
     };

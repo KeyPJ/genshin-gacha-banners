@@ -8,7 +8,15 @@ import GithubCorner from "react-github-corner";
 import {useTranslation} from "react-i18next";
 import {isMobile} from "react-device-detect";
 import html2canvas from "html2canvas";
-import {classNames, generateOptionEle, Option} from "./Common";
+import {
+    classNames,
+    copyToClipboard,
+    generateOptionEle,
+    getOptionByIndex,
+    getOptionIndex,
+    Option,
+    saveFile
+} from "./Common";
 import FilterSection from "../components/FilterSection";
 
 // 公共属性接口
@@ -28,10 +36,6 @@ interface GamePageProps extends RouteComponentProps {
     config: GameConfig;
 }
 
-// 工具函数：通过索引获取选项
-const getOptionByIndex = (index: number, options: Option[]): Option => {
-    return options[Math.max(0, Math.min(index, options.length - 1))];
-};
 
 const GamePage = ({history, location, config}: GamePageProps) => {
     const {t, i18n} = useTranslation();
@@ -46,31 +50,6 @@ const GamePage = ({history, location, config}: GamePageProps) => {
     const [showOrientationTip, setShowOrientationTip] = useState(() => {
         return isMobile && !localStorage.getItem('orientationTipDismissed');
     }); // 控制是否显示提示
-
-    // 新增屏幕方向检测副作用
-    useEffect(() => {
-        const checkOrientation = () => {
-            if (isMobile) {
-                const portrait = window.innerHeight > window.innerWidth;
-                setIsPortrait(portrait);
-                // 只在以下情况显示提示：
-                // 1. 处于竖屏状态
-                // 2. 用户从未关闭过提示（localStorage中无记录）
-                if (portrait) {
-                    setShowOrientationTip(!localStorage.getItem('orientationTipDismissed'));
-                }
-            }
-        };
-
-        checkOrientation();
-        window.addEventListener('resize', checkOrientation);
-        window.addEventListener('orientationchange', checkOrientation);
-
-        return () => {
-            window.removeEventListener('resize', checkOrientation);
-            window.removeEventListener('orientationchange', checkOrientation);
-        };
-    }, [isMobile]);
 
 
     // 生成选项列表
@@ -88,10 +67,12 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         }
 
         // 直接从URL参数获取currentGachaItemId
-        const gachaIds = searchParams.get('itemId');
+        const gachaIds = searchParams.get('i');
         const currentGachaItemId = gachaIds
             ? gachaIds.split(',').map(id => parseInt(id, 10)).filter(id => !isNaN(id))
             : [];
+
+        const gachaVersion = searchParams.get('g') || null;
 
         return {
             itemType: getOptionByIndex(
@@ -99,7 +80,7 @@ const GamePage = ({history, location, config}: GamePageProps) => {
                 config.itemTypeList
             ),
             rankType: getOptionByIndex(
-                parseInt(searchParams.get('r') || '1'),
+                parseInt(searchParams.get('r') || gachaVersion ? '0' : '1'),
                 config.rankTypeList
             ),
             language: localStorage.getItem('globalAppLanguage') || searchParams.get('lang') || 'zh-CN',
@@ -112,31 +93,41 @@ const GamePage = ({history, location, config}: GamePageProps) => {
                 elementList
             ),
             version: getOptionByIndex(
-                parseInt(searchParams.get('v') || (versionList.length - 1).toString()),
+                parseInt(searchParams.get('v') || (gachaVersion ? gachaVersion.slice(0, 1) : (versionList.length - 1).toString())),
                 versionList
             ),
-            currentGachaItemId
+            currentGachaItemId: currentGachaItemId,
+            gachaVersion: gachaVersion,
         };
     };
 
     // 解析短链接代码（支持currentGachaItemId）
     const parseShortCode = (code: string) => {
-        const [basePart, gachaItemIdPart] = code.split('|');
+        const [basePart, extraPart] = code.split('_');
         const parts = basePart.split('');
 
-        // 解析currentGachaItemId
-        const currentGachaItemId = gachaItemIdPart
-            ? gachaItemIdPart.split(',').map(id => parseInt(id, 10)).filter(id => !isNaN(id))
-            : [];
+        // 尝试解析版本号（优先）
+        let currentGachaVersion = null;
+        let currentGachaItemId: number[] = [];
 
+        if (extraPart) {
+            // 检查是否是版本号格式（字母+数字）
+            if (/^[\d.]+$/.test(extraPart)) {
+                currentGachaVersion = extraPart;
+            } else {
+                // 兼容旧的itemId格式
+                currentGachaItemId = extraPart.split(',').map(id => parseInt(id, 10)).filter(id => !isNaN(id));
+            }
+        }
         return {
             itemType: getOptionByIndex(parseInt(parts[0] || '0'), config.itemTypeList),
-            rankType: getOptionByIndex(parseInt(parts[1] || '1'), config.rankTypeList),
+            rankType: getOptionByIndex(parseInt(parts[1] || (currentGachaVersion ? '0' : '1')), config.rankTypeList),
             weaponType: getOptionByIndex(parseInt(parts[2] || '0'), weaponTypeList),
             elementType: getOptionByIndex(parseInt(parts[3] || '0'), elementList),
-            version: getOptionByIndex(parseInt(parts[4] || (versionList.length - 1).toString()), versionList),
+            version: getOptionByIndex(parseInt(parts[4] || (currentGachaVersion ? currentGachaVersion.slice(0, 1) : (versionList.length - 1).toString())), versionList),
             language: localStorage.getItem('globalAppLanguage') || 'zh-CN',
-            currentGachaItemId
+            currentGachaItemId,
+            gachaVersion: currentGachaVersion,
         };
     };
 
@@ -151,12 +142,15 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         ].join('');
 
         // 拼接currentGachaItemId（使用|分隔）
-        if (currentGachaItemId.length > 0) {
-            return `${baseCode}|${currentGachaItemId.join(',')}`;
+        if (currentGachaItemId.length === 1) {
+            return `${baseCode}_${currentGachaItemId.join(',')}`;
+        } else if (currentGachaVersion) {
+            return `${baseCode}_${currentGachaVersion}`;
         }
 
         return baseCode;
     };
+
 
     // 初始化状态
     const initialState = initFromParams();
@@ -167,9 +161,13 @@ const GamePage = ({history, location, config}: GamePageProps) => {
     const [elementType, setElementType] = useState(initialState.elementType);
     const [version, setVersion] = useState(initialState.version);
     const [currentGachaItemId, setCurrentGachaItemId] = useState<number[]>(initialState.currentGachaItemId || []);
-
+    const [currentGachaVersion, setCurrentGachaVersion] = useState<string>(initialState.gachaVersion || "");
     const [data, setData] = useState<gachaData[]>([]);
     const [showGachaVersions, setShowGachaVersions] = useState<string[]>([]);
+    const [showScrollNotice, setShowScrollNotice] = useState(false);
+    const [showGameDropdown, setShowGameDropdown] = useState(false);
+    const gameDropdownRef = useRef<HTMLDivElement>(null);
+    const gameTitleRef = useRef<HTMLHeadingElement>(null);
 
     const languageOptions = [
         {code: "zh-CN", value: "中文"},
@@ -187,15 +185,39 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         const searchParams = new URLSearchParams();
         searchParams.delete('s');
 
-        searchParams.set('t', getOptionIndex(itemType.value, config.itemTypeList).toString());
-        searchParams.set('r', getOptionIndex(rankType.value, config.rankTypeList).toString());
-        searchParams.set('w', getOptionIndex(weaponType.value, weaponTypeList).toString());
-        searchParams.set('e', getOptionIndex(elementType.value, elementList).toString());
-        searchParams.set('v', getOptionIndex(version.value, versionList).toString());
+        // 定义默认值（根据配置和初始状态确定）
+        const defaults = {
+            itemType: config.itemTypeList[0].value,
+            rankType: config.rankTypeList[0].value, // 对应"ALL"选项
+            weaponType: weaponTypeList[0].value,
+            elementType: elementList[0].value,
+            version: versionList[0].value
+        };
 
-        // 添加currentGachaItemId参数
-        if (currentGachaItemId.length > 0) {
-            searchParams.set('itemId', currentGachaItemId.join(','));
+        // 仅当参数值与默认值不同时才添加到URL
+        if (itemType.value !== defaults.itemType) {
+            searchParams.set('t', getOptionIndex(itemType.value, config.itemTypeList).toString());
+        }
+        if (rankType.value !== defaults.rankType) {
+            searchParams.set('r', getOptionIndex(rankType.value, config.rankTypeList).toString());
+        }
+        if (weaponType.value !== defaults.weaponType) {
+            searchParams.set('w', getOptionIndex(weaponType.value, weaponTypeList).toString());
+        }
+        if (elementType.value !== defaults.elementType) {
+            searchParams.set('e', getOptionIndex(elementType.value, elementList).toString());
+        }
+        if (version.value !== defaults.version) {
+            searchParams.set('v', getOptionIndex(version.value, versionList).toString());
+        }
+
+
+        // 优先使用currentGachaVersion
+        if (currentGachaVersion) {
+            searchParams.set('g', currentGachaVersion);
+            searchParams.delete('i'); // 清除itemId避免冲突
+        } else if (currentGachaItemId.length === 1) {
+            searchParams.set('i', currentGachaItemId.join(','));
         }
 
         history.push({
@@ -253,7 +275,21 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         };
     }, [i18n]);
 
-    // 在数据加载完成后处理currentGachaItemId和showGachaVersions的关联逻辑
+// 添加数据加载完成后的同步逻辑
+    useEffect(() => {
+        if (data.length > 0 && currentGachaVersion) {
+            const currentGachaItemId = data.filter(gacha => gacha.version === currentGachaVersion)
+                .flatMap(i => i.items.map(a => a.itemId));
+            if (currentGachaItemId.length > 0) {
+                setShowGachaVersions([]);
+                setCurrentGachaItemId(currentGachaItemId)
+            } else {
+                setCurrentGachaVersion("");
+            }
+        }
+
+    }, [data, currentGachaVersion]);
+
     useEffect(() => {
         // 当数据加载完成且currentGachaItemId有且仅有一个值时
         if (data.length > 0 && currentGachaItemId.length === 1) {
@@ -267,52 +303,59 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         }
     }, [data, currentGachaItemId]);
 
-    // 在原有状态定义中添加
-    const [showScrollNotice, setShowScrollNotice] = useState(false);
 
-
-    // 添加滚动容器宽度检测的副作用
+    // 合并尺寸检测相关的Effect
     useEffect(() => {
-        const checkScrollContainerWidth = () => {
-            if (bannerContainerRef.current) {
-                const container = bannerContainerRef.current;
-                // 检查容器内容宽度是否超过可视宽度
-                // 查找flex-row布局的子元素
-                const flexRowChild = container.querySelector(
-                    '.flex-row'
-                ) as HTMLElement;
-
-                if (!flexRowChild) {
-                    return
-                    // throw new Error('未找到flex-row子元素');
-                }
-                const hasHorizontalScroll = flexRowChild.scrollWidth > container.clientWidth;
-                setShowScrollNotice(hasHorizontalScroll);
+        // 1. 屏幕方向检测逻辑
+        const checkOrientation = () => {
+            if (isMobile) {
+                const portrait = window.innerHeight > window.innerWidth;
+                setIsPortrait(portrait);
+                setShowOrientationTip(portrait && !localStorage.getItem('orientationTipDismissed'));
             }
         };
 
-        // 初始检查
+        // 2. 滚动容器宽度检测逻辑
+        const checkScrollContainerWidth = () => {
+            if (bannerContainerRef.current) {
+                const container = bannerContainerRef.current;
+                const flexRowChild = container.querySelector('.flex-row') as HTMLElement;
+                if (flexRowChild) {
+                    const hasHorizontalScroll = flexRowChild.scrollWidth > container.clientWidth;
+                    setShowScrollNotice(hasHorizontalScroll);
+                }
+            }
+        };
+
+        // 初始化检测
+        checkOrientation();
         checkScrollContainerWidth();
 
-        // 监听窗口大小变化和容器大小变化
-        window.addEventListener('resize', checkScrollContainerWidth);
+        // 共用事件监听
+        const handleResize = () => {
+            checkOrientation();
+            checkScrollContainerWidth();
+        };
 
-        // 为滚动容器添加ResizeObserver监测尺寸变化
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('orientationchange', handleResize);
+
+        // 滚动容器的ResizeObserver
         const resizeObserver = new ResizeObserver(entries => {
             checkScrollContainerWidth();
         });
-
         if (bannerContainerRef.current) {
             resizeObserver.observe(bannerContainerRef.current);
         }
 
         return () => {
-            window.removeEventListener('resize', checkScrollContainerWidth);
+            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('orientationchange', handleResize);
             if (bannerContainerRef.current) {
                 resizeObserver.unobserve(bannerContainerRef.current);
             }
         };
-    }, [itemType, rankType, weaponType, elementType, version, currentGachaItemId]); // 当数据变化时重新检查
+    }, [isMobile, itemType, rankType, weaponType, elementType, version, currentGachaItemId]);
 
     // 生成短链接
     const generateIndexBasedShortUrl = async () => {
@@ -394,10 +437,6 @@ const GamePage = ({history, location, config}: GamePageProps) => {
             let compare = container.scrollWidth / flexRowChild.scrollWidth;
             const targetWidth = (compare < 1 || compare > 1.5) ? flexRowChild.scrollWidth * 1.1 + 20 : container.scrollWidth;
 
-            console.log("container.scrollWidth", container.scrollWidth)
-            console.log("flexRowChild.scrollWidth", flexRowChild.scrollWidth)
-            console.log("///", container.scrollWidth / flexRowChild.scrollWidth > 1.5)
-
             // 临时调整容器，使其宽度与flex-row子元素一致
             container.style.width = `${targetWidth}px`; // 关键：容器宽度匹配flex元素
             container.style.maxWidth = `${targetWidth}px`; // 限制最大宽度
@@ -450,7 +489,8 @@ const GamePage = ({history, location, config}: GamePageProps) => {
             z-index: 99999;
             box-sizing: border-box;
         `;
-            watermark.textContent = window.location.href.split('?')[0];
+            let shortUrl = await generateIndexBasedShortUrl();
+            watermark.textContent = decodeURIComponent(shortUrl || "");
 
             // 等待DOM更新和样式生效
             await new Promise(resolve => setTimeout(resolve, 200));
@@ -495,7 +535,7 @@ const GamePage = ({history, location, config}: GamePageProps) => {
             canvas.toBlob((blob) => {
                 if (blob) {
                     const url = URL.createObjectURL(blob);
-                    saveFile(url, `${itemType.value}_banners_${new Date().toISOString().slice(0, 10)}.png`);
+                    saveFile(url, `${config.gameKey}_${itemType.value.toLowerCase()}_banners_${generateShortCode()}_${new Date().toISOString().slice(0, 10)}.png`);
                     URL.revokeObjectURL(url);
                 }
             }, 'image/png');
@@ -510,7 +550,6 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         }
     };
 
-
     // 重置筛选条件
     const reset = () => {
         setRankType(config.rankTypeList[0]);
@@ -520,64 +559,7 @@ const GamePage = ({history, location, config}: GamePageProps) => {
         setCurrentGachaItemId([]);
     };
 
-    // 获取选项索引
-    const getOptionIndex = (value: string, options: Option[]): number => {
-        const index = options.findIndex(option => option.value === value);
-        return index === -1 ? 0 : index;
-    };
-
-    // 复制到剪贴板
-    const copyToClipboard = async (text: string): Promise<boolean> => {
-        if (navigator.clipboard) {
-            try {
-                await navigator.clipboard.writeText(text);
-                return true;
-            } catch (error) {
-                console.error('Clipboard API failed:', error);
-            }
-        }
-
-        try {
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            textarea.style.position = 'fixed';
-            document.body.appendChild(textarea);
-            textarea.select();
-            textarea.setSelectionRange(0, text.length);
-
-            const success = document.execCommand('copy');
-            document.body.removeChild(textarea);
-            return success;
-        } catch (error) {
-            console.error('Fallback copy failed:', error);
-            return false;
-        }
-    };
-
-    const isSNS = /weibo|qq/i.test(navigator.userAgent);
-    const saveFile = (link: string, filename: string, el = document.createElement('a')) => {
-        if (!isSNS) {
-            el.download = filename;
-        }
-        el.href = link;
-        el.target = '_blank';
-        document.body.appendChild(el);
-        el.click();
-        setTimeout(() => {
-            document.body.removeChild(el);
-            if (link.startsWith('blob:')) {
-                URL.revokeObjectURL(link);
-            }
-        }, 100);
-    };
-
-    // 在原有状态定义中添加下拉框控制状态
-// 在现有状态定义中添加
-    const [showGameDropdown, setShowGameDropdown] = useState(false);
-    const gameDropdownRef = useRef<HTMLDivElement>(null);
-    const gameTitleRef = useRef<HTMLHeadingElement>(null);
-
-// 点击外部关闭下拉框的逻辑
+    // 点击外部关闭下拉框的逻辑
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             // 如果下拉框是打开的，且点击位置不在标题和下拉框内部，则关闭
@@ -715,6 +697,8 @@ const GamePage = ({history, location, config}: GamePageProps) => {
                         version={version.value}
                         resetVersion={() => setVersion(versionList[0])}
                         itemType={itemType.value}
+                        currentGachaVersion={currentGachaVersion}
+                        setCurrentGachaVersion={setCurrentGachaVersion}
                     />}
             </div>
 

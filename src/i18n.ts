@@ -34,7 +34,7 @@ i18n
     .init({
         resources,
         fallbackLng: 'cn',
-        debug: true,
+        debug: false,
         detection: {
             caches: ['localStorage', 'sessionStorage', 'cookie'],
         }

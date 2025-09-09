@@ -21,6 +21,8 @@ interface BannersShowProps {
     itemType: string
     version?: string
     resetVersion?: Function
+    currentGachaVersion: string
+    setCurrentGachaVersion: Function
 }
 
 export default function BannersShow(props: BannersShowProps) {
@@ -40,6 +42,8 @@ export default function BannersShow(props: BannersShowProps) {
         itemType,
         version,
         resetVersion,
+        currentGachaVersion,
+        setCurrentGachaVersion,
     } = props;
 
     if (!data || data.length === 0) {
@@ -102,6 +106,8 @@ export default function BannersShow(props: BannersShowProps) {
                         showGachaVersions={showGachaVersions}  // 传递版本数组
                         setShowGachaVersions={setShowGachaVersions}  // 传递版本设置函数
                         version={version}
+                        currentGachaVersion={currentGachaVersion}
+                        setCurrentGachaVersion={setCurrentGachaVersion}
                     />
                 ) : (
                     <DataRow
@@ -115,14 +121,12 @@ export default function BannersShow(props: BannersShowProps) {
                         setCurrentGachaItemId={setCurrentGachaItemId}
                         version={version}
                         resetVersion={resetVersion}
+                        setCurrentGachaVersion={setCurrentGachaVersion}
                     />
                 )
             ))}
         </>
     );
-
-    console.log("showGachaVersions:", showGachaVersions)
-    console.log("currentGachaItemId:", currentGachaItemId)
 
     return (
         <div className="text-center flex flex-col min-w-screen overflow-x-auto overflow-hidden overscroll-x-auto">

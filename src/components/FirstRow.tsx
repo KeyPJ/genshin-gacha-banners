@@ -14,6 +14,8 @@ interface IProps {
     showGachaVersions: string[],  // 改为存储版本号
     setShowGachaVersions: Function,  // 对应修改
     version?: string
+    currentGachaVersion: string,
+    setCurrentGachaVersion: Function
 }
 
 export default function FirstRow(props: IProps) {
@@ -28,14 +30,17 @@ export default function FirstRow(props: IProps) {
         showGachaVersions = [],
         setShowGachaVersions,
         version,
+        currentGachaVersion,
+        setCurrentGachaVersion
     } = props;
 
     const itemClassName = "border-2 w-20 h-20 shrink-0";
 
-    const handleGachaClick = (itemIds: number[]) => {
+    const handleGachaClick = (gachaVersion: string, itemIds: number[]) => {
         setRankType({name: t("ALL"), value: "4,5"});
         setCurrentGachaItemId(itemIds.toString() === currentGachaItemId.toString() ? [] : itemIds);
         setShowGachaVersions([]);  // 清空版本数组
+        setCurrentGachaVersion(currentGachaVersion === gachaVersion ? "" : gachaVersion);
     };
 
     // 基于版本号计算需要显示的索引
@@ -86,7 +91,7 @@ export default function FirstRow(props: IProps) {
                                 ? "ring-2 border-indigo-500"
                                 : ""
                         )}
-                        onClick={() => handleGachaClick(gacha.items.map(i => i.itemId))}
+                        onClick={() => handleGachaClick(gachaVersion, gacha.items.map(i => i.itemId))}
                     >
                         {gachaVersion}<br/>
                         {dateFormat(start)}<br/>
