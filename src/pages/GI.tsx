@@ -14,7 +14,7 @@ const config = {
     ],
     weaponTypeOptions: "Sword,Claymore,Polearm,Bow,Catalyst",
     elementOptions: "Pyro,Hydro,Anemo,Electro,Dendro,Cryo,Geo",
-    versionOptions: "1.0,2.0,3.0,4.0,5.0",
+    versionOptions: "1.0,2.0,3.0,4.0,5.0,6.0",
 };
 
 export default function GI() {
