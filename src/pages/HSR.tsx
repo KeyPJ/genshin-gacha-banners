@@ -12,9 +12,9 @@ const config = {
         { name: "☆5", value: "5" },
         { name: "☆4", value: "4" },
     ],
-    weaponTypeOptions: "knight,mage,priest,rogue,shaman,warlock,warrior,memory",
+    weaponTypeOptions: "knight,mage,priest,rogue,shaman,warlock,warrior,memory,elation",
     elementOptions: "fire,ice,imaginary,physical,quantum,thunder,wind",
-    versionOptions: "1.0,2.0,3.0",
+    versionOptions: "1.0,2.0,3.0,4.0",
 };
 
 export default function HSR() {
