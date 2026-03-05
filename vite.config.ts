@@ -78,9 +78,19 @@ export default defineConfig({
     server: {
         https: true,
         proxy: {
-            '/game_record': {
-                target: 'https://upload-os-bbs.mihoyo.com/game_record/', // 所要代理的目标地址
-                rewrite: path => path.replace(/^\/game_record/, ''), // 重写传过来的path路径，比如 `/api/index/1?id=10&name=zs`（注意:path路径最前面有斜杠（/），因此，正则匹配的时候不要忘了是斜杠（/）开头的；选项的 key 也是斜杠（/）开头的）
+            '/hk4e': {
+                target: 'https://act-webstatic.mihoyo.com/hk4e/', // 所要代理的目标地址
+                rewrite: path => path.replace(/^\/hk4e/, ''), // 重写传过来的path路径，比如 `/api/index/1?id=10&name=zs`（注意:path路径最前面有斜杠（/），因此，正则匹配的时候不要忘了是斜杠（/）开头的；选项的 key 也是斜杠（/）开头的）
+                changeOrigin: true,  // true/false, Default: false - changes the origin of the host header to the target URL
+            },
+            '^/(hkrpg|nap)': {
+                target: 'https://act-webstatic.mihoyo.com/darkmatter/', // 所要代理的目标地址
+                rewrite: path => path.replace(/^\/(hkrpg|nap)/, '$1'), // 重写传过来的path路径，比如 `/api/index/1?id=10&name=zs`（注意:path路径最前面有斜杠（/），因此，正则匹配的时候不要忘了是斜杠（/）开头的；选项的 key 也是斜杠（/）开头的）
+                changeOrigin: true,  // true/false, Default: false - changes the origin of the host header to the target URL
+            },
+            '/zzzv2': {
+                target: 'https://act-webstatic.mihoyo.com/game_record/zzzv2/', // 所要代理的目标地址
+                rewrite: path => path.replace(/^\/zzzv2/, ''), // 重写传过来的path路径，比如 `/api/index/1?id=10&name=zs`（注意:path路径最前面有斜杠（/），因此，正则匹配的时候不要忘了是斜杠（/）开头的；选项的 key 也是斜杠（/）开头的）
                 changeOrigin: true,  // true/false, Default: false - changes the origin of the host header to the target URL
             },
             '/data/': {

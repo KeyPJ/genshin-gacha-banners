@@ -12,7 +12,7 @@ const config = {
         { name: "☆5", value: "5" },
         { name: "☆4", value: "4" },
     ],
-    weaponTypeOptions: "knight,mage,priest,rogue,shaman,warlock,warrior,memory,elation",
+    weaponTypeOptions: "destruction,the_Hunt,erudition,harmony,nihility,preservation,abundance,remembrance,elation",
     elementOptions: "fire,ice,imaginary,physical,quantum,thunder,wind",
     versionOptions: "1.0,2.0,3.0,4.0",
 };

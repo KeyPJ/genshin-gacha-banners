@@ -1,6 +1,18 @@
 {
   "rewrites": [
     {
+      "source": "/hk4e/(.*)",
+      "destination": "https://act-webstatic.mihoyo.com/hk4e/$1"
+    },
+    {
+      "source": "/zzzv2/(.*)",
+      "destination": "https://act-webstatic.mihoyo.com/game_record/zzzv2/$1"
+    },
+    {
+      "source": "/(hkrpg|nap)/(.*)",
+      "destination": "https://act-webstatic.mihoyo.com/darkmatter/$1/$2"
+    },
+    {
       "source": "/(hsr|gi|zzz)/UI/(.*)",
       "destination": "https://api.hakush.in/$1/UI/$2"
     },
