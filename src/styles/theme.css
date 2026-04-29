@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== CSS Variables ===== */
+:root {
+    --star-5: #f59e0b;
+    --star-4: #a855f7;
+}
+
+/* ===== Dark theme (default) ===== */
+html.dark {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-card: rgba(255, 255, 255, 0.05);
+    --bg-card-solid: rgba(30, 41, 59, 0.85);
+    --border-subtle: rgba(255, 255, 255, 0.1);
+    --text-primary: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --grad-start-r: 15; --grad-start-g: 23; --grad-start-b: 42;
+    --grad-end-r: 59; --grad-end-g: 130; --grad-end-b: 246;
+}
+
+/* ===== Light theme ===== */
+html.light {
+    --bg-primary: #e2e6eb;
+    --bg-secondary: #f8f9fb;
+    --bg-card: rgba(255, 255, 255, 0.94);
+    --bg-card-solid: rgba(255, 255, 255, 0.98);
+    --border-subtle: rgba(0, 0, 0, 0.1);
+    --text-primary: #334155;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
+    --grad-start-r: 253; --grad-start-g: 254; --grad-start-b: 255;
+    --grad-end-r: 59; --grad-end-g: 130; --grad-end-b: 230;
+}
+
+html.light .glass-card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+html.light .glass-card-solid {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+/* ===== Glass card ===== */
+.glass-card {
+    background: var(--bg-card);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-subtle);
+    border-radius: 1rem;
+}
+
+.glass-card-solid {
+    background: var(--bg-card-solid);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-subtle);
+}
+
+/* ===== Gradient text ===== */
+.gi-gradient-text {
+    background: linear-gradient(135deg, #3b82f6, #06b6d4, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hsr-gradient-text {
+    background: linear-gradient(135deg, #8b5cf6, #6366f1, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.zzz-gradient-text {
+    background: linear-gradient(135deg, #ef4444, #f97316, #fbbf24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ===== Button gradients (dark only - light uses solid) ===== */
+html.dark .btn-gi {
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    color: white;
+}
+html.dark .btn-gi:hover {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+html.dark .btn-hsr {
+    background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+    color: white;
+}
+html.dark .btn-hsr:hover {
+    background: linear-gradient(135deg, #6d28d9, #7c3aed);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+}
+html.dark .btn-zzz {
+    background: linear-gradient(135deg, #dc2626, #ef4444);
+    color: white;
+}
+html.dark .btn-zzz:hover {
+    background: linear-gradient(135deg, #b91c1c, #dc2626);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+html.light .btn-gi {
+    background: #2563eb;
+    color: white;
+}
+html.light .btn-gi:hover {
+    background: #1d4ed8;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+html.light .btn-hsr {
+    background: #7c3aed;
+    color: white;
+}
+html.light .btn-hsr:hover {
+    background: #6d28d9;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+}
+html.light .btn-zzz {
+    background: #dc2626;
+    color: white;
+}
+html.light .btn-zzz:hover {
+    background: #b91c1c;
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+/* ===== Custom scrollbar ===== */
+::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.25);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(128, 128, 128, 0.4);
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease forwards;
+}
+.animate-fade-in-up {
+    animation: fadeInUp 0.4s ease forwards;
+}
+.animate-shimmer {
+    background: linear-gradient(90deg, transparent, rgba(128,128,128,0.12), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+/* ===== Skeleton loader ===== */
+.skeleton {
+    background: linear-gradient(90deg, rgba(128,128,128,0.08) 25%, rgba(128,128,128,0.15) 50%, rgba(128,128,128,0.08) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 0.5rem;
+}
+
+/* ===== Star glow ===== */
+.star-5-glow {
+    box-shadow: 0 0 6px rgba(245, 158, 11, 0.35);
+}
+.star-4-glow {
+    box-shadow: 0 0 6px rgba(168, 85, 247, 0.35);
+}
+
+/* ===== Mobile landscape adapt ===== */
+@media (orientation: landscape) and (max-width: 768px) {
+    .desktop-left-container {
+        padding: 0.5rem;
+    }
+    .banner-container {
+        padding: 0.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+}

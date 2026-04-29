@@ -58,8 +58,8 @@ const pwaOptions: Partial<VitePWAOptions> = {
         ],
         start_url: "/",
         display: "standalone",
-        background_color: "#F3F3F3",
-        theme_color: "#F3F3F3"
+        background_color: "#0f172a",
+        theme_color: "#0f172a"
     },
 }
 

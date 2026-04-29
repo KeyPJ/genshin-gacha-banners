@@ -1,14 +1,14 @@
 import {gachaData} from "genshin-wishes";
+import {Option} from "../types";
 import moment from "moment";
 
-export interface Option {
-    name: string,
-    value: string,
-}
+export type { Option };
 
-export const classNames = (...classes: any) => classes.filter(Boolean).join(' ');
+type TFunction = (key: string, options?: Record<string, unknown>) => string;
 
-export const generateOptionEle = (str: string, t: Function) => {
+export const classNames = (...classes: unknown[]) => classes.filter(Boolean).join(' ');
+
+export const generateOptionEle = (str: string, t: TFunction) => {
     let elementList: Option[] = [
         {name: t("ALL"), value: str},
     ]

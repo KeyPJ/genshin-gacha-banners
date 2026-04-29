@@ -1,4 +1,5 @@
 import {gachaData, Item} from "genshin-wishes";
+import {Option} from "../types";
 import React, {useEffect, useState} from "react";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import {isMobile} from 'react-device-detect';
@@ -6,23 +7,22 @@ import {getFindLatestIndex} from "./Common";
 import FirstRow from "./FirstRow";
 import DataRow from "./DataRow";
 
-// BannersShow 主组件
 interface BannersShowProps {
-    rankType: number[],
-    setRankType: Function,
-    weaponType: string[],
-    elementType: string[],
-    reset: Function,
-    data: gachaData[],
-    currentGachaItemId: number[],
-    setCurrentGachaItemId: Function;
-    showGachaVersions: string[]  // 改为存储版本号
-    setShowGachaVersions: Function  // 对应修改
-    itemType: string
-    version?: string
-    resetVersion?: Function
-    currentGachaVersion: string
-    setCurrentGachaVersion: Function
+    rankType: number[];
+    setRankType: (option: Option) => void;
+    weaponType: string[];
+    elementType: string[];
+    reset: () => void;
+    data: gachaData[];
+    currentGachaItemId: number[];
+    setCurrentGachaItemId: (ids: number[]) => void;
+    showGachaVersions: string[];
+    setShowGachaVersions: (versions: string[]) => void;
+    itemType: string;
+    version?: string;
+    resetVersion?: () => void;
+    currentGachaVersion: string;
+    setCurrentGachaVersion: (version: string) => void;
 }
 
 export default function BannersShow(props: BannersShowProps) {
@@ -47,7 +47,7 @@ export default function BannersShow(props: BannersShowProps) {
     } = props;
 
     if (!data || data.length === 0) {
-        return <div>加载中...</div>;
+        return null;
     }
 
     const [sortB, setSortB] = useState(0);
@@ -129,7 +129,7 @@ export default function BannersShow(props: BannersShowProps) {
     );
 
     return (
-        <div className="text-center flex flex-col min-w-screen overflow-x-auto overflow-hidden overscroll-x-auto">
+        <div className="text-center flex flex-col min-w-screen overflow-x-auto overflow-hidden overscroll-x-auto animate-fade-in">
             {isMobile ? flexRows : (
                 <ScrollContainer vertical={false}>
                     {flexRows}

@@ -1,20 +1,2 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* 移动端横屏适配 */
-@media (orientation: landscape) and (max-width: 768px) {
-    .desktop-left-container {
-        padding: 0.5rem;
-    }
-
-    .banner-container {
-        padding: 0.5rem;
-    }
-
-    /* 根据实际布局调整其他元素 */
-    h1 {
-        font-size: 1.5rem;
-        margin: 0.5rem;
-    }
-}
+/* Tailwind + game theme */
+@import './styles/theme.css';

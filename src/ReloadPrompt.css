@@ -9,21 +9,35 @@
     right: 0;
     bottom: 0;
     margin: 16px;
-    padding: 12px;
-    border: 1px solid #8885;
-    border-radius: 4px;
-    z-index: 1;
+    padding: 12px 20px;
+    border-radius: 12px;
+    z-index: 9999;
     text-align: left;
-    box-shadow: 3px 4px 5px 0 #8885;
-    background-color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+    font-family: system-ui, -apple-system, sans-serif;
 }
-.ReloadPrompt-toast-message {
-    margin-bottom: 8px;
+.ReloadPrompt-message {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #cbd5e1;
 }
 .ReloadPrompt-toast-button {
-    border: 1px solid #8885;
+    border: 1px solid rgba(255, 255, 255, 0.15);
     outline: none;
-    margin-right: 5px;
-    border-radius: 2px;
-    padding: 3px 10px;
+    margin-right: 8px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #e2e8f0;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+.ReloadPrompt-toast-button:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.25);
 }

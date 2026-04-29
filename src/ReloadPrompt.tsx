@@ -1,44 +1,54 @@
-// eslint-disable-next-line no-use-before-define
-import React from 'react'
+import React, { useState } from 'react'
+import { useRegisterSW } from 'virtual:pwa-register/react'
 import './ReloadPrompt.css'
 
-import {useRegisterSW} from 'virtual:pwa-register/react'
-
 function ReloadPrompt() {
+    const [dismissed, setDismissed] = useState(false);
+
     const {
-        offlineReady: [offlineReady, setOfflineReady],
-        needRefresh: [needRefresh, setNeedRefresh],
+        offlineReady,
+        needRefresh,
         updateServiceWorker,
     } = useRegisterSW({
         onRegistered(r) {
-            // eslint-disable-next-line prefer-template
-            console.log('SW Registered: ' + r)
+            if (r) {
+                // Check for updates every hour
+                setInterval(() => {
+                    r.update()
+                }, 60 * 60 * 1000)
+            }
         },
         onRegisterError(error) {
             console.log('SW registration error', error)
         },
     })
 
-    const close = () => {
-        setOfflineReady(false)
-        setNeedRefresh(false)
+    if (!offlineReady && !needRefresh) {
+        return null
+    }
+
+    if (dismissed) {
+        return null
     }
 
     return (
         <div className="ReloadPrompt-container">
-            {(offlineReady || needRefresh)
-            && <div className="ReloadPrompt-toast">
+            <div className="ReloadPrompt-toast">
                 <div className="ReloadPrompt-message">
                     {offlineReady
                         ? <span>App ready to work offline</span>
-                        : <span>New content available, click on reload button to update.</span>
+                        : <span>New content available, reload to update.</span>
                     }
                 </div>
-                {needRefresh &&
-                <button className="ReloadPrompt-toast-button" onClick={() => updateServiceWorker(true)}>Reload</button>}
-                <button className="ReloadPrompt-toast-button" onClick={() => close()}>Close</button>
+                {needRefresh && (
+                    <button className="ReloadPrompt-toast-button" onClick={() => updateServiceWorker(true)}>
+                        Reload
+                    </button>
+                )}
+                <button className="ReloadPrompt-toast-button" onClick={() => setDismissed(true)}>
+                    Close
+                </button>
             </div>
-            }
         </div>
     )
 }

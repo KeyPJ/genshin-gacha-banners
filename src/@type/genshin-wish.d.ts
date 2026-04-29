@@ -17,4 +17,3 @@ declare module "genshin-wishes" {
         end: string;
     }
 }
-
