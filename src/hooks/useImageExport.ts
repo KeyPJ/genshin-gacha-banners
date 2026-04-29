@@ -1,8 +1,24 @@
-import { useState, RefObject } from 'react';
+import { useState, RefObject, useCallback } from 'react';
 import html2canvas from 'html2canvas';
 import { saveFile } from '../components/Common';
 
 type Status = "idle" | "success" | "error";
+
+async function waitForImages(el: HTMLElement): Promise<void> {
+    const images = el.querySelectorAll('img');
+    const promises = Array.from(images).map(
+        img =>
+            new Promise<void>(resolve => {
+                if (img.complete) {
+                    resolve();
+                } else {
+                    img.onload = () => resolve();
+                    img.onerror = () => resolve();
+                }
+            })
+    );
+    await Promise.all(promises);
+}
 
 export function useImageExport(
     containerRef: RefObject<HTMLDivElement | null>,
@@ -12,91 +28,70 @@ export function useImageExport(
     const [isSaving, setIsSaving] = useState(false);
     const [status, setStatus] = useState<Status>("idle");
 
-    const saveImage = async () => {
+    const saveImage = useCallback(async () => {
+        if (!containerRef.current) return;
+
         setIsSaving(true);
         setStatus("idle");
 
+        let clone: HTMLElement | null = null;
+
         try {
-            if (!containerRef.current) {
-                throw new Error('Banner container not found');
-            }
+            const original = containerRef.current;
 
-            const container = containerRef.current;
+            // 1. 深度克隆容器
+            clone = original.cloneNode(true) as HTMLElement;
 
-            const originalStyles = {
-                width: container.style.width,
-                overflow: container.style.overflow,
-                display: container.style.display,
-                position: container.style.position,
-                paddingBottom: container.style.paddingBottom,
-                maxWidth: container.style.maxWidth,
-            };
-
-            const flexRowChild = container.querySelector('.flex-row') as HTMLElement;
-            if (!flexRowChild) {
-                throw new Error('flex-row child not found');
-            }
-
-            const compare = container.scrollWidth / flexRowChild.scrollWidth;
-            const targetWidth = (compare < 1 || compare > 1.5)
-                ? flexRowChild.scrollWidth * 1.1 + 20
-                : container.scrollWidth;
-
-            container.style.width = `${targetWidth}px`;
-            container.style.maxWidth = `${targetWidth}px`;
-            container.style.overflow = 'visible';
-            container.style.display = 'block';
-            container.style.position = 'relative';
-            container.style.paddingBottom = '20px';
-
-            const childElements = container.querySelectorAll('*');
-            const childOriginalStyles: Record<string, { overflow: string; overflowX: string; width: string; maxWidth: string }> = {};
-
-            childElements.forEach((el, index) => {
-                const element = el as HTMLElement;
-                childOriginalStyles[index] = {
-                    overflow: element.style.overflow,
-                    overflowX: element.style.overflowX,
-                    width: element.style.width,
-                    maxWidth: element.style.maxWidth,
-                };
-                element.style.overflowX = 'visible';
-                element.style.maxWidth = `${targetWidth}px`;
-            });
-
-            const watermark = document.createElement('div');
-            container.appendChild(watermark);
-
-            watermark.style.cssText = `
-                position: absolute;
-                bottom: -20px;
-                left: 0;
-                width: ${targetWidth}px;
-                padding: 8px 0;
-                background: rgba(0, 0, 0, 0);
-                color: red;
-                font-size: 14px;
-                font-weight: bold;
-                text-align: center;
-                pointer-events: none;
-                z-index: 99999;
-                box-sizing: border-box;
+            // 2. 离屏放置，解除宽度限制让整个表格展示
+            clone.style.cssText = `
+                position: fixed;
+                left: -9999px;
+                top: 0;
+                width: max-content;
+                max-width: none;
+                overflow: visible;
+                z-index: -1;
+                background: ${getComputedStyle(original).backgroundColor || '#0f172a'};
             `;
 
-            const shortUrl = await (async () => {
-                const sc = getShortCode();
-                const url = new URL(window.location.href);
-                url.search = new URLSearchParams({ s: sc }).toString();
-                return url.toString();
-            })();
-            watermark.textContent = decodeURIComponent(shortUrl);
+            // 3. 解除子元素宽度限制
+            clone.querySelectorAll('*').forEach(el => {
+                const e = el as HTMLElement;
+                e.style.maxWidth = 'none';
+                e.style.overflowX = 'visible';
+                e.style.overflow = 'visible';
+            });
 
-            await new Promise(resolve => setTimeout(resolve, 200));
+            // 4. 挂载到 DOM（之后才能用 getComputedStyle 检测 sticky）
+            document.body.appendChild(clone);
 
-            const contentWidth = targetWidth;
-            const contentHeight = container.scrollHeight * 1.05 + 50;
+            // 5. 取消所有 sticky 定位（离屏后吸附到视口边缘会导致列错位）
+            clone.querySelectorAll('*').forEach(el => {
+                const e = el as HTMLElement;
+                if (getComputedStyle(e).position === 'sticky') {
+                    e.style.setProperty('position', 'static', 'important');
+                }
+            });
 
-            const canvas = await html2canvas(container, {
+            // 生成水印 URL
+            const shortCode = getShortCode();
+            const url = new URL(window.location.href);
+            url.search = new URLSearchParams({ s: shortCode }).toString();
+            const watermarkUrl = decodeURIComponent(url.toString());
+
+            // 等待图片加载
+            await waitForImages(clone);
+            await new Promise(resolve => requestAnimationFrame(resolve));
+
+            // 获取实际内容尺寸
+            const flexRow = clone.querySelector('.flex-row') as HTMLElement;
+            const contentWidth = flexRow
+                ? Math.max(flexRow.scrollWidth, clone.scrollWidth)
+                : clone.scrollWidth;
+            const contentHeight = clone.scrollHeight;
+
+            // html2canvas 截图
+            const canvas = await html2canvas(clone, {
                 useCORS: true,
                 allowTaint: true,
                 scale: 2,
@@ -106,44 +101,85 @@ export function useImageExport(
                 windowWidth: contentWidth,
                 x: 0,
                 y: 0,
+                backgroundColor: document.documentElement.classList.contains('dark') ? '#0f172a' : '#e2e6eb',
             });
 
-            container.removeChild(watermark);
+            // 在 canvas 上下各加一条水印栏
+            const padY = 36;
+            const finalCanvas = document.createElement('canvas');
+            finalCanvas.width = canvas.width;
+            finalCanvas.height = canvas.height + padY * 2;
+            const ctx = finalCanvas.getContext('2d')!;
 
-            container.style.width = originalStyles.width;
-            container.style.overflow = originalStyles.overflow;
-            container.style.display = originalStyles.display;
-            container.style.position = originalStyles.position;
-            container.style.paddingBottom = originalStyles.paddingBottom;
-            container.style.maxWidth = originalStyles.maxWidth;
+            const isDark = document.documentElement.classList.contains('dark');
+            const barColor = isDark ? '#1e293b' : '#f1f5f9';
+            const textColor = isDark ? '#64748b' : '#94a3b8';
+            const lineColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.08)';
 
-            childElements.forEach((el, index) => {
-                const styles = childOriginalStyles[index];
-                const element = el as HTMLElement;
-                element.style.overflow = styles.overflow;
-                element.style.overflowX = styles.overflowX;
-                element.style.width = styles.width;
-                element.style.maxWidth = styles.maxWidth;
+            // 全局背景
+            ctx.fillStyle = barColor;
+            ctx.fillRect(0, 0, finalCanvas.width, finalCanvas.height);
+
+            // 截图内容（从 padY 开始）
+            ctx.drawImage(canvas, 0, padY);
+
+            // 上分隔线
+            ctx.strokeStyle = lineColor;
+            ctx.beginPath();
+            ctx.moveTo(0, padY);
+            ctx.lineTo(finalCanvas.width, padY);
+            ctx.stroke();
+
+            // 下分隔线
+            ctx.beginPath();
+            ctx.moveTo(0, padY + canvas.height);
+            ctx.lineTo(finalCanvas.width, padY + canvas.height);
+            ctx.stroke();
+
+            // 水印文字样式
+            ctx.fillStyle = textColor;
+            ctx.font = '12px system-ui, -apple-system, sans-serif';
+            ctx.textAlign = 'center';
+
+            // 顶部水印
+            ctx.fillText(watermarkUrl, finalCanvas.width / 2, 22);
+            // 底部水印
+            ctx.fillText(watermarkUrl, finalCanvas.width / 2, padY + canvas.height + 22);
+
+            // 保存（WebP 0.9 质量，约为 PNG 的 1/8）
+            const filename = `${getFilenamePrefix()}_${shortCode}_${new Date().toISOString().slice(0, 10)}.webp`;
+
+            await new Promise<void>((resolve, reject) => {
+                finalCanvas.toBlob(blob => {
+                    if (!blob) {
+                        reject(new Error('Canvas toBlob returned null'));
+                        return;
+                    }
+                    try {
+                        const blobUrl = URL.createObjectURL(blob);
+                        saveFile(blobUrl, filename);
+                        // 延迟释放 blob，确保浏览器已启动下载
+                        setTimeout(() => URL.revokeObjectURL(blobUrl), 1000);
+                        resolve();
+                    } catch (e) {
+                        reject(e);
+                    }
+                }, 'image/webp', 0.9);
             });
-
-            canvas.toBlob((blob) => {
-                if (blob) {
-                    const url = URL.createObjectURL(blob);
-                    const filename = `${getFilenamePrefix()}_${getShortCode()}_${new Date().toISOString().slice(0, 10)}.png`;
-                    saveFile(url, filename);
-                    URL.revokeObjectURL(url);
-                }
-            }, 'image/png');
 
             setStatus("success");
         } catch (error) {
             console.error('Failed to save image:', error);
             setStatus("error");
         } finally {
+            // 清理克隆节点
+            if (clone && clone.parentNode) {
+                clone.parentNode.removeChild(clone);
+            }
             setIsSaving(false);
             setTimeout(() => setStatus("idle"), 3000);
         }
-    };
+    }, [containerRef, getShortCode, getFilenamePrefix]);
 
     return { saveImage, isSaving, status };
 }

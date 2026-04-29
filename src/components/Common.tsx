@@ -74,7 +74,9 @@ export const copyToClipboard = async (text: string): Promise<boolean> => {
 };
 
 const isSNS = /weibo|qq/i.test(navigator.userAgent);
-export const saveFile = (link: string, filename: string, el = document.createElement('a')) => {
+export const saveFile = (link: string, filename: string) => {
+    const el = document.createElement('a');
+    el.style.display = 'none';
     if (!isSNS) {
         el.download = filename;
     }
@@ -82,10 +84,8 @@ export const saveFile = (link: string, filename: string, el = document.createEle
     el.target = '_blank';
     document.body.appendChild(el);
     el.click();
+    // 延迟足够长确保浏览器已接管下载，再移除元素
     setTimeout(() => {
         document.body.removeChild(el);
-        if (link.startsWith('blob:')) {
-            URL.revokeObjectURL(link);
-        }
-    }, 100);
+    }, 2000);
 };
